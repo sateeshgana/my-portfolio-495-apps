@@ -48,5 +48,15 @@
     "github": "https://github.com/sateeshgana/privatedoc-ai",
     "tags": ["transformers.js", "browser-local", "rag", "privacy"],
     "status": "live"
+  },
+  {
+    "id": "meeting-minutes-ai",
+    "name": "Meeting Minutes AI",
+    "tagline": "Paste a meeting transcript, get structured minutes in seconds",
+    "domain": "productivity",
+    "url": "https://meeting-minutes-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/meeting-minutes-ai",
+    "tags": ["llm", "groq", "productivity", "meetings"],
+    "status": "live"
   }
 ]
