@@ -1,0 +1,52 @@
+[
+  {
+    "id": "promptlab",
+    "name": "PromptLab",
+    "tagline": "Compare prompts across multiple LLMs side-by-side",
+    "domain": "dev-tools",
+    "url": "https://promptlab-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/promptlab",
+    "tags": ["llm", "groq", "openai", "productivity"],
+    "status": "live"
+  },
+  {
+    "id": "quizforge",
+    "name": "QuizForge",
+    "tagline": "Turn any text into flashcards and quizzes instantly",
+    "domain": "education",
+    "url": "https://quizforge-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/quizforge",
+    "tags": ["llm", "groq", "education"],
+    "status": "live"
+  },
+  {
+    "id": "repurpose-ai",
+    "name": "Repurpose AI",
+    "tagline": "Repurpose one piece of content for 5 platforms in seconds",
+    "domain": "marketing",
+    "url": "https://repurpose-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/repurpose-ai",
+    "tags": ["llm", "groq", "marketing", "content"],
+    "status": "live"
+  },
+  {
+    "id": "replykit",
+    "name": "ReplyKit",
+    "tagline": "Generate 3 professional reply variants for any customer message",
+    "domain": "productivity",
+    "url": "https://replykit-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/replykit",
+    "tags": ["llm", "deepseek", "groq", "customer-support"],
+    "status": "live"
+  },
+  {
+    "id": "privatedoc-ai",
+    "name": "PrivateDoc AI",
+    "tagline": "Chat with your documents — 100% in-browser, zero data sent anywhere",
+    "domain": "productivity",
+    "url": "https://privatedoc-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/privatedoc-ai",
+    "tags": ["transformers.js", "browser-local", "rag", "privacy"],
+    "status": "live"
+  }
+]
