@@ -58,5 +58,155 @@
     "github": "https://github.com/sateeshgana/meeting-minutes-ai",
     "tags": ["llm", "groq", "productivity", "meetings"],
     "status": "live"
+  },
+  {
+    "id": "email-triage-ai",
+    "name": "Email Triage AI",
+    "tagline": "Instantly prioritize and categorize any email with AI",
+    "domain": "productivity",
+    "url": "https://email-triage-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/email-triage-ai",
+    "tags": ["llm", "groq", "productivity", "email"],
+    "status": "live"
+  },
+  {
+    "id": "standup-writer",
+    "name": "Standup Writer",
+    "tagline": "Turn bullet notes into a perfect daily standup in seconds",
+    "domain": "productivity",
+    "url": "https://standup-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/standup-writer",
+    "tags": ["llm", "groq", "productivity"],
+    "status": "live"
+  },
+  {
+    "id": "sop-generator",
+    "name": "SOP Generator",
+    "tagline": "Turn bullet notes into a formal Standard Operating Procedure",
+    "domain": "productivity",
+    "url": "https://sop-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/sop-generator",
+    "tags": ["llm", "groq", "productivity", "documentation"],
+    "status": "live"
+  },
+  {
+    "id": "job-description-writer",
+    "name": "Job Description Writer",
+    "tagline": "Role requirements → professional, inclusive job description",
+    "domain": "hr",
+    "url": "https://job-description-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/job-description-writer",
+    "tags": ["llm", "groq", "hr", "hiring"],
+    "status": "live"
+  },
+  {
+    "id": "interview-prep-ai",
+    "name": "Interview Prep AI",
+    "tagline": "Practice interview Q&A tailored to any role and level",
+    "domain": "hr",
+    "url": "https://interview-prep-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/interview-prep-ai",
+    "tags": ["llm", "groq", "hr", "career"],
+    "status": "live"
+  },
+  {
+    "id": "okr-coach",
+    "name": "OKR Coach",
+    "tagline": "Turn vague goals into measurable OKRs in seconds",
+    "domain": "productivity",
+    "url": "https://okr-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/okr-coach",
+    "tags": ["llm", "groq", "productivity", "goals"],
+    "status": "live"
+  },
+  {
+    "id": "slack-digest-ai",
+    "name": "Slack Digest AI",
+    "tagline": "Extract decisions, actions, and key points from any Slack thread",
+    "domain": "productivity",
+    "url": "https://slack-digest-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/slack-digest-ai",
+    "tags": ["llm", "groq", "productivity", "communication"],
+    "status": "live"
+  },
+  {
+    "id": "project-risk-scanner",
+    "name": "Project Risk Scanner",
+    "tagline": "Surface risks with severity scores and mitigations from project notes",
+    "domain": "productivity",
+    "url": "https://project-risk-scanner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/project-risk-scanner",
+    "tags": ["llm", "groq", "productivity", "project-management"],
+    "status": "live"
+  },
+  {
+    "id": "feedback-to-action",
+    "name": "Feedback to Action",
+    "tagline": "Turn 360 feedback into a concrete 30/60/90 day action plan",
+    "domain": "hr",
+    "url": "https://feedback-to-action-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/feedback-to-action",
+    "tags": ["llm", "groq", "hr", "career"],
+    "status": "live"
+  },
+  {
+    "id": "task-prioritizer",
+    "name": "Task Prioritizer",
+    "tagline": "Dump your tasks — get an Eisenhower matrix instantly",
+    "domain": "productivity",
+    "url": "https://task-prioritizer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/task-prioritizer",
+    "tags": ["llm", "groq", "productivity"],
+    "status": "live"
+  },
+  {
+    "id": "meeting-agenda-builder",
+    "name": "Meeting Agenda Builder",
+    "tagline": "Structured agenda with time allocations from bullet points",
+    "domain": "productivity",
+    "url": "https://meeting-agenda-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/meeting-agenda-builder",
+    "tags": ["llm", "groq", "productivity", "meetings"],
+    "status": "live"
+  },
+  {
+    "id": "contract-summary-ai",
+    "name": "Contract Summary AI",
+    "tagline": "Plain-English contract analysis with risky clause flags",
+    "domain": "legal",
+    "url": "https://contract-summary-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/contract-summary-ai",
+    "tags": ["llm", "groq", "legal"],
+    "status": "live"
+  },
+  {
+    "id": "kpi-dashboard-writer",
+    "name": "KPI Dashboard Writer",
+    "tagline": "Raw metrics → narrative KPI update for executives or teams",
+    "domain": "productivity",
+    "url": "https://kpi-dashboard-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/kpi-dashboard-writer",
+    "tags": ["llm", "groq", "productivity", "analytics"],
+    "status": "live"
+  },
+  {
+    "id": "stakeholder-update-writer",
+    "name": "Stakeholder Update Writer",
+    "tagline": "Status notes → polished stakeholder update email in seconds",
+    "domain": "productivity",
+    "url": "https://stakeholder-update-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/stakeholder-update-writer",
+    "tags": ["llm", "groq", "productivity", "communication"],
+    "status": "live"
+  },
+  {
+    "id": "decision-matrix-ai",
+    "name": "Decision Matrix AI",
+    "tagline": "Structure any decision with a weighted AI-powered scoring matrix",
+    "domain": "productivity",
+    "url": "https://decision-matrix-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/decision-matrix-ai",
+    "tags": ["llm", "groq", "productivity"],
+    "status": "live"
   }
 ]
