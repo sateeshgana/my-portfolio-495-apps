@@ -16,7 +16,7 @@ A curated portfolio of 500+ AI-powered web apps spanning 15 domains — producti
 | Testing | Vitest + Testing Library |
 | Hosting | Netlify |
 | CRM | HubSpot Forms API v3 |
-| Analytics | Google Analytics 4 (G-28ZYMNJD30) |
+| Analytics | Google Analytics 4 |
 | Bot protection | Google reCAPTCHA Enterprise |
 
 ---
