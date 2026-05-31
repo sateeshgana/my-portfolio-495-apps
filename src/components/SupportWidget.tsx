@@ -82,7 +82,7 @@ export function SupportWidget() {
       <button
         onClick={() => { setOpen(o => !o); setStatus('idle') }}
         aria-label="Contact support"
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-cyan-500 hover:bg-cyan-400 text-white shadow-lg flex items-center justify-center transition-colors"
+        className="fixed bottom-20 right-6 z-50 w-14 h-14 rounded-full bg-cyan-500 hover:bg-cyan-400 text-white shadow-lg flex items-center justify-center transition-colors"
       >
         {open ? <X size={22} /> : <MessageCircle size={22} />}
       </button>
@@ -91,7 +91,7 @@ export function SupportWidget() {
       {open && (
         <div
           ref={panelRef}
-          className="fixed bottom-24 right-6 z-50 w-[360px] max-w-[calc(100vw-24px)] bg-white rounded-2xl shadow-2xl overflow-hidden"
+          className="fixed bottom-36 right-6 z-50 w-[360px] max-w-[calc(100vw-24px)] bg-white rounded-2xl shadow-2xl overflow-hidden"
         >
           {/* Header */}
           <div className="bg-cyan-600 px-5 py-4">
