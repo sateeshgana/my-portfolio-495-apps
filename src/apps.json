@@ -4,7 +4,7 @@
     "name": "PromptLab",
     "tagline": "Compare prompts across multiple LLMs side-by-side",
     "domain": "dev-tools",
-    "url": "https://promptlab-ai.netlify.app",
+    "url": "https://prompt-lab-ai.netlify.app",
     "github": "https://github.com/sateeshgana/promptlab",
     "tags": ["llm", "groq", "openai", "productivity"],
     "status": "live"
@@ -14,7 +14,7 @@
     "name": "QuizForge",
     "tagline": "Turn any text into flashcards and quizzes instantly",
     "domain": "education",
-    "url": "https://quizforge-ai.netlify.app",
+    "url": "https://quiz-forge-ai-study.netlify.app",
     "github": "https://github.com/sateeshgana/quizforge",
     "tags": ["llm", "groq", "education"],
     "status": "live"
