@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import { Search, Layers } from 'lucide-react'
 import { clsx } from 'clsx'
 import { AppCard } from './components/AppCard'
+import { SupportWidget } from './components/SupportWidget'
 import appsData from './apps.json'
 import { DOMAINS } from './types'
 import type { AppEntry, Domain } from './types'
@@ -152,6 +153,7 @@ export default function App() {
           Built with React + Vite + Tailwind CSS + Groq + Transformers.js
         </p>
       </footer>
+      <SupportWidget />
     </div>
   )
 }
