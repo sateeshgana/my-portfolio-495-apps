@@ -40,7 +40,7 @@ export default function App() {
             @sateeshgana
           </a>. Open source. Free to use.
         </p>
-        <p className="text-gray-600 text-xs mt-1">Building toward 495 apps across 15 domains.</p>
+        <p className="text-gray-600 text-xs mt-1">Building toward 500+ apps across 15 domains.</p>
       </header>
 
       {/* Filters */}
