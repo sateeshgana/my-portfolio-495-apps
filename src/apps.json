@@ -6,7 +6,12 @@
     "domain": "dev-tools",
     "url": "https://prompt-lab-ai.netlify.app",
     "github": "https://github.com/sateeshgana/promptlab",
-    "tags": ["llm", "groq", "openai", "productivity"],
+    "tags": [
+      "llm",
+      "groq",
+      "openai",
+      "productivity"
+    ],
     "status": "live"
   },
   {
@@ -16,7 +21,11 @@
     "domain": "education",
     "url": "https://quiz-forge-ai-study.netlify.app",
     "github": "https://github.com/sateeshgana/quizforge",
-    "tags": ["llm", "groq", "education"],
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
     "status": "live"
   },
   {
@@ -26,7 +35,12 @@
     "domain": "marketing",
     "url": "https://repurpose-ai.netlify.app",
     "github": "https://github.com/sateeshgana/repurpose-ai",
-    "tags": ["llm", "groq", "marketing", "content"],
+    "tags": [
+      "llm",
+      "groq",
+      "marketing",
+      "content"
+    ],
     "status": "live"
   },
   {
@@ -36,17 +50,27 @@
     "domain": "productivity",
     "url": "https://replykit-ai.netlify.app",
     "github": "https://github.com/sateeshgana/replykit",
-    "tags": ["llm", "deepseek", "groq", "customer-support"],
+    "tags": [
+      "llm",
+      "deepseek",
+      "groq",
+      "customer-support"
+    ],
     "status": "live"
   },
   {
     "id": "privatedoc-ai",
     "name": "PrivateDoc AI",
-    "tagline": "Chat with your documents — 100% in-browser, zero data sent anywhere",
+    "tagline": "Chat with your documents \u00e2\u20ac\u201d 100% in-browser, zero data sent anywhere",
     "domain": "productivity",
     "url": "https://privatedoc-ai.netlify.app",
     "github": "https://github.com/sateeshgana/privatedoc-ai",
-    "tags": ["transformers.js", "browser-local", "rag", "privacy"],
+    "tags": [
+      "transformers.js",
+      "browser-local",
+      "rag",
+      "privacy"
+    ],
     "status": "live"
   },
   {
@@ -56,7 +80,12 @@
     "domain": "productivity",
     "url": "https://meeting-minutes-ai.netlify.app",
     "github": "https://github.com/sateeshgana/meeting-minutes-ai",
-    "tags": ["llm", "groq", "productivity", "meetings"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "meetings"
+    ],
     "status": "live"
   },
   {
@@ -66,7 +95,12 @@
     "domain": "productivity",
     "url": "https://email-triage-ai.netlify.app",
     "github": "https://github.com/sateeshgana/email-triage-ai",
-    "tags": ["llm", "groq", "productivity", "email"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "email"
+    ],
     "status": "live"
   },
   {
@@ -76,7 +110,11 @@
     "domain": "productivity",
     "url": "https://standup-writer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/standup-writer",
-    "tags": ["llm", "groq", "productivity"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity"
+    ],
     "status": "live"
   },
   {
@@ -86,17 +124,27 @@
     "domain": "productivity",
     "url": "https://sop-generator-ai.netlify.app",
     "github": "https://github.com/sateeshgana/sop-generator",
-    "tags": ["llm", "groq", "productivity", "documentation"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "documentation"
+    ],
     "status": "live"
   },
   {
     "id": "job-description-writer",
     "name": "Job Description Writer",
-    "tagline": "Role requirements → professional, inclusive job description",
+    "tagline": "Role requirements \u00e2\u2020\u2019 professional, inclusive job description",
     "domain": "hr",
     "url": "https://job-description-writer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/job-description-writer",
-    "tags": ["llm", "groq", "hr", "hiring"],
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "hiring"
+    ],
     "status": "live"
   },
   {
@@ -106,7 +154,12 @@
     "domain": "hr",
     "url": "https://interview-prep-ai.netlify.app",
     "github": "https://github.com/sateeshgana/interview-prep-ai",
-    "tags": ["llm", "groq", "hr", "career"],
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "career"
+    ],
     "status": "live"
   },
   {
@@ -116,7 +169,12 @@
     "domain": "productivity",
     "url": "https://okr-coach-ai.netlify.app",
     "github": "https://github.com/sateeshgana/okr-coach",
-    "tags": ["llm", "groq", "productivity", "goals"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "goals"
+    ],
     "status": "live"
   },
   {
@@ -126,7 +184,12 @@
     "domain": "productivity",
     "url": "https://slack-digest-ai.netlify.app",
     "github": "https://github.com/sateeshgana/slack-digest-ai",
-    "tags": ["llm", "groq", "productivity", "communication"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "communication"
+    ],
     "status": "live"
   },
   {
@@ -136,7 +199,12 @@
     "domain": "productivity",
     "url": "https://project-risk-scanner-ai.netlify.app",
     "github": "https://github.com/sateeshgana/project-risk-scanner",
-    "tags": ["llm", "groq", "productivity", "project-management"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "project-management"
+    ],
     "status": "live"
   },
   {
@@ -146,17 +214,26 @@
     "domain": "hr",
     "url": "https://feedback-to-action-ai.netlify.app",
     "github": "https://github.com/sateeshgana/feedback-to-action",
-    "tags": ["llm", "groq", "hr", "career"],
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "career"
+    ],
     "status": "live"
   },
   {
     "id": "task-prioritizer",
     "name": "Task Prioritizer",
-    "tagline": "Dump your tasks — get an Eisenhower matrix instantly",
+    "tagline": "Dump your tasks \u00e2\u20ac\u201d get an Eisenhower matrix instantly",
     "domain": "productivity",
     "url": "https://task-prioritizer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/task-prioritizer",
-    "tags": ["llm", "groq", "productivity"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity"
+    ],
     "status": "live"
   },
   {
@@ -166,7 +243,12 @@
     "domain": "productivity",
     "url": "https://meeting-agenda-builder-ai.netlify.app",
     "github": "https://github.com/sateeshgana/meeting-agenda-builder",
-    "tags": ["llm", "groq", "productivity", "meetings"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "meetings"
+    ],
     "status": "live"
   },
   {
@@ -176,27 +258,41 @@
     "domain": "legal",
     "url": "https://contract-summary-ai.netlify.app",
     "github": "https://github.com/sateeshgana/contract-summary-ai",
-    "tags": ["llm", "groq", "legal"],
+    "tags": [
+      "llm",
+      "groq",
+      "legal"
+    ],
     "status": "live"
   },
   {
     "id": "kpi-dashboard-writer",
     "name": "KPI Dashboard Writer",
-    "tagline": "Raw metrics → narrative KPI update for executives or teams",
+    "tagline": "Raw metrics \u00e2\u2020\u2019 narrative KPI update for executives or teams",
     "domain": "productivity",
     "url": "https://kpi-dashboard-writer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/kpi-dashboard-writer",
-    "tags": ["llm", "groq", "productivity", "analytics"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "analytics"
+    ],
     "status": "live"
   },
   {
     "id": "stakeholder-update-writer",
     "name": "Stakeholder Update Writer",
-    "tagline": "Status notes → polished stakeholder update email in seconds",
+    "tagline": "Status notes \u00e2\u2020\u2019 polished stakeholder update email in seconds",
     "domain": "productivity",
     "url": "https://stakeholder-update-writer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/stakeholder-update-writer",
-    "tags": ["llm", "groq", "productivity", "communication"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "communication"
+    ],
     "status": "live"
   },
   {
@@ -206,84 +302,1440 @@
     "domain": "productivity",
     "url": "https://decision-matrix-ai.netlify.app",
     "github": "https://github.com/sateeshgana/decision-matrix-ai",
-    "tags": ["llm", "groq", "productivity"],
+    "tags": [
+      "llm",
+      "groq",
+      "productivity"
+    ],
     "status": "live"
   },
-  {"id":"nda-checker","name":"NDA Checker","tagline":"AI flags risky NDA clauses with severity scores","domain":"legal","url":"https://nda-checker-ai.netlify.app","github":"https://github.com/sateeshgana/nda-checker","tags":["llm","groq","legal"],"status":"live"},
-  {"id":"salary-negotiation-coach","name":"Salary Negotiation Coach","tagline":"AI-powered negotiation script and talking points","domain":"hr","url":"https://salary-negotiation-coach-ai.netlify.app","github":"https://github.com/sateeshgana/salary-negotiation-coach","tags":["llm","groq","hr","career"],"status":"live"},
-  {"id":"promotion-case-writer","name":"Promotion Case Writer","tagline":"Turn accomplishments into a compelling promotion case","domain":"hr","url":"https://promotion-case-writer-ai.netlify.app","github":"https://github.com/sateeshgana/promotion-case-writer","tags":["llm","groq","hr","career"],"status":"live"},
-  {"id":"work-log-summarizer","name":"Work Log Summarizer","tagline":"Weekly work log to polished manager summary","domain":"productivity","url":"https://work-log-summarizer-ai.netlify.app","github":"https://github.com/sateeshgana/work-log-summarizer","tags":["llm","groq","productivity"],"status":"live"},
-  {"id":"retrospective-facilitator","name":"Retrospective Facilitator","tagline":"Extract themes and action items from sprint retro notes","domain":"productivity","url":"https://retrospective-facilitator-ai.netlify.app","github":"https://github.com/sateeshgana/retrospective-facilitator","tags":["llm","groq","productivity","agile"],"status":"live"},
-  {"id":"onboarding-checklist-ai","name":"Onboarding Checklist AI","tagline":"Role-specific 30/60/90 day onboarding checklist","domain":"hr","url":"https://onboarding-checklist-ai.netlify.app","github":"https://github.com/sateeshgana/onboarding-checklist-ai","tags":["llm","groq","hr"],"status":"live"},
-  {"id":"policy-plain-english","name":"Policy Plain English","tagline":"HR and legal policies rewritten in plain friendly language","domain":"hr","url":"https://policy-plain-english-ai.netlify.app","github":"https://github.com/sateeshgana/policy-plain-english","tags":["llm","groq","hr","legal"],"status":"live"},
-  {"id":"rfp-response-ai","name":"RFP Response AI","tagline":"Structured RFP response draft from requirements","domain":"business","url":"https://rfp-response-ai.netlify.app","github":"https://github.com/sateeshgana/rfp-response-ai","tags":["llm","groq","business"],"status":"live"},
-  {"id":"vendor-comparison-ai","name":"Vendor Comparison AI","tagline":"AI scores and ranks vendors with a recommendation","domain":"business","url":"https://vendor-comparison-ai.netlify.app","github":"https://github.com/sateeshgana/vendor-comparison-ai","tags":["llm","groq","business"],"status":"live"},
-  {"id":"budget-justification-writer","name":"Budget Justification Writer","tagline":"Compelling budget business case from request details","domain":"business","url":"https://budget-justification-writer-ai.netlify.app","github":"https://github.com/sateeshgana/budget-justification-writer","tags":["llm","groq","business","finance"],"status":"live"},
-  {"id":"team-charter-builder","name":"Team Charter Builder","tagline":"Team norms, values and working agreements from notes","domain":"hr","url":"https://team-charter-builder-ai.netlify.app","github":"https://github.com/sateeshgana/team-charter-builder","tags":["llm","groq","hr"],"status":"live"},
-  {"id":"conflict-resolution-script","name":"Conflict Resolution Script","tagline":"De-escalation scripts for workplace conflicts","domain":"hr","url":"https://conflict-resolution-script-ai.netlify.app","github":"https://github.com/sateeshgana/conflict-resolution-script","tags":["llm","groq","hr"],"status":"live"},
-  {"id":"reference-letter-writer","name":"Reference Letter Writer","tagline":"Personalized professional reference letters in seconds","domain":"hr","url":"https://reference-letter-writer-ai.netlify.app","github":"https://github.com/sateeshgana/reference-letter-writer","tags":["llm","groq","hr","career"],"status":"live"},
-  {"id":"exit-interview-analyzer","name":"Exit Interview Analyzer","tagline":"Attrition themes and retention recommendations from exit notes","domain":"hr","url":"https://exit-interview-analyzer-ai.netlify.app","github":"https://github.com/sateeshgana/exit-interview-analyzer","tags":["llm","groq","hr"],"status":"live"},
-  {"id":"performance-review-writer","name":"Performance Review Writer","tagline":"Structured performance reviews from accomplishment notes","domain":"hr","url":"https://performance-review-writer-ai.netlify.app","github":"https://github.com/sateeshgana/performance-review-writer","tags":["llm","groq","hr"],"status":"live"},
-  {"id":"job-offer-analyzer","name":"Job Offer Analyzer","tagline":"AI scores job offers with negotiation leverage points","domain":"hr","url":"https://job-offer-analyzer-ai.netlify.app","github":"https://github.com/sateeshgana/job-offer-analyzer","tags":["llm","groq","hr","career"],"status":"live"},
-  {"id":"cold-email-personalized","name":"Cold Email Personalized","tagline":"Hyper-personalized cold outreach that gets replies","domain":"marketing","url":"https://cold-email-personalized-ai.netlify.app","github":"https://github.com/sateeshgana/cold-email-personalized","tags":["llm","groq","marketing"],"status":"live"},
-  {"id":"concept-explainer-ai","name":"Concept Explainer AI","tagline":"Explain anything at child, beginner, intermediate or expert level","domain":"education","url":"https://concept-explainer-ai.netlify.app","github":"https://github.com/sateeshgana/concept-explainer-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"flashcard-factory","name":"Flashcard Factory","tagline":"Turn any topic into Anki-style flashcards instantly","domain":"education","url":"https://flashcard-factory-ai.netlify.app","github":"https://github.com/sateeshgana/flashcard-factory","tags":["llm","groq","education"],"status":"live"},
-  {"id":"essay-feedback-ai","name":"Essay Feedback AI","tagline":"Detailed essay feedback with scores and improvement suggestions","domain":"education","url":"https://essay-feedback-ai.netlify.app","github":"https://github.com/sateeshgana/essay-feedback-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"math-tutor-ai","name":"Math Tutor AI","tagline":"Step-by-step math problem solver with explanations","domain":"education","url":"https://math-tutor-ai.netlify.app","github":"https://github.com/sateeshgana/math-tutor-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"research-paper-summarizer","name":"Research Paper Summarizer","tagline":"Abstract + key findings from any research paper","domain":"education","url":"https://research-paper-summarizer-ai.netlify.app","github":"https://github.com/sateeshgana/research-paper-summarizer","tags":["llm","groq","education","research"],"status":"live"},
-  {"id":"citation-generator","name":"Citation Generator","tagline":"APA, MLA, Chicago, Harvard citations in seconds","domain":"education","url":"https://citation-generator-ai.netlify.app","github":"https://github.com/sateeshgana/citation-generator","tags":["llm","groq","education"],"status":"live"},
-  {"id":"study-plan-builder","name":"Study Plan Builder","tagline":"Topic + deadline + hours/day = personalized study schedule","domain":"education","url":"https://study-plan-builder-ai.netlify.app","github":"https://github.com/sateeshgana/study-plan-builder","tags":["llm","groq","education"],"status":"live"},
-  {"id":"quiz-generator-ai","name":"Quiz Generator AI","tagline":"Turn any topic into an interactive MCQ quiz","domain":"education","url":"https://quiz-generator-ai.netlify.app","github":"https://github.com/sateeshgana/quiz-generator-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"lecture-notes-ai","name":"Lecture Notes AI","tagline":"Audio or text transcripts to structured notes and key terms","domain":"education","url":"https://lecture-notes-ai.netlify.app","github":"https://github.com/sateeshgana/lecture-notes-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"textbook-chapter-qa","name":"Textbook Chapter Q&A","tagline":"Paste a chapter and get 10 graded comprehension questions","domain":"education","url":"https://textbook-chapter-qa-ai.netlify.app","github":"https://github.com/sateeshgana/textbook-chapter-qa","tags":["llm","groq","education"],"status":"live"},
-  {"id":"vocabulary-builder-ai","name":"Vocabulary Builder AI","tagline":"Extract and define key vocabulary from any passage","domain":"education","url":"https://vocabulary-builder-ai.netlify.app","github":"https://github.com/sateeshgana/vocabulary-builder-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"debate-prep-ai","name":"Debate Prep AI","tagline":"Arguments, evidence and rebuttals for both sides of any topic","domain":"education","url":"https://debate-prep-ai.netlify.app","github":"https://github.com/sateeshgana/debate-prep-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"coding-exercise-generator","name":"Coding Exercise Generator","tagline":"Practice problems with solutions for any language and skill","domain":"education","url":"https://coding-exercise-generator-ai.netlify.app","github":"https://github.com/sateeshgana/coding-exercise-generator","tags":["llm","groq","education","coding"],"status":"live"},
-  {"id":"lesson-plan-builder","name":"Lesson Plan Builder","tagline":"Objectives to complete teacher lesson plans in minutes","domain":"education","url":"https://lesson-plan-builder-ai.netlify.app","github":"https://github.com/sateeshgana/lesson-plan-builder","tags":["llm","groq","education"],"status":"live"},
-  {"id":"college-essay-coach","name":"College Essay Coach","tagline":"Personal statement feedback with specific line suggestions","domain":"education","url":"https://college-essay-coach-ai.netlify.app","github":"https://github.com/sateeshgana/college-essay-coach","tags":["llm","groq","education"],"status":"live"},
-  {"id":"language-learning-stories","name":"Language Learning Stories","tagline":"Custom stories in your target language with vocabulary and grammar","domain":"education","url":"https://language-learning-stories-ai.netlify.app","github":"https://github.com/sateeshgana/language-learning-stories","tags":["llm","groq","education","language"],"status":"live"},
-  {"id":"pronunciation-checker","name":"Pronunciation Checker","tagline":"IPA guide, syllables and mnemonic tips for any words","domain":"education","url":"https://pronunciation-checker-ai.netlify.app","github":"https://github.com/sateeshgana/pronunciation-checker","tags":["llm","groq","education","language"],"status":"live"},
-  {"id":"stem-project-ideas","name":"STEM Project Ideas","tagline":"4 grade-appropriate STEM project ideas with full steps","domain":"education","url":"https://stem-project-ideas-ai.netlify.app","github":"https://github.com/sateeshgana/stem-project-ideas","tags":["llm","groq","education","stem"],"status":"live"},
-  {"id":"history-timeline-builder","name":"History Timeline Builder","tagline":"Events to visual narrative timeline with themes and questions","domain":"education","url":"https://history-timeline-builder-ai.netlify.app","github":"https://github.com/sateeshgana/history-timeline-builder","tags":["llm","groq","education"],"status":"live"},
-  {"id":"science-experiment-designer","name":"Science Experiment Designer","tagline":"Hypothesis to full experiment design with procedure and variables","domain":"education","url":"https://science-experiment-designer-ai.netlify.app","github":"https://github.com/sateeshgana/science-experiment-designer","tags":["llm","groq","education","stem"],"status":"live"},
-  {"id":"book-report-outline-ai","name":"Book Report Outline AI","tagline":"Book title and author to full report outline with thesis","domain":"education","url":"https://book-report-outline-ai.netlify.app","github":"https://github.com/sateeshgana/book-report-outline-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"spelling-bee-coach","name":"Spelling Bee Coach","tagline":"Grade-level spelling words with definitions and mnemonic tips","domain":"education","url":"https://spelling-bee-coach-ai.netlify.app","github":"https://github.com/sateeshgana/spelling-bee-coach","tags":["llm","groq","education"],"status":"live"},
-  {"id":"debate-judge-ai","name":"Debate Judge AI","tagline":"Score debate arguments on argumentation, evidence and delivery","domain":"education","url":"https://debate-judge-ai.netlify.app","github":"https://github.com/sateeshgana/debate-judge-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"academic-integrity-checker","name":"Academic Integrity Checker","tagline":"Flag paraphrasing issues and generate proper citation suggestions","domain":"education","url":"https://academic-integrity-checker-ai.netlify.app","github":"https://github.com/sateeshgana/academic-integrity-checker","tags":["llm","groq","education"],"status":"live"},
-  {"id":"reading-comprehension-ai","name":"Reading Comprehension AI","tagline":"Passage to literal, inferential and critical questions","domain":"education","url":"https://reading-comprehension-ai.netlify.app","github":"https://github.com/sateeshgana/reading-comprehension-ai","tags":["llm","groq","education"],"status":"live"},
-  {"id":"learning-style-quiz","name":"Learning Style Quiz","tagline":"12-question quiz reveals your VARK learning style and strategies","domain":"education","url":"https://learning-style-quiz-ai.netlify.app","github":"https://github.com/sateeshgana/learning-style-quiz","tags":["education","client-side"],"status":"live"},
-  {"id":"homeschool-curriculum-planner","name":"Homeschool Curriculum Planner","tagline":"4-week personalized curriculum plan for any grade and style","domain":"education","url":"https://homeschool-curriculum-planner-ai.netlify.app","github":"https://github.com/sateeshgana/homeschool-curriculum-planner","tags":["llm","groq","education"],"status":"live"},
-  {"id":"course-outline-builder","name":"Course Outline Builder","tagline":"Subject to full course structure with modules and assessments","domain":"education","url":"https://course-outline-builder-ai.netlify.app","github":"https://github.com/sateeshgana/course-outline-builder","tags":["llm","groq","education"],"status":"live"},
-  {"id":"knowledge-gap-finder","name":"Knowledge Gap Finder","tagline":"Quiz or self-assessment to personalized study priority list","domain":"education","url":"https://knowledge-gap-finder-ai.netlify.app","github":"https://github.com/sateeshgana/knowledge-gap-finder","tags":["llm","groq","education"],"status":"live"},
-  {"id":"symptom-journal-ai","name":"Symptom Journal AI","tagline":"Log symptoms and get pattern insights with doctor-ready summary","domain":"health","url":"https://symptom-journal-ai.netlify.app","github":"https://github.com/sateeshgana/symptom-journal-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"medication-reminder-explainer","name":"Medication Explainer","tagline":"Drug interactions and side effects in plain English","domain":"health","url":"https://medication-reminder-explainer-ai.netlify.app","github":"https://github.com/sateeshgana/medication-reminder-explainer","tags":["llm","groq","health"],"status":"live"},
-  {"id":"mental-health-journal-coach","name":"Mental Health Journal Coach","tagline":"CBT-guided journaling with reframing and mood insights","domain":"health","url":"https://mental-health-journal-coach-ai.netlify.app","github":"https://github.com/sateeshgana/mental-health-journal-coach","tags":["llm","groq","health"],"status":"live"},
-  {"id":"meal-plan-ai","name":"Meal Plan AI","tagline":"Goals and restrictions to 7-day meal plan with shopping list","domain":"health","url":"https://meal-plan-ai.netlify.app","github":"https://github.com/sateeshgana/meal-plan-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"workout-plan-builder","name":"Workout Plan Builder","tagline":"Fitness level and goals to personalized weekly workout plan","domain":"health","url":"https://workout-plan-builder-ai.netlify.app","github":"https://github.com/sateeshgana/workout-plan-builder","tags":["llm","groq","health"],"status":"live"},
-  {"id":"sleep-journal-analyzer","name":"Sleep Journal Analyzer","tagline":"Sleep notes to patterns, hygiene tips and wind-down routine","domain":"health","url":"https://sleep-journal-analyzer-ai.netlify.app","github":"https://github.com/sateeshgana/sleep-journal-analyzer","tags":["llm","groq","health"],"status":"live"},
-  {"id":"calorie-estimator-ai","name":"Calorie Estimator AI","tagline":"Food description to calorie and macro estimate","domain":"health","url":"https://calorie-estimator-ai.netlify.app","github":"https://github.com/sateeshgana/calorie-estimator-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"stress-tracker-ai","name":"Stress Tracker AI","tagline":"Mood entries to stress patterns and coping strategies","domain":"health","url":"https://stress-tracker-ai.netlify.app","github":"https://github.com/sateeshgana/stress-tracker-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"habit-coach-ai","name":"Habit Coach AI","tagline":"Goal to 21-day habit plan with daily cues and rewards","domain":"health","url":"https://habit-coach-ai.netlify.app","github":"https://github.com/sateeshgana/habit-coach-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"hydration-tracker-ai","name":"Hydration Tracker AI","tagline":"Weight and activity level to personalized daily water target","domain":"health","url":"https://hydration-tracker-ai.netlify.app","github":"https://github.com/sateeshgana/hydration-tracker-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"supplement-guide-ai","name":"Supplement Guide AI","tagline":"Health goals to evidence-based supplement recommendations","domain":"health","url":"https://supplement-guide-ai.netlify.app","github":"https://github.com/sateeshgana/supplement-guide-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"injury-prevention-ai","name":"Injury Prevention AI","tagline":"Sport and history to injury risk assessment and prevention plan","domain":"health","url":"https://injury-prevention-ai.netlify.app","github":"https://github.com/sateeshgana/injury-prevention-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"posture-coach-ai","name":"Posture Coach AI","tagline":"Desk setup description to ergonomic fixes and exercises","domain":"health","url":"https://posture-coach-ai.netlify.app","github":"https://github.com/sateeshgana/posture-coach-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"postpartum-support-ai","name":"Postpartum Support AI","tagline":"New parent concerns to resources, red flags and self-care","domain":"health","url":"https://postpartum-support-ai.netlify.app","github":"https://github.com/sateeshgana/postpartum-support-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"senior-wellness-coach","name":"Senior Wellness Coach","tagline":"Age-appropriate exercise, nutrition and cognitive activity plan","domain":"health","url":"https://senior-wellness-coach-ai.netlify.app","github":"https://github.com/sateeshgana/senior-wellness-coach","tags":["llm","groq","health"],"status":"live"},
-  {"id":"anxiety-coping-toolkit","name":"Anxiety Coping Toolkit","tagline":"Situation to immediate, short and long-term coping techniques","domain":"health","url":"https://anxiety-coping-toolkit-ai.netlify.app","github":"https://github.com/sateeshgana/anxiety-coping-toolkit","tags":["llm","groq","health"],"status":"live"},
-  {"id":"fitness-plateau-breaker","name":"Fitness Plateau Breaker","tagline":"Stuck workout routine to new exercises and progression protocol","domain":"health","url":"https://fitness-plateau-breaker-ai.netlify.app","github":"https://github.com/sateeshgana/fitness-plateau-breaker","tags":["llm","groq","health"],"status":"live"},
-  {"id":"mindfulness-reminders-ai","name":"Mindfulness Reminders AI","tagline":"Lifestyle to personalized daily mindfulness reminder schedule","domain":"health","url":"https://mindfulness-reminders-ai.netlify.app","github":"https://github.com/sateeshgana/mindfulness-reminders-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"nutrition-label-explainer","name":"Nutrition Label Explainer","tagline":"Nutrition label to plain-English macro and health assessment","domain":"health","url":"https://nutrition-label-explainer-ai.netlify.app","github":"https://github.com/sateeshgana/nutrition-label-explainer","tags":["llm","groq","health"],"status":"live"},
-  {"id":"meditation-script-generator","name":"Meditation Script Generator","tagline":"Duration and focus to personalized guided meditation script","domain":"health","url":"https://meditation-script-generator-ai.netlify.app","github":"https://github.com/sateeshgana/meditation-script-generator","tags":["llm","groq","health"],"status":"live"},
-  {"id":"first-aid-guide-ai","name":"First Aid Guide AI","tagline":"Symptom or situation to step-by-step first aid instructions","domain":"health","url":"https://first-aid-guide-ai.netlify.app","github":"https://github.com/sateeshgana/first-aid-guide-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"chronic-condition-tracker","name":"Chronic Condition Tracker","tagline":"Condition log to insights, triggers and appointment prep notes","domain":"health","url":"https://chronic-condition-tracker-ai.netlify.app","github":"https://github.com/sateeshgana/chronic-condition-tracker","tags":["llm","groq","health"],"status":"live"},
-  {"id":"therapy-note-summarizer","name":"Therapy Note Summarizer","tagline":"Session notes to highlights, progress areas and homework","domain":"health","url":"https://therapy-note-summarizer-ai.netlify.app","github":"https://github.com/sateeshgana/therapy-note-summarizer","tags":["llm","groq","health"],"status":"live"},
-  {"id":"grief-support-companion","name":"Grief Support Companion","tagline":"Compassionate grief support with coping strategies and resources","domain":"health","url":"https://grief-support-companion-ai.netlify.app","github":"https://github.com/sateeshgana/grief-support-companion","tags":["llm","groq","health"],"status":"live"},
-  {"id":"burnout-assessment-ai","name":"Burnout Assessment AI","tagline":"Work situation to burnout level score with recovery strategies","domain":"health","url":"https://burnout-assessment-ai.netlify.app","github":"https://github.com/sateeshgana/burnout-assessment-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"pain-diary-ai","name":"Pain Diary AI","tagline":"Pain log to patterns, triggers and doctor-ready report","domain":"health","url":"https://pain-diary-ai.netlify.app","github":"https://github.com/sateeshgana/pain-diary-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"breathing-exercise-coach","name":"Breathing Exercise Coach","tagline":"Goal to guided breathing exercises with inhale/hold/exhale timing","domain":"health","url":"https://breathing-exercise-coach-ai.netlify.app","github":"https://github.com/sateeshgana/breathing-exercise-coach","tags":["llm","groq","health"],"status":"live"},
-  {"id":"allergy-food-checker","name":"Allergy Food Checker","tagline":"Ingredients and allergens to safe/unsafe verdict with alternatives","domain":"health","url":"https://allergy-food-checker-ai.netlify.app","github":"https://github.com/sateeshgana/allergy-food-checker","tags":["llm","groq","health"],"status":"live"},
-  {"id":"recovery-plan-ai","name":"Recovery Plan AI","tagline":"Injury or surgery to week-by-week recovery timeline and plan","domain":"health","url":"https://recovery-plan-ai.netlify.app","github":"https://github.com/sateeshgana/recovery-plan-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"telehealth-prep-ai","name":"Telehealth Prep AI","tagline":"Symptoms to doctor visit prep with questions and warning signs","domain":"health","url":"https://telehealth-prep-ai.netlify.app","github":"https://github.com/sateeshgana/telehealth-prep-ai","tags":["llm","groq","health"],"status":"live"},
-  {"id":"caregiver-support-ai","name":"Caregiver Support AI","tagline":"Caregiver situation to practical tips, self-care and resources","domain":"health","url":"https://caregiver-support-ai.netlify.app","github":"https://github.com/sateeshgana/caregiver-support-ai","tags":["llm","groq","health"],"status":"live"}
+  {
+    "id": "nda-checker",
+    "name": "NDA Checker",
+    "tagline": "AI flags risky NDA clauses with severity scores",
+    "domain": "legal",
+    "url": "https://nda-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/nda-checker",
+    "tags": [
+      "llm",
+      "groq",
+      "legal"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "salary-negotiation-coach",
+    "name": "Salary Negotiation Coach",
+    "tagline": "AI-powered negotiation script and talking points",
+    "domain": "hr",
+    "url": "https://salary-negotiation-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/salary-negotiation-coach",
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "career"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "promotion-case-writer",
+    "name": "Promotion Case Writer",
+    "tagline": "Turn accomplishments into a compelling promotion case",
+    "domain": "hr",
+    "url": "https://promotion-case-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/promotion-case-writer",
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "career"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "work-log-summarizer",
+    "name": "Work Log Summarizer",
+    "tagline": "Weekly work log to polished manager summary",
+    "domain": "productivity",
+    "url": "https://work-log-summarizer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/work-log-summarizer",
+    "tags": [
+      "llm",
+      "groq",
+      "productivity"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "retrospective-facilitator",
+    "name": "Retrospective Facilitator",
+    "tagline": "Extract themes and action items from sprint retro notes",
+    "domain": "productivity",
+    "url": "https://retrospective-facilitator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/retrospective-facilitator",
+    "tags": [
+      "llm",
+      "groq",
+      "productivity",
+      "agile"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "onboarding-checklist-ai",
+    "name": "Onboarding Checklist AI",
+    "tagline": "Role-specific 30/60/90 day onboarding checklist",
+    "domain": "hr",
+    "url": "https://onboarding-checklist-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/onboarding-checklist-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "hr"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "policy-plain-english",
+    "name": "Policy Plain English",
+    "tagline": "HR and legal policies rewritten in plain friendly language",
+    "domain": "hr",
+    "url": "https://policy-plain-english-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/policy-plain-english",
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "legal"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "rfp-response-ai",
+    "name": "RFP Response AI",
+    "tagline": "Structured RFP response draft from requirements",
+    "domain": "business",
+    "url": "https://rfp-response-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/rfp-response-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "business"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "vendor-comparison-ai",
+    "name": "Vendor Comparison AI",
+    "tagline": "AI scores and ranks vendors with a recommendation",
+    "domain": "business",
+    "url": "https://vendor-comparison-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/vendor-comparison-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "business"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "budget-justification-writer",
+    "name": "Budget Justification Writer",
+    "tagline": "Compelling budget business case from request details",
+    "domain": "business",
+    "url": "https://budget-justification-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/budget-justification-writer",
+    "tags": [
+      "llm",
+      "groq",
+      "business",
+      "finance"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "team-charter-builder",
+    "name": "Team Charter Builder",
+    "tagline": "Team norms, values and working agreements from notes",
+    "domain": "hr",
+    "url": "https://team-charter-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/team-charter-builder",
+    "tags": [
+      "llm",
+      "groq",
+      "hr"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "conflict-resolution-script",
+    "name": "Conflict Resolution Script",
+    "tagline": "De-escalation scripts for workplace conflicts",
+    "domain": "hr",
+    "url": "https://conflict-resolution-script-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/conflict-resolution-script",
+    "tags": [
+      "llm",
+      "groq",
+      "hr"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "reference-letter-writer",
+    "name": "Reference Letter Writer",
+    "tagline": "Personalized professional reference letters in seconds",
+    "domain": "hr",
+    "url": "https://reference-letter-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/reference-letter-writer",
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "career"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "exit-interview-analyzer",
+    "name": "Exit Interview Analyzer",
+    "tagline": "Attrition themes and retention recommendations from exit notes",
+    "domain": "hr",
+    "url": "https://exit-interview-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/exit-interview-analyzer",
+    "tags": [
+      "llm",
+      "groq",
+      "hr"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "performance-review-writer",
+    "name": "Performance Review Writer",
+    "tagline": "Structured performance reviews from accomplishment notes",
+    "domain": "hr",
+    "url": "https://performance-review-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/performance-review-writer",
+    "tags": [
+      "llm",
+      "groq",
+      "hr"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "job-offer-analyzer",
+    "name": "Job Offer Analyzer",
+    "tagline": "AI scores job offers with negotiation leverage points",
+    "domain": "hr",
+    "url": "https://job-offer-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/job-offer-analyzer",
+    "tags": [
+      "llm",
+      "groq",
+      "hr",
+      "career"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "cold-email-personalized",
+    "name": "Cold Email Personalized",
+    "tagline": "Hyper-personalized cold outreach that gets replies",
+    "domain": "marketing",
+    "url": "https://cold-email-personalized-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/cold-email-personalized",
+    "tags": [
+      "llm",
+      "groq",
+      "marketing"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "concept-explainer-ai",
+    "name": "Concept Explainer AI",
+    "tagline": "Explain anything at child, beginner, intermediate or expert level",
+    "domain": "education",
+    "url": "https://concept-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/concept-explainer-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "flashcard-factory",
+    "name": "Flashcard Factory",
+    "tagline": "Turn any topic into Anki-style flashcards instantly",
+    "domain": "education",
+    "url": "https://flashcard-factory-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/flashcard-factory",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "essay-feedback-ai",
+    "name": "Essay Feedback AI",
+    "tagline": "Detailed essay feedback with scores and improvement suggestions",
+    "domain": "education",
+    "url": "https://essay-feedback-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/essay-feedback-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "math-tutor-ai",
+    "name": "Math Tutor AI",
+    "tagline": "Step-by-step math problem solver with explanations",
+    "domain": "education",
+    "url": "https://math-tutor-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/math-tutor-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "research-paper-summarizer",
+    "name": "Research Paper Summarizer",
+    "tagline": "Abstract + key findings from any research paper",
+    "domain": "education",
+    "url": "https://research-paper-summarizer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/research-paper-summarizer",
+    "tags": [
+      "llm",
+      "groq",
+      "education",
+      "research"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "citation-generator",
+    "name": "Citation Generator",
+    "tagline": "APA, MLA, Chicago, Harvard citations in seconds",
+    "domain": "education",
+    "url": "https://citation-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/citation-generator",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "study-plan-builder",
+    "name": "Study Plan Builder",
+    "tagline": "Topic + deadline + hours/day = personalized study schedule",
+    "domain": "education",
+    "url": "https://study-plan-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/study-plan-builder",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "quiz-generator-ai",
+    "name": "Quiz Generator AI",
+    "tagline": "Turn any topic into an interactive MCQ quiz",
+    "domain": "education",
+    "url": "https://quiz-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/quiz-generator-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "lecture-notes-ai",
+    "name": "Lecture Notes AI",
+    "tagline": "Audio or text transcripts to structured notes and key terms",
+    "domain": "education",
+    "url": "https://lecture-notes-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/lecture-notes-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "textbook-chapter-qa",
+    "name": "Textbook Chapter Q&A",
+    "tagline": "Paste a chapter and get 10 graded comprehension questions",
+    "domain": "education",
+    "url": "https://textbook-chapter-qa-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/textbook-chapter-qa",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "vocabulary-builder-ai",
+    "name": "Vocabulary Builder AI",
+    "tagline": "Extract and define key vocabulary from any passage",
+    "domain": "education",
+    "url": "https://vocabulary-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/vocabulary-builder-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "debate-prep-ai",
+    "name": "Debate Prep AI",
+    "tagline": "Arguments, evidence and rebuttals for both sides of any topic",
+    "domain": "education",
+    "url": "https://debate-prep-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/debate-prep-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "coding-exercise-generator",
+    "name": "Coding Exercise Generator",
+    "tagline": "Practice problems with solutions for any language and skill",
+    "domain": "education",
+    "url": "https://coding-exercise-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/coding-exercise-generator",
+    "tags": [
+      "llm",
+      "groq",
+      "education",
+      "coding"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "lesson-plan-builder",
+    "name": "Lesson Plan Builder",
+    "tagline": "Objectives to complete teacher lesson plans in minutes",
+    "domain": "education",
+    "url": "https://lesson-plan-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/lesson-plan-builder",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "college-essay-coach",
+    "name": "College Essay Coach",
+    "tagline": "Personal statement feedback with specific line suggestions",
+    "domain": "education",
+    "url": "https://college-essay-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/college-essay-coach",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "language-learning-stories",
+    "name": "Language Learning Stories",
+    "tagline": "Custom stories in your target language with vocabulary and grammar",
+    "domain": "education",
+    "url": "https://language-learning-stories-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/language-learning-stories",
+    "tags": [
+      "llm",
+      "groq",
+      "education",
+      "language"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "pronunciation-checker",
+    "name": "Pronunciation Checker",
+    "tagline": "IPA guide, syllables and mnemonic tips for any words",
+    "domain": "education",
+    "url": "https://pronunciation-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/pronunciation-checker",
+    "tags": [
+      "llm",
+      "groq",
+      "education",
+      "language"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "stem-project-ideas",
+    "name": "STEM Project Ideas",
+    "tagline": "4 grade-appropriate STEM project ideas with full steps",
+    "domain": "education",
+    "url": "https://stem-project-ideas-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/stem-project-ideas",
+    "tags": [
+      "llm",
+      "groq",
+      "education",
+      "stem"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "history-timeline-builder",
+    "name": "History Timeline Builder",
+    "tagline": "Events to visual narrative timeline with themes and questions",
+    "domain": "education",
+    "url": "https://history-timeline-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/history-timeline-builder",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "science-experiment-designer",
+    "name": "Science Experiment Designer",
+    "tagline": "Hypothesis to full experiment design with procedure and variables",
+    "domain": "education",
+    "url": "https://science-experiment-designer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/science-experiment-designer",
+    "tags": [
+      "llm",
+      "groq",
+      "education",
+      "stem"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "book-report-outline-ai",
+    "name": "Book Report Outline AI",
+    "tagline": "Book title and author to full report outline with thesis",
+    "domain": "education",
+    "url": "https://book-report-outline-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/book-report-outline-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "spelling-bee-coach",
+    "name": "Spelling Bee Coach",
+    "tagline": "Grade-level spelling words with definitions and mnemonic tips",
+    "domain": "education",
+    "url": "https://spelling-bee-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/spelling-bee-coach",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "debate-judge-ai",
+    "name": "Debate Judge AI",
+    "tagline": "Score debate arguments on argumentation, evidence and delivery",
+    "domain": "education",
+    "url": "https://debate-judge-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/debate-judge-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "academic-integrity-checker",
+    "name": "Academic Integrity Checker",
+    "tagline": "Flag paraphrasing issues and generate proper citation suggestions",
+    "domain": "education",
+    "url": "https://academic-integrity-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/academic-integrity-checker",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "reading-comprehension-ai",
+    "name": "Reading Comprehension AI",
+    "tagline": "Passage to literal, inferential and critical questions",
+    "domain": "education",
+    "url": "https://reading-comprehension-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/reading-comprehension-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "learning-style-quiz",
+    "name": "Learning Style Quiz",
+    "tagline": "12-question quiz reveals your VARK learning style and strategies",
+    "domain": "education",
+    "url": "https://learning-style-quiz-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/learning-style-quiz",
+    "tags": [
+      "education",
+      "client-side"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "homeschool-curriculum-planner",
+    "name": "Homeschool Curriculum Planner",
+    "tagline": "4-week personalized curriculum plan for any grade and style",
+    "domain": "education",
+    "url": "https://homeschool-curriculum-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/homeschool-curriculum-planner",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "course-outline-builder",
+    "name": "Course Outline Builder",
+    "tagline": "Subject to full course structure with modules and assessments",
+    "domain": "education",
+    "url": "https://course-outline-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/course-outline-builder",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "knowledge-gap-finder",
+    "name": "Knowledge Gap Finder",
+    "tagline": "Quiz or self-assessment to personalized study priority list",
+    "domain": "education",
+    "url": "https://knowledge-gap-finder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/knowledge-gap-finder",
+    "tags": [
+      "llm",
+      "groq",
+      "education"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "symptom-journal-ai",
+    "name": "Symptom Journal AI",
+    "tagline": "Log symptoms and get pattern insights with doctor-ready summary",
+    "domain": "health",
+    "url": "https://symptom-journal-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/symptom-journal-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "medication-reminder-explainer",
+    "name": "Medication Explainer",
+    "tagline": "Drug interactions and side effects in plain English",
+    "domain": "health",
+    "url": "https://medication-reminder-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/medication-reminder-explainer",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "mental-health-journal-coach",
+    "name": "Mental Health Journal Coach",
+    "tagline": "CBT-guided journaling with reframing and mood insights",
+    "domain": "health",
+    "url": "https://mental-health-journal-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/mental-health-journal-coach",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "meal-plan-ai",
+    "name": "Meal Plan AI",
+    "tagline": "Goals and restrictions to 7-day meal plan with shopping list",
+    "domain": "health",
+    "url": "https://meal-plan-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/meal-plan-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "workout-plan-builder",
+    "name": "Workout Plan Builder",
+    "tagline": "Fitness level and goals to personalized weekly workout plan",
+    "domain": "health",
+    "url": "https://workout-plan-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/workout-plan-builder",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "sleep-journal-analyzer",
+    "name": "Sleep Journal Analyzer",
+    "tagline": "Sleep notes to patterns, hygiene tips and wind-down routine",
+    "domain": "health",
+    "url": "https://sleep-journal-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/sleep-journal-analyzer",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "calorie-estimator-ai",
+    "name": "Calorie Estimator AI",
+    "tagline": "Food description to calorie and macro estimate",
+    "domain": "health",
+    "url": "https://calorie-estimator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/calorie-estimator-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "stress-tracker-ai",
+    "name": "Stress Tracker AI",
+    "tagline": "Mood entries to stress patterns and coping strategies",
+    "domain": "health",
+    "url": "https://stress-tracker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/stress-tracker-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "habit-coach-ai",
+    "name": "Habit Coach AI",
+    "tagline": "Goal to 21-day habit plan with daily cues and rewards",
+    "domain": "health",
+    "url": "https://habit-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/habit-coach-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "hydration-tracker-ai",
+    "name": "Hydration Tracker AI",
+    "tagline": "Weight and activity level to personalized daily water target",
+    "domain": "health",
+    "url": "https://hydration-tracker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/hydration-tracker-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "supplement-guide-ai",
+    "name": "Supplement Guide AI",
+    "tagline": "Health goals to evidence-based supplement recommendations",
+    "domain": "health",
+    "url": "https://supplement-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/supplement-guide-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "injury-prevention-ai",
+    "name": "Injury Prevention AI",
+    "tagline": "Sport and history to injury risk assessment and prevention plan",
+    "domain": "health",
+    "url": "https://injury-prevention-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/injury-prevention-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "posture-coach-ai",
+    "name": "Posture Coach AI",
+    "tagline": "Desk setup description to ergonomic fixes and exercises",
+    "domain": "health",
+    "url": "https://posture-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/posture-coach-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "postpartum-support-ai",
+    "name": "Postpartum Support AI",
+    "tagline": "New parent concerns to resources, red flags and self-care",
+    "domain": "health",
+    "url": "https://postpartum-support-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/postpartum-support-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "senior-wellness-coach",
+    "name": "Senior Wellness Coach",
+    "tagline": "Age-appropriate exercise, nutrition and cognitive activity plan",
+    "domain": "health",
+    "url": "https://senior-wellness-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/senior-wellness-coach",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "anxiety-coping-toolkit",
+    "name": "Anxiety Coping Toolkit",
+    "tagline": "Situation to immediate, short and long-term coping techniques",
+    "domain": "health",
+    "url": "https://anxiety-coping-toolkit-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/anxiety-coping-toolkit",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "fitness-plateau-breaker",
+    "name": "Fitness Plateau Breaker",
+    "tagline": "Stuck workout routine to new exercises and progression protocol",
+    "domain": "health",
+    "url": "https://fitness-plateau-breaker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/fitness-plateau-breaker",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "mindfulness-reminders-ai",
+    "name": "Mindfulness Reminders AI",
+    "tagline": "Lifestyle to personalized daily mindfulness reminder schedule",
+    "domain": "health",
+    "url": "https://mindfulness-reminders-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/mindfulness-reminders-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "nutrition-label-explainer",
+    "name": "Nutrition Label Explainer",
+    "tagline": "Nutrition label to plain-English macro and health assessment",
+    "domain": "health",
+    "url": "https://nutrition-label-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/nutrition-label-explainer",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "meditation-script-generator",
+    "name": "Meditation Script Generator",
+    "tagline": "Duration and focus to personalized guided meditation script",
+    "domain": "health",
+    "url": "https://meditation-script-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/meditation-script-generator",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "first-aid-guide-ai",
+    "name": "First Aid Guide AI",
+    "tagline": "Symptom or situation to step-by-step first aid instructions",
+    "domain": "health",
+    "url": "https://first-aid-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/first-aid-guide-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "chronic-condition-tracker",
+    "name": "Chronic Condition Tracker",
+    "tagline": "Condition log to insights, triggers and appointment prep notes",
+    "domain": "health",
+    "url": "https://chronic-condition-tracker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/chronic-condition-tracker",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "therapy-note-summarizer",
+    "name": "Therapy Note Summarizer",
+    "tagline": "Session notes to highlights, progress areas and homework",
+    "domain": "health",
+    "url": "https://therapy-note-summarizer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/therapy-note-summarizer",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "grief-support-companion",
+    "name": "Grief Support Companion",
+    "tagline": "Compassionate grief support with coping strategies and resources",
+    "domain": "health",
+    "url": "https://grief-support-companion-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/grief-support-companion",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "burnout-assessment-ai",
+    "name": "Burnout Assessment AI",
+    "tagline": "Work situation to burnout level score with recovery strategies",
+    "domain": "health",
+    "url": "https://burnout-assessment-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/burnout-assessment-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "pain-diary-ai",
+    "name": "Pain Diary AI",
+    "tagline": "Pain log to patterns, triggers and doctor-ready report",
+    "domain": "health",
+    "url": "https://pain-diary-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/pain-diary-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "breathing-exercise-coach",
+    "name": "Breathing Exercise Coach",
+    "tagline": "Goal to guided breathing exercises with inhale/hold/exhale timing",
+    "domain": "health",
+    "url": "https://breathing-exercise-coach-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/breathing-exercise-coach",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "allergy-food-checker",
+    "name": "Allergy Food Checker",
+    "tagline": "Ingredients and allergens to safe/unsafe verdict with alternatives",
+    "domain": "health",
+    "url": "https://allergy-food-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/allergy-food-checker",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "recovery-plan-ai",
+    "name": "Recovery Plan AI",
+    "tagline": "Injury or surgery to week-by-week recovery timeline and plan",
+    "domain": "health",
+    "url": "https://recovery-plan-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/recovery-plan-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "telehealth-prep-ai",
+    "name": "Telehealth Prep AI",
+    "tagline": "Symptoms to doctor visit prep with questions and warning signs",
+    "domain": "health",
+    "url": "https://telehealth-prep-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/telehealth-prep-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "caregiver-support-ai",
+    "name": "Caregiver Support AI",
+    "tagline": "Caregiver situation to practical tips, self-care and resources",
+    "domain": "health",
+    "url": "https://caregiver-support-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/caregiver-support-ai",
+    "tags": [
+      "llm",
+      "groq",
+      "health"
+    ],
+    "status": "live"
+  },
+  {
+    "id": "budget-builder-ai",
+    "name": "Budget Builder AI",
+    "tagline": "Build a personal or household budget with AI guidance",
+    "domain": "finance",
+    "tags": [
+      "budgeting",
+      "personal-finance"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "business-plan-financials-ai",
+    "name": "Business Plan Financials AI",
+    "tagline": "Generate financial projections for your business plan",
+    "domain": "finance",
+    "tags": [
+      "business",
+      "projections"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "charitable-giving-advisor",
+    "name": "Charitable Giving Advisor",
+    "tagline": "Get AI advice on charitable giving strategies and tax benefits",
+    "domain": "finance",
+    "tags": [
+      "charity",
+      "tax",
+      "giving"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "compound-interest-visualizer",
+    "name": "Compound Interest Visualizer",
+    "tagline": "Visualize how your savings grow with compound interest",
+    "domain": "finance",
+    "tags": [
+      "savings",
+      "investing",
+      "calculator"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "credit-score-coach",
+    "name": "Credit Score Coach",
+    "tagline": "Understand and improve your credit score with AI coaching",
+    "domain": "finance",
+    "tags": [
+      "credit",
+      "coaching"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "debt-payoff-planner",
+    "name": "Debt Payoff Planner",
+    "tagline": "Create a personalized debt payoff strategy",
+    "domain": "finance",
+    "tags": [
+      "debt",
+      "planning"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "dividend-income-planner",
+    "name": "Dividend Income Planner",
+    "tagline": "Plan your passive income stream from dividend investments",
+    "domain": "finance",
+    "tags": [
+      "investing",
+      "dividends",
+      "passive-income"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "emergency-fund-planner",
+    "name": "Emergency Fund Planner",
+    "tagline": "Calculate and build your ideal emergency fund",
+    "domain": "finance",
+    "tags": [
+      "savings",
+      "emergency"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "financial-goal-planner",
+    "name": "Financial Goal Planner",
+    "tagline": "Set and track your financial goals with AI support",
+    "domain": "finance",
+    "tags": [
+      "goals",
+      "planning"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "financial-literacy-quiz",
+    "name": "Financial Literacy Quiz",
+    "tagline": "Test and improve your financial knowledge",
+    "domain": "finance",
+    "tags": [
+      "quiz",
+      "education",
+      "literacy"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "forex-explainer-ai",
+    "name": "Forex Explainer AI",
+    "tagline": "Understand forex trading concepts with plain-language explanations",
+    "domain": "finance",
+    "tags": [
+      "forex",
+      "trading",
+      "education"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "freelance-rate-calculator",
+    "name": "Freelance Rate Calculator",
+    "tagline": "Calculate your ideal freelance hourly rate",
+    "domain": "finance",
+    "tags": [
+      "freelance",
+      "rates",
+      "calculator"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "grant-finder-brief",
+    "name": "Grant Finder Brief",
+    "tagline": "Find relevant grants and funding opportunities for your project",
+    "domain": "finance",
+    "tags": [
+      "grants",
+      "funding"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "insurance-policy-explainer",
+    "name": "Insurance Policy Explainer",
+    "tagline": "Decode insurance jargon and understand your policy",
+    "domain": "finance",
+    "tags": [
+      "insurance",
+      "education"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "investment-explainer-ai",
+    "name": "Investment Explainer AI",
+    "tagline": "Learn investment concepts explained in plain language",
+    "domain": "finance",
+    "tags": [
+      "investing",
+      "education"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "loan-comparison-ai",
+    "name": "Loan Comparison AI",
+    "tagline": "Compare loan options and find the best deal for you",
+    "domain": "finance",
+    "tags": [
+      "loans",
+      "comparison",
+      "calculator"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "money-mindset-coach",
+    "name": "Money Mindset Coach",
+    "tagline": "Shift your relationship with money through AI coaching",
+    "domain": "finance",
+    "tags": [
+      "coaching",
+      "mindset"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "net-worth-tracker-ai",
+    "name": "Net Worth Tracker AI",
+    "tagline": "Calculate and track your net worth over time",
+    "domain": "finance",
+    "tags": [
+      "net-worth",
+      "tracking"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "pitch-deck-financial-ai",
+    "name": "Pitch Deck Financial AI",
+    "tagline": "Generate compelling financial slides for your pitch deck",
+    "domain": "finance",
+    "tags": [
+      "startup",
+      "pitch",
+      "financials"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "raise-negotiation-ai",
+    "name": "Raise Negotiation AI",
+    "tagline": "Prepare and practice your salary raise negotiation",
+    "domain": "finance",
+    "tags": [
+      "negotiation",
+      "salary",
+      "career"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "real-estate-roi-ai",
+    "name": "Real Estate ROI AI",
+    "tagline": "Analyze return on investment for real estate properties",
+    "domain": "finance",
+    "tags": [
+      "real-estate",
+      "roi",
+      "investing"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "retirement-savings-advisor",
+    "name": "Retirement Savings Advisor",
+    "tagline": "Plan your retirement savings strategy with AI guidance",
+    "domain": "finance",
+    "tags": [
+      "retirement",
+      "savings",
+      "planning"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "salary-benchmark-ai",
+    "name": "Salary Benchmark AI",
+    "tagline": "Benchmark your salary against industry standards",
+    "domain": "finance",
+    "tags": [
+      "salary",
+      "benchmarking",
+      "career"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "side-hustle-profitability-ai",
+    "name": "Side Hustle Profitability AI",
+    "tagline": "Evaluate the profitability of your side hustle ideas",
+    "domain": "finance",
+    "tags": [
+      "side-hustle",
+      "entrepreneurship"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "startup-valuation-explainer",
+    "name": "Startup Valuation Explainer",
+    "tagline": "Understand how startup valuations work",
+    "domain": "finance",
+    "tags": [
+      "startup",
+      "valuation",
+      "education"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "tax-deduction-finder",
+    "name": "Tax Deduction Finder",
+    "tagline": "Discover tax deductions you may be missing",
+    "domain": "finance",
+    "tags": [
+      "tax",
+      "deductions",
+      "savings"
+    ],
+    "status": "live",
+    "url": ""
+  },
+  {
+    "id": "will-checklist-ai",
+    "name": "Will Checklist AI",
+    "tagline": "Step-by-step checklist for creating your will and estate plan",
+    "domain": "finance",
+    "tags": [
+      "estate",
+      "will",
+      "planning"
+    ],
+    "status": "live",
+    "url": ""
+  }
 ]
