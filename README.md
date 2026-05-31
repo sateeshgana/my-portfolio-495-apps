@@ -81,8 +81,6 @@ Status values: `"live"` | `"building"` | `"planned"`
 
 - **LinkedIn:** [sateesh-ganaparapu-19875257](https://www.linkedin.com/in/sateesh-ganaparapu-19875257/)
 - **GitHub:** [@sateeshgana](https://github.com/sateeshgana)
-- **Email:** info@codestride.ai
-
 ---
 
 ## License
