@@ -1,6 +1,7 @@
 import { ExternalLink, GitBranch } from 'lucide-react'
 import { clsx } from 'clsx'
 import type { AppEntry } from '../types'
+import hostedIds from '../hosted.json'
 
 const DOMAIN_COLORS: Record<string, string> = {
   productivity:  'bg-blue-900/40 text-blue-300 border-blue-800',
@@ -26,6 +27,7 @@ interface Props {
 
 export function AppCard({ app }: Props) {
   const domainColor = DOMAIN_COLORS[app.domain] ?? 'bg-gray-800 text-gray-300 border-gray-700'
+  const isHosted = Array.isArray(hostedIds) && (hostedIds as string[]).includes(app.id)
 
   return (
     <div className="flex flex-col rounded-xl border border-gray-800 bg-gray-900 p-5 hover:border-gray-600 transition-colors">
@@ -49,14 +51,24 @@ export function AppCard({ app }: Props) {
 
       {/* Links */}
       <div className="flex gap-3 mt-4 pt-4 border-t border-gray-800">
-        <a
-          href={app.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-1.5 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
-        >
-          <ExternalLink size={12} /> Live app
-        </a>
+        {isHosted ? (
+          <a
+            href={app.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
+          >
+            <ExternalLink size={12} /> Live app
+          </a>
+        ) : (
+          <span
+            className="flex items-center gap-1.5 text-xs text-gray-600 opacity-70 cursor-not-allowed"
+            title="Not hosted yet"
+            aria-disabled="true"
+          >
+            <ExternalLink size={12} /> Live app
+          </span>
+        )}
         <a
           href={app.github}
           target="_blank"
