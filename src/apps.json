@@ -61,7 +61,7 @@
   {
     "id": "privatedoc-ai",
     "name": "PrivateDoc AI",
-    "tagline": "Chat with your documents \u00e2\u20ac\u201d 100% in-browser, zero data sent anywhere",
+    "tagline": "Chat with your documents â€” 100% in-browser, zero data sent anywhere",
     "domain": "productivity",
     "url": "https://privatedoc-ai.netlify.app",
     "github": "https://github.com/sateeshgana/privatedoc-ai",
@@ -135,7 +135,7 @@
   {
     "id": "job-description-writer",
     "name": "Job Description Writer",
-    "tagline": "Role requirements \u00e2\u2020\u2019 professional, inclusive job description",
+    "tagline": "Role requirements â†’ professional, inclusive job description",
     "domain": "hr",
     "url": "https://job-description-writer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/job-description-writer",
@@ -225,7 +225,7 @@
   {
     "id": "task-prioritizer",
     "name": "Task Prioritizer",
-    "tagline": "Dump your tasks \u00e2\u20ac\u201d get an Eisenhower matrix instantly",
+    "tagline": "Dump your tasks â€” get an Eisenhower matrix instantly",
     "domain": "productivity",
     "url": "https://task-prioritizer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/task-prioritizer",
@@ -268,7 +268,7 @@
   {
     "id": "kpi-dashboard-writer",
     "name": "KPI Dashboard Writer",
-    "tagline": "Raw metrics \u00e2\u2020\u2019 narrative KPI update for executives or teams",
+    "tagline": "Raw metrics â†’ narrative KPI update for executives or teams",
     "domain": "productivity",
     "url": "https://kpi-dashboard-writer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/kpi-dashboard-writer",
@@ -283,7 +283,7 @@
   {
     "id": "stakeholder-update-writer",
     "name": "Stakeholder Update Writer",
-    "tagline": "Status notes \u00e2\u2020\u2019 polished stakeholder update email in seconds",
+    "tagline": "Status notes â†’ polished stakeholder update email in seconds",
     "domain": "productivity",
     "url": "https://stakeholder-update-writer-ai.netlify.app",
     "github": "https://github.com/sateeshgana/stakeholder-update-writer",
@@ -1737,5 +1737,3423 @@
     ],
     "status": "live",
     "url": ""
+  },
+  {
+    "id": "lyric-writer-ai",
+    "name": "LyricWriter AI",
+    "tagline": "Generate song lyrics in any style or genre",
+    "domain": "creative",
+    "url": "https://lyric-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/lyric-writer-ai",
+    "tags": [
+      "music",
+      "lyrics",
+      "creative-writing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "screenplay-formatter",
+    "name": "Screenplay Formatter",
+    "tagline": "Format scripts to industry-standard with AI assistance",
+    "domain": "creative",
+    "url": "https://screenplay-formatter-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/screenplay-formatter",
+    "tags": [
+      "screenwriting",
+      "film",
+      "formatting"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "logo-concept-ai",
+    "name": "Logo Concept AI",
+    "tagline": "Generate logo concepts and brand ideas from a prompt",
+    "domain": "creative",
+    "url": "https://logo-concept-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/logo-concept-ai",
+    "tags": [
+      "design",
+      "branding",
+      "logo"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "poem-generator-ai",
+    "name": "Poem Generator AI",
+    "tagline": "Write poems in any form — haiku, sonnet, or free verse",
+    "domain": "creative",
+    "url": "https://poem-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/poem-generator-ai",
+    "tags": [
+      "poetry",
+      "creative-writing",
+      "literature"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "storyboard-ai",
+    "name": "Storyboard AI",
+    "tagline": "Convert scripts into visual storyboard descriptions",
+    "domain": "creative",
+    "url": "https://storyboard-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/storyboard-ai",
+    "tags": [
+      "film",
+      "animation",
+      "storyboard"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "color-palette-ai",
+    "name": "Color Palette AI",
+    "tagline": "Generate harmonious color palettes from mood or image",
+    "domain": "creative",
+    "url": "https://color-palette-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/color-palette-ai",
+    "tags": [
+      "design",
+      "color",
+      "branding"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "font-pairing-ai",
+    "name": "Font Pairing AI",
+    "tagline": "Find perfect font combinations for any design project",
+    "domain": "creative",
+    "url": "https://font-pairing-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/font-pairing-ai",
+    "tags": [
+      "typography",
+      "design",
+      "fonts"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "comic-script-ai",
+    "name": "Comic Script AI",
+    "tagline": "Write comic book scripts with panel-by-panel breakdowns",
+    "domain": "creative",
+    "url": "https://comic-script-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/comic-script-ai",
+    "tags": [
+      "comics",
+      "writing",
+      "illustration"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "music-theory-ai",
+    "name": "Music Theory AI",
+    "tagline": "Explain chords, scales, and progressions interactively",
+    "domain": "creative",
+    "url": "https://music-theory-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/music-theory-ai",
+    "tags": [
+      "music",
+      "theory",
+      "education"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "ui-copy-ai",
+    "name": "UI Copy AI",
+    "tagline": "Write microcopy, CTAs, and onboarding text for apps",
+    "domain": "creative",
+    "url": "https://ui-copy-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/ui-copy-ai",
+    "tags": [
+      "copywriting",
+      "ux",
+      "design"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "podcast-script-ai",
+    "name": "Podcast Script AI",
+    "tagline": "Generate structured podcast episode scripts from a topic",
+    "domain": "creative",
+    "url": "https://podcast-script-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/podcast-script-ai",
+    "tags": [
+      "podcast",
+      "audio",
+      "content"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "book-cover-brief-ai",
+    "name": "Book Cover Brief AI",
+    "tagline": "Generate detailed design briefs for book covers",
+    "domain": "creative",
+    "url": "https://book-cover-brief-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/book-cover-brief-ai",
+    "tags": [
+      "publishing",
+      "design",
+      "books"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "tattoo-concept-ai",
+    "name": "Tattoo Concept AI",
+    "tagline": "Describe tattoo concepts with style and placement guidance",
+    "domain": "creative",
+    "url": "https://tattoo-concept-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/tattoo-concept-ai",
+    "tags": [
+      "tattoo",
+      "art",
+      "design"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "short-story-ai",
+    "name": "Short Story AI",
+    "tagline": "Generate complete short stories from a one-line prompt",
+    "domain": "creative",
+    "url": "https://short-story-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/short-story-ai",
+    "tags": [
+      "fiction",
+      "creative-writing",
+      "stories"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "brand-voice-ai",
+    "name": "Brand Voice AI",
+    "tagline": "Define and maintain consistent brand tone across content",
+    "domain": "creative",
+    "url": "https://brand-voice-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/brand-voice-ai",
+    "tags": [
+      "branding",
+      "copywriting",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "art-style-explorer",
+    "name": "Art Style Explorer",
+    "tagline": "Explore and describe different artistic styles for projects",
+    "domain": "creative",
+    "url": "https://art-style-explorer.netlify.app",
+    "github": "https://github.com/sateeshgana/art-style-explorer",
+    "tags": [
+      "art",
+      "design",
+      "education"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "character-designer-ai",
+    "name": "Character Designer AI",
+    "tagline": "Build detailed character profiles for fiction or games",
+    "domain": "creative",
+    "url": "https://character-designer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/character-designer-ai",
+    "tags": [
+      "fiction",
+      "gaming",
+      "character-design"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "world-builder-ai",
+    "name": "World Builder AI",
+    "tagline": "Create fictional worlds with geography, culture, and lore",
+    "domain": "creative",
+    "url": "https://world-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/world-builder-ai",
+    "tags": [
+      "worldbuilding",
+      "fiction",
+      "fantasy"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "jingle-maker-ai",
+    "name": "Jingle Maker AI",
+    "tagline": "Write catchy jingles and advertising songs on demand",
+    "domain": "creative",
+    "url": "https://jingle-maker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/jingle-maker-ai",
+    "tags": [
+      "music",
+      "advertising",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "caption-ai",
+    "name": "Caption AI",
+    "tagline": "Generate engaging social media captions for any image",
+    "domain": "creative",
+    "url": "https://caption-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/caption-ai",
+    "tags": [
+      "social-media",
+      "copywriting",
+      "content"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "pitch-deck-storyteller",
+    "name": "Pitch Deck Storyteller",
+    "tagline": "Turn bullet points into compelling narrative slides",
+    "domain": "creative",
+    "url": "https://pitch-deck-storyteller.netlify.app",
+    "github": "https://github.com/sateeshgana/pitch-deck-storyteller",
+    "tags": [
+      "presentations",
+      "storytelling",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "newsletter-ai",
+    "name": "Newsletter AI",
+    "tagline": "Draft full email newsletters from a topic or outline",
+    "domain": "creative",
+    "url": "https://newsletter-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/newsletter-ai",
+    "tags": [
+      "email",
+      "content",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "children-book-ai",
+    "name": "Children Book AI",
+    "tagline": "Create illustrated stories with age-appropriate text",
+    "domain": "creative",
+    "url": "https://children-book-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/children-book-ai",
+    "tags": [
+      "children",
+      "books",
+      "education"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "game-dialogue-ai",
+    "name": "Game Dialogue AI",
+    "tagline": "Write NPC dialogues and branching narratives for games",
+    "domain": "creative",
+    "url": "https://game-dialogue-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/game-dialogue-ai",
+    "tags": [
+      "gaming",
+      "narrative",
+      "writing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "moodboard-ai",
+    "name": "Moodboard AI",
+    "tagline": "Generate descriptive moodboard concepts for any creative project",
+    "domain": "creative",
+    "url": "https://moodboard-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/moodboard-ai",
+    "tags": [
+      "design",
+      "creative",
+      "branding"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "research-summarizer-ai",
+    "name": "Research Summarizer AI",
+    "tagline": "Summarize scientific papers into plain-language abstracts",
+    "domain": "science",
+    "url": "https://research-summarizer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/research-summarizer-ai",
+    "tags": [
+      "research",
+      "papers",
+      "academia"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "hypothesis-generator",
+    "name": "Hypothesis Generator",
+    "tagline": "Generate testable hypotheses from observations or data",
+    "domain": "science",
+    "url": "https://hypothesis-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/hypothesis-generator",
+    "tags": [
+      "research",
+      "science",
+      "experiments"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "lab-report-ai",
+    "name": "Lab Report AI",
+    "tagline": "Structure and write lab reports from raw experimental notes",
+    "domain": "science",
+    "url": "https://lab-report-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/lab-report-ai",
+    "tags": [
+      "education",
+      "science",
+      "writing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "chemistry-explainer",
+    "name": "Chemistry Explainer AI",
+    "tagline": "Explain chemical reactions and compounds in simple terms",
+    "domain": "science",
+    "url": "https://chemistry-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/chemistry-explainer",
+    "tags": [
+      "chemistry",
+      "education",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "physics-solver-ai",
+    "name": "Physics Solver AI",
+    "tagline": "Solve and explain physics problems step by step",
+    "domain": "science",
+    "url": "https://physics-solver-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/physics-solver-ai",
+    "tags": [
+      "physics",
+      "education",
+      "math"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "biology-tutor-ai",
+    "name": "Biology Tutor AI",
+    "tagline": "Interactive biology tutor covering cells, genetics, and ecosystems",
+    "domain": "science",
+    "url": "https://biology-tutor-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/biology-tutor-ai",
+    "tags": [
+      "biology",
+      "education",
+      "health"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "data-interpretation-ai",
+    "name": "Data Interpretation AI",
+    "tagline": "Interpret charts, tables, and datasets in plain English",
+    "domain": "science",
+    "url": "https://data-interpretation-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/data-interpretation-ai",
+    "tags": [
+      "data",
+      "analytics",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "climate-explainer-ai",
+    "name": "Climate Explainer AI",
+    "tagline": "Explain climate science concepts and current research simply",
+    "domain": "science",
+    "url": "https://climate-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/climate-explainer-ai",
+    "tags": [
+      "climate",
+      "environment",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "astronomy-guide-ai",
+    "name": "Astronomy Guide AI",
+    "tagline": "Explore stars, planets, and galaxies with AI explanations",
+    "domain": "science",
+    "url": "https://astronomy-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/astronomy-guide-ai",
+    "tags": [
+      "astronomy",
+      "space",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "gene-explainer-ai",
+    "name": "Gene Explainer AI",
+    "tagline": "Decode genetic test results and genomics concepts",
+    "domain": "science",
+    "url": "https://gene-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/gene-explainer-ai",
+    "tags": [
+      "genetics",
+      "biology",
+      "health"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "math-proof-ai",
+    "name": "Math Proof AI",
+    "tagline": "Walk through mathematical proofs with step-by-step reasoning",
+    "domain": "science",
+    "url": "https://math-proof-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/math-proof-ai",
+    "tags": [
+      "math",
+      "proofs",
+      "education"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "periodic-table-ai",
+    "name": "Periodic Table AI",
+    "tagline": "Interactive element explorer with properties and use cases",
+    "domain": "science",
+    "url": "https://periodic-table-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/periodic-table-ai",
+    "tags": [
+      "chemistry",
+      "elements",
+      "education"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "science-quiz-ai",
+    "name": "Science Quiz AI",
+    "tagline": "Generate adaptive quizzes across all science disciplines",
+    "domain": "science",
+    "url": "https://science-quiz-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/science-quiz-ai",
+    "tags": [
+      "quiz",
+      "education",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "statistical-analysis-ai",
+    "name": "Statistical Analysis AI",
+    "tagline": "Explain and interpret statistical results for non-statisticians",
+    "domain": "science",
+    "url": "https://statistical-analysis-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/statistical-analysis-ai",
+    "tags": [
+      "statistics",
+      "data",
+      "research"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "neuroscience-explainer",
+    "name": "Neuroscience Explainer AI",
+    "tagline": "Break down brain science, cognition, and neurology topics",
+    "domain": "science",
+    "url": "https://neuroscience-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/neuroscience-explainer",
+    "tags": [
+      "neuroscience",
+      "brain",
+      "health"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "ecology-mapper-ai",
+    "name": "Ecology Mapper AI",
+    "tagline": "Understand ecosystems, food webs, and biodiversity concepts",
+    "domain": "science",
+    "url": "https://ecology-mapper-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/ecology-mapper-ai",
+    "tags": [
+      "ecology",
+      "environment",
+      "biology"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "materials-science-ai",
+    "name": "Materials Science AI",
+    "tagline": "Explore material properties, composites, and applications",
+    "domain": "science",
+    "url": "https://materials-science-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/materials-science-ai",
+    "tags": [
+      "materials",
+      "engineering",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "scientific-method-ai",
+    "name": "Scientific Method AI",
+    "tagline": "Guide students through designing rigorous experiments",
+    "domain": "science",
+    "url": "https://scientific-method-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/scientific-method-ai",
+    "tags": [
+      "methodology",
+      "education",
+      "research"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "citation-finder-ai",
+    "name": "Citation Finder AI",
+    "tagline": "Find and format academic citations from paper descriptions",
+    "domain": "science",
+    "url": "https://citation-finder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/citation-finder-ai",
+    "tags": [
+      "citations",
+      "research",
+      "academia"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "geology-explainer-ai",
+    "name": "Geology Explainer AI",
+    "tagline": "Understand rocks, minerals, plate tectonics, and earth history",
+    "domain": "science",
+    "url": "https://geology-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/geology-explainer-ai",
+    "tags": [
+      "geology",
+      "earth",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "drug-mechanism-ai",
+    "name": "Drug Mechanism AI",
+    "tagline": "Explain how medications work at the molecular level",
+    "domain": "science",
+    "url": "https://drug-mechanism-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/drug-mechanism-ai",
+    "tags": [
+      "pharmacology",
+      "health",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "ai-in-science-explainer",
+    "name": "AI in Science Explainer",
+    "tagline": "Demystify how AI is transforming scientific research",
+    "domain": "science",
+    "url": "https://ai-in-science-explainer.netlify.app",
+    "github": "https://github.com/sateeshgana/ai-in-science-explainer",
+    "tags": [
+      "ai",
+      "research",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "thermodynamics-ai",
+    "name": "Thermodynamics AI",
+    "tagline": "Solve and explain thermodynamics problems interactively",
+    "domain": "science",
+    "url": "https://thermodynamics-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/thermodynamics-ai",
+    "tags": [
+      "physics",
+      "engineering",
+      "thermodynamics"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "space-mission-planner",
+    "name": "Space Mission Planner AI",
+    "tagline": "Simulate and explain orbital mechanics and mission planning",
+    "domain": "science",
+    "url": "https://space-mission-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/space-mission-planner",
+    "tags": [
+      "space",
+      "engineering",
+      "astronomy"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "environmental-impact-ai",
+    "name": "Environmental Impact AI",
+    "tagline": "Assess environmental impact of products and activities",
+    "domain": "science",
+    "url": "https://environmental-impact-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/environmental-impact-ai",
+    "tags": [
+      "environment",
+      "sustainability",
+      "science"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "property-valuation-ai",
+    "name": "Property Valuation AI",
+    "tagline": "Estimate property values using market comps and AI analysis",
+    "domain": "real-estate",
+    "url": "https://property-valuation-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/property-valuation-ai",
+    "tags": [
+      "valuation",
+      "real-estate",
+      "finance"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "listing-description-ai",
+    "name": "Listing Description AI",
+    "tagline": "Write compelling property listings from features and photos",
+    "domain": "real-estate",
+    "url": "https://listing-description-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/listing-description-ai",
+    "tags": [
+      "listings",
+      "marketing",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "mortgage-calculator-ai",
+    "name": "Mortgage Calculator AI",
+    "tagline": "Calculate mortgage payments and explain loan terms clearly",
+    "domain": "real-estate",
+    "url": "https://mortgage-calculator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/mortgage-calculator-ai",
+    "tags": [
+      "mortgage",
+      "finance",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "neighborhood-analyzer",
+    "name": "Neighborhood Analyzer AI",
+    "tagline": "Analyze neighborhood livability, amenities, and trends",
+    "domain": "real-estate",
+    "url": "https://neighborhood-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/neighborhood-analyzer",
+    "tags": [
+      "neighborhood",
+      "analysis",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "rental-yield-ai",
+    "name": "Rental Yield AI",
+    "tagline": "Calculate rental yield and ROI for investment properties",
+    "domain": "real-estate",
+    "url": "https://rental-yield-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/rental-yield-ai",
+    "tags": [
+      "rental",
+      "investment",
+      "finance"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "lease-reviewer-ai",
+    "name": "Lease Reviewer AI",
+    "tagline": "Review lease agreements and flag unusual clauses",
+    "domain": "real-estate",
+    "url": "https://lease-reviewer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/lease-reviewer-ai",
+    "tags": [
+      "lease",
+      "legal",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "home-staging-ai",
+    "name": "Home Staging AI",
+    "tagline": "Get AI-powered staging recommendations for faster sales",
+    "domain": "real-estate",
+    "url": "https://home-staging-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/home-staging-ai",
+    "tags": [
+      "staging",
+      "design",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "first-time-buyer-guide",
+    "name": "First-Time Buyer Guide AI",
+    "tagline": "Step-by-step guidance for first-time home buyers",
+    "domain": "real-estate",
+    "url": "https://first-time-buyer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/first-time-buyer-guide",
+    "tags": [
+      "buyer",
+      "education",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "property-comparison-ai",
+    "name": "Property Comparison AI",
+    "tagline": "Compare multiple properties side-by-side with AI scoring",
+    "domain": "real-estate",
+    "url": "https://property-comparison-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/property-comparison-ai",
+    "tags": [
+      "comparison",
+      "real-estate",
+      "analysis"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "flipping-roi-ai",
+    "name": "Flipping ROI AI",
+    "tagline": "Estimate fix-and-flip profits with renovation cost modeling",
+    "domain": "real-estate",
+    "url": "https://flipping-roi-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/flipping-roi-ai",
+    "tags": [
+      "flipping",
+      "investment",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "commercial-lease-ai",
+    "name": "Commercial Lease AI",
+    "tagline": "Understand and negotiate commercial lease terms with AI",
+    "domain": "real-estate",
+    "url": "https://commercial-lease-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/commercial-lease-ai",
+    "tags": [
+      "commercial",
+      "lease",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "zoning-explainer-ai",
+    "name": "Zoning Explainer AI",
+    "tagline": "Decode zoning regulations and permitted land uses",
+    "domain": "real-estate",
+    "url": "https://zoning-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/zoning-explainer-ai",
+    "tags": [
+      "zoning",
+      "legal",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "property-tax-calculator",
+    "name": "Property Tax Calculator AI",
+    "tagline": "Estimate property taxes and exemptions by location",
+    "domain": "real-estate",
+    "url": "https://property-tax-calculator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/property-tax-calculator",
+    "tags": [
+      "tax",
+      "finance",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "real-estate-negotiator",
+    "name": "Real Estate Negotiator AI",
+    "tagline": "Practice and prepare for real estate negotiations",
+    "domain": "real-estate",
+    "url": "https://real-estate-negotiator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/real-estate-negotiator",
+    "tags": [
+      "negotiation",
+      "real-estate",
+      "skills"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "tenant-screening-ai",
+    "name": "Tenant Screening AI",
+    "tagline": "Screen tenant applications and generate questionnaires",
+    "domain": "real-estate",
+    "url": "https://tenant-screening-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/tenant-screening-ai",
+    "tags": [
+      "tenant",
+      "landlord",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "construction-estimate-ai",
+    "name": "Construction Estimate AI",
+    "tagline": "Rough-cost estimations for renovation and construction work",
+    "domain": "real-estate",
+    "url": "https://construction-estimate-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/construction-estimate-ai",
+    "tags": [
+      "construction",
+      "renovation",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "eviction-notice-ai",
+    "name": "Eviction Notice AI",
+    "tagline": "Generate legally structured eviction notices by jurisdiction",
+    "domain": "real-estate",
+    "url": "https://eviction-notice-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/eviction-notice-ai",
+    "tags": [
+      "legal",
+      "landlord",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "real-estate-glossary-ai",
+    "name": "Real Estate Glossary AI",
+    "tagline": "Explain real estate terms in plain language instantly",
+    "domain": "real-estate",
+    "url": "https://real-estate-glossary-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/real-estate-glossary-ai",
+    "tags": [
+      "education",
+      "real-estate",
+      "glossary"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "airbnb-calculator-ai",
+    "name": "Airbnb Revenue Calculator AI",
+    "tagline": "Estimate short-term rental income for any property",
+    "domain": "real-estate",
+    "url": "https://airbnb-calculator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/airbnb-calculator-ai",
+    "tags": [
+      "airbnb",
+      "rental",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "inspection-checklist-ai",
+    "name": "Home Inspection Checklist AI",
+    "tagline": "Generate tailored home inspection checklists by property type",
+    "domain": "real-estate",
+    "url": "https://inspection-checklist-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/inspection-checklist-ai",
+    "tags": [
+      "inspection",
+      "real-estate",
+      "checklist"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "real-estate-pitch-ai",
+    "name": "Real Estate Pitch AI",
+    "tagline": "Generate investor pitch decks for real estate deals",
+    "domain": "real-estate",
+    "url": "https://real-estate-pitch-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/real-estate-pitch-ai",
+    "tags": [
+      "investment",
+      "pitch",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "hoa-rules-explainer",
+    "name": "HOA Rules Explainer AI",
+    "tagline": "Understand HOA rules, fees, and dispute resolution options",
+    "domain": "real-estate",
+    "url": "https://hoa-rules-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/hoa-rules-explainer",
+    "tags": [
+      "hoa",
+      "legal",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "real-estate-market-ai",
+    "name": "Real Estate Market AI",
+    "tagline": "Analyze real estate market trends and investment timing",
+    "domain": "real-estate",
+    "url": "https://real-estate-market-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/real-estate-market-ai",
+    "tags": [
+      "market",
+      "analysis",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "deed-transfer-ai",
+    "name": "Deed Transfer AI",
+    "tagline": "Understand deed types and property transfer requirements",
+    "domain": "real-estate",
+    "url": "https://deed-transfer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/deed-transfer-ai",
+    "tags": [
+      "legal",
+      "deed",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "closing-cost-estimator",
+    "name": "Closing Cost Estimator AI",
+    "tagline": "Break down all closing costs for buyers and sellers",
+    "domain": "real-estate",
+    "url": "https://closing-cost-estimator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/closing-cost-estimator",
+    "tags": [
+      "closing",
+      "finance",
+      "real-estate"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "recipe-generator-ai",
+    "name": "Recipe Generator AI",
+    "tagline": "Create recipes from ingredients you have on hand",
+    "domain": "food",
+    "url": "https://recipe-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/recipe-generator-ai",
+    "tags": [
+      "recipes",
+      "cooking",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "meal-planner-ai",
+    "name": "Meal Planner AI",
+    "tagline": "Generate weekly meal plans based on diet and preferences",
+    "domain": "food",
+    "url": "https://meal-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/meal-planner-ai",
+    "tags": [
+      "meal-planning",
+      "health",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "nutrition-analyzer-ai",
+    "name": "Nutrition Analyzer AI",
+    "tagline": "Analyze nutritional content of any meal or recipe",
+    "domain": "food",
+    "url": "https://nutrition-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/nutrition-analyzer-ai",
+    "tags": [
+      "nutrition",
+      "health",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "wine-pairing-ai",
+    "name": "Wine Pairing AI",
+    "tagline": "Find the perfect wine to complement any dish",
+    "domain": "food",
+    "url": "https://wine-pairing-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/wine-pairing-ai",
+    "tags": [
+      "wine",
+      "pairing",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "grocery-list-ai",
+    "name": "Grocery List AI",
+    "tagline": "Generate optimized grocery lists from your meal plan",
+    "domain": "food",
+    "url": "https://grocery-list-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/grocery-list-ai",
+    "tags": [
+      "grocery",
+      "planning",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "allergy-substitute-ai",
+    "name": "Allergy Substitute AI",
+    "tagline": "Find safe ingredient substitutes for any food allergy",
+    "domain": "food",
+    "url": "https://allergy-substitute-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/allergy-substitute-ai",
+    "tags": [
+      "allergy",
+      "substitutes",
+      "health"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "restaurant-menu-ai",
+    "name": "Restaurant Menu AI",
+    "tagline": "Design restaurant menus with pricing and description copy",
+    "domain": "food",
+    "url": "https://restaurant-menu-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/restaurant-menu-ai",
+    "tags": [
+      "restaurant",
+      "business",
+      "menu"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "cocktail-mixer-ai",
+    "name": "Cocktail Mixer AI",
+    "tagline": "Craft cocktail recipes from available spirits and mixers",
+    "domain": "food",
+    "url": "https://cocktail-mixer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/cocktail-mixer-ai",
+    "tags": [
+      "cocktails",
+      "drinks",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "baking-converter-ai",
+    "name": "Baking Converter AI",
+    "tagline": "Convert baking measurements and scale recipes accurately",
+    "domain": "food",
+    "url": "https://baking-converter-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/baking-converter-ai",
+    "tags": [
+      "baking",
+      "conversion",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "food-cost-calculator",
+    "name": "Food Cost Calculator AI",
+    "tagline": "Calculate food cost percentage and menu pricing for restaurants",
+    "domain": "food",
+    "url": "https://food-cost-calculator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/food-cost-calculator",
+    "tags": [
+      "restaurant",
+      "business",
+      "finance"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "diet-advisor-ai",
+    "name": "Diet Advisor AI",
+    "tagline": "Personalized dietary recommendations based on goals and health",
+    "domain": "food",
+    "url": "https://diet-advisor-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/diet-advisor-ai",
+    "tags": [
+      "diet",
+      "health",
+      "nutrition"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "fermentation-guide-ai",
+    "name": "Fermentation Guide AI",
+    "tagline": "Step-by-step fermentation recipes for beer, kombucha, and more",
+    "domain": "food",
+    "url": "https://fermentation-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/fermentation-guide-ai",
+    "tags": [
+      "fermentation",
+      "brewing",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "world-cuisine-ai",
+    "name": "World Cuisine AI",
+    "tagline": "Explore recipes and cooking techniques from every culture",
+    "domain": "food",
+    "url": "https://world-cuisine-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/world-cuisine-ai",
+    "tags": [
+      "cuisine",
+      "culture",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "food-safety-ai",
+    "name": "Food Safety AI",
+    "tagline": "Get food storage guidelines and safety tips instantly",
+    "domain": "food",
+    "url": "https://food-safety-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/food-safety-ai",
+    "tags": [
+      "safety",
+      "health",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "catering-planner-ai",
+    "name": "Catering Planner AI",
+    "tagline": "Plan catering menus and quantities for events of any size",
+    "domain": "food",
+    "url": "https://catering-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/catering-planner-ai",
+    "tags": [
+      "catering",
+      "events",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "spice-blend-ai",
+    "name": "Spice Blend AI",
+    "tagline": "Create custom spice blends for any cuisine or dish",
+    "domain": "food",
+    "url": "https://spice-blend-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/spice-blend-ai",
+    "tags": [
+      "spices",
+      "cooking",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "vegan-recipe-ai",
+    "name": "Vegan Recipe AI",
+    "tagline": "Convert any recipe to a delicious vegan alternative",
+    "domain": "food",
+    "url": "https://vegan-recipe-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/vegan-recipe-ai",
+    "tags": [
+      "vegan",
+      "health",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "cooking-timer-ai",
+    "name": "Cooking Timer AI",
+    "tagline": "Generate multi-dish cooking schedules so everything finishes together",
+    "domain": "food",
+    "url": "https://cooking-timer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/cooking-timer-ai",
+    "tags": [
+      "cooking",
+      "planning",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "leftovers-ai",
+    "name": "Leftovers AI",
+    "tagline": "Transform leftover ingredients into creative new dishes",
+    "domain": "food",
+    "url": "https://leftovers-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/leftovers-ai",
+    "tags": [
+      "leftovers",
+      "cooking",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "bread-recipe-ai",
+    "name": "Bread Recipe AI",
+    "tagline": "Craft artisan bread recipes with hydration and fermentation guidance",
+    "domain": "food",
+    "url": "https://bread-recipe-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/bread-recipe-ai",
+    "tags": [
+      "bread",
+      "baking",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "food-blog-ai",
+    "name": "Food Blog AI",
+    "tagline": "Write engaging food blog posts and recipe articles",
+    "domain": "food",
+    "url": "https://food-blog-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/food-blog-ai",
+    "tags": [
+      "blogging",
+      "content",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "kids-meal-ai",
+    "name": "Kids Meal AI",
+    "tagline": "Fun, nutritious meal ideas that children will actually eat",
+    "domain": "food",
+    "url": "https://kids-meal-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/kids-meal-ai",
+    "tags": [
+      "kids",
+      "nutrition",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "budget-meal-ai",
+    "name": "Budget Meal AI",
+    "tagline": "Plan nutritious meals on a tight weekly budget",
+    "domain": "food",
+    "url": "https://budget-meal-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/budget-meal-ai",
+    "tags": [
+      "budget",
+      "meal-planning",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "seasonal-produce-ai",
+    "name": "Seasonal Produce AI",
+    "tagline": "Discover what is in season and how to cook it",
+    "domain": "food",
+    "url": "https://seasonal-produce-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/seasonal-produce-ai",
+    "tags": [
+      "seasonal",
+      "produce",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "food-history-ai",
+    "name": "Food History AI",
+    "tagline": "Explore the origins and cultural history of dishes worldwide",
+    "domain": "food",
+    "url": "https://food-history-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/food-history-ai",
+    "tags": [
+      "history",
+      "culture",
+      "food"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "itinerary-planner-ai",
+    "name": "Itinerary Planner AI",
+    "tagline": "Build day-by-day travel itineraries for any destination",
+    "domain": "travel",
+    "url": "https://itinerary-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/itinerary-planner-ai",
+    "tags": [
+      "itinerary",
+      "planning",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "packing-list-ai",
+    "name": "Packing List AI",
+    "tagline": "Generate smart packing lists based on destination and duration",
+    "domain": "travel",
+    "url": "https://packing-list-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/packing-list-ai",
+    "tags": [
+      "packing",
+      "travel",
+      "checklist"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "travel-budget-ai",
+    "name": "Travel Budget AI",
+    "tagline": "Estimate and manage travel expenses by destination and style",
+    "domain": "travel",
+    "url": "https://travel-budget-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/travel-budget-ai",
+    "tags": [
+      "budget",
+      "finance",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "visa-guide-ai",
+    "name": "Visa Guide AI",
+    "tagline": "Understand visa requirements and application steps by country",
+    "domain": "travel",
+    "url": "https://visa-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/visa-guide-ai",
+    "tags": [
+      "visa",
+      "legal",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "local-phrase-ai",
+    "name": "Local Phrase AI",
+    "tagline": "Learn essential phrases in any language for travel situations",
+    "domain": "travel",
+    "url": "https://local-phrase-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/local-phrase-ai",
+    "tags": [
+      "language",
+      "culture",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "hotel-review-summarizer",
+    "name": "Hotel Review Summarizer AI",
+    "tagline": "Summarize hundreds of hotel reviews into key pros and cons",
+    "domain": "travel",
+    "url": "https://hotel-review-summarizer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/hotel-review-summarizer",
+    "tags": [
+      "hotels",
+      "reviews",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "travel-insurance-ai",
+    "name": "Travel Insurance AI",
+    "tagline": "Compare travel insurance options and understand coverage terms",
+    "domain": "travel",
+    "url": "https://travel-insurance-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/travel-insurance-ai",
+    "tags": [
+      "insurance",
+      "finance",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "solo-travel-ai",
+    "name": "Solo Travel AI",
+    "tagline": "Safety tips, itineraries, and advice for solo travelers",
+    "domain": "travel",
+    "url": "https://solo-travel-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/solo-travel-ai",
+    "tags": [
+      "solo",
+      "safety",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "flight-layover-ai",
+    "name": "Flight Layover AI",
+    "tagline": "Plan productive layovers with local tips and transit guides",
+    "domain": "travel",
+    "url": "https://flight-layover-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/flight-layover-ai",
+    "tags": [
+      "flights",
+      "layover",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "cultural-etiquette-ai",
+    "name": "Cultural Etiquette AI",
+    "tagline": "Learn dos and donts of cultural customs before you travel",
+    "domain": "travel",
+    "url": "https://cultural-etiquette-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/cultural-etiquette-ai",
+    "tags": [
+      "culture",
+      "etiquette",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "road-trip-planner-ai",
+    "name": "Road Trip Planner AI",
+    "tagline": "Plan the perfect road trip route with stops and timing",
+    "domain": "travel",
+    "url": "https://road-trip-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/road-trip-planner-ai",
+    "tags": [
+      "road-trip",
+      "planning",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "travel-journal-ai",
+    "name": "Travel Journal AI",
+    "tagline": "Turn daily notes into beautifully written travel journal entries",
+    "domain": "travel",
+    "url": "https://travel-journal-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/travel-journal-ai",
+    "tags": [
+      "journal",
+      "writing",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "backpacker-ai",
+    "name": "Backpacker AI",
+    "tagline": "Budget travel routes and hostel tips for backpackers",
+    "domain": "travel",
+    "url": "https://backpacker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/backpacker-ai",
+    "tags": [
+      "budget",
+      "backpacking",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "family-travel-ai",
+    "name": "Family Travel AI",
+    "tagline": "Kid-friendly itineraries and travel tips for families",
+    "domain": "travel",
+    "url": "https://family-travel-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/family-travel-ai",
+    "tags": [
+      "family",
+      "kids",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "travel-health-ai",
+    "name": "Travel Health AI",
+    "tagline": "Vaccination requirements and health tips by destination",
+    "domain": "travel",
+    "url": "https://travel-health-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/travel-health-ai",
+    "tags": [
+      "health",
+      "safety",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "destination-finder-ai",
+    "name": "Destination Finder AI",
+    "tagline": "Discover travel destinations based on mood, budget, and season",
+    "domain": "travel",
+    "url": "https://destination-finder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/destination-finder-ai",
+    "tags": [
+      "destination",
+      "discovery",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "travel-photography-ai",
+    "name": "Travel Photography AI",
+    "tagline": "Get shooting tips and location ideas for travel photographers",
+    "domain": "travel",
+    "url": "https://travel-photography-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/travel-photography-ai",
+    "tags": [
+      "photography",
+      "creative",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "train-travel-ai",
+    "name": "Train Travel AI",
+    "tagline": "Plan rail journeys across Europe, Asia, and Americas",
+    "domain": "travel",
+    "url": "https://train-travel-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/train-travel-ai",
+    "tags": [
+      "trains",
+      "planning",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "cruise-planner-ai",
+    "name": "Cruise Planner AI",
+    "tagline": "Compare cruise options and build shore excursion schedules",
+    "domain": "travel",
+    "url": "https://cruise-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/cruise-planner-ai",
+    "tags": [
+      "cruise",
+      "planning",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "eco-travel-ai",
+    "name": "Eco Travel AI",
+    "tagline": "Plan sustainable, low-impact travel itineraries worldwide",
+    "domain": "travel",
+    "url": "https://eco-travel-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/eco-travel-ai",
+    "tags": [
+      "sustainability",
+      "eco",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "travel-trivia-ai",
+    "name": "Travel Trivia AI",
+    "tagline": "Test your geography and culture knowledge with AI quizzes",
+    "domain": "travel",
+    "url": "https://travel-trivia-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/travel-trivia-ai",
+    "tags": [
+      "trivia",
+      "education",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "travel-complaint-ai",
+    "name": "Travel Complaint AI",
+    "tagline": "Draft effective complaint letters to airlines and hotels",
+    "domain": "travel",
+    "url": "https://travel-complaint-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/travel-complaint-ai",
+    "tags": [
+      "complaints",
+      "writing",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "airport-guide-ai",
+    "name": "Airport Guide AI",
+    "tagline": "Navigate major airports with lounge, gate, and transit tips",
+    "domain": "travel",
+    "url": "https://airport-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/airport-guide-ai",
+    "tags": [
+      "airport",
+      "transit",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "honeymoon-planner-ai",
+    "name": "Honeymoon Planner AI",
+    "tagline": "Craft romantic honeymoon itineraries for any budget",
+    "domain": "travel",
+    "url": "https://honeymoon-planner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/honeymoon-planner-ai",
+    "tags": [
+      "romance",
+      "planning",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "currency-explainer-ai",
+    "name": "Currency Explainer AI",
+    "tagline": "Understand exchange rates and money tips for every destination",
+    "domain": "travel",
+    "url": "https://currency-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/currency-explainer-ai",
+    "tags": [
+      "currency",
+      "finance",
+      "travel"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "voter-guide-ai",
+    "name": "Voter Guide AI",
+    "tagline": "Understand ballot measures and candidate positions clearly",
+    "domain": "civic",
+    "url": "https://voter-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/voter-guide-ai",
+    "tags": [
+      "voting",
+      "democracy",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "government-form-ai",
+    "name": "Government Form AI",
+    "tagline": "Navigate and complete complex government forms with guidance",
+    "domain": "civic",
+    "url": "https://government-form-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/government-form-ai",
+    "tags": [
+      "government",
+      "forms",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "rights-explainer-ai",
+    "name": "Rights Explainer AI",
+    "tagline": "Understand your legal rights in plain, accessible language",
+    "domain": "civic",
+    "url": "https://rights-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/rights-explainer-ai",
+    "tags": [
+      "rights",
+      "legal",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "petition-writer-ai",
+    "name": "Petition Writer AI",
+    "tagline": "Draft compelling petitions and open letters to public officials",
+    "domain": "civic",
+    "url": "https://petition-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/petition-writer-ai",
+    "tags": [
+      "advocacy",
+      "writing",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "foia-request-ai",
+    "name": "FOIA Request AI",
+    "tagline": "Generate Freedom of Information Act requests for any agency",
+    "domain": "civic",
+    "url": "https://foia-request-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/foia-request-ai",
+    "tags": [
+      "foia",
+      "transparency",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "city-council-ai",
+    "name": "City Council AI",
+    "tagline": "Prepare public comments and statements for council meetings",
+    "domain": "civic",
+    "url": "https://city-council-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/city-council-ai",
+    "tags": [
+      "local-government",
+      "advocacy",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "citizenship-test-ai",
+    "name": "Citizenship Test AI",
+    "tagline": "Practice for citizenship and naturalization tests interactively",
+    "domain": "civic",
+    "url": "https://citizenship-test-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/citizenship-test-ai",
+    "tags": [
+      "citizenship",
+      "education",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "community-grant-ai",
+    "name": "Community Grant AI",
+    "tagline": "Find and write grant applications for community projects",
+    "domain": "civic",
+    "url": "https://community-grant-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/community-grant-ai",
+    "tags": [
+      "grants",
+      "funding",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "public-policy-ai",
+    "name": "Public Policy AI",
+    "tagline": "Analyze and explain public policy proposals and their impacts",
+    "domain": "civic",
+    "url": "https://public-policy-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/public-policy-ai",
+    "tags": [
+      "policy",
+      "analysis",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "nonprofit-articles-ai",
+    "name": "Nonprofit Articles AI",
+    "tagline": "Draft articles of incorporation and bylaws for nonprofits",
+    "domain": "civic",
+    "url": "https://nonprofit-articles-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/nonprofit-articles-ai",
+    "tags": [
+      "nonprofit",
+      "legal",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "volunteer-match-ai",
+    "name": "Volunteer Match AI",
+    "tagline": "Find volunteer opportunities that match your skills and schedule",
+    "domain": "civic",
+    "url": "https://volunteer-match-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/volunteer-match-ai",
+    "tags": [
+      "volunteering",
+      "community",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "election-tracker-ai",
+    "name": "Election Tracker AI",
+    "tagline": "Track upcoming elections, deadlines, and registration steps",
+    "domain": "civic",
+    "url": "https://election-tracker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/election-tracker-ai",
+    "tags": [
+      "elections",
+      "voting",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "budget-transparency-ai",
+    "name": "Budget Transparency AI",
+    "tagline": "Decode government budgets and spending data for citizens",
+    "domain": "civic",
+    "url": "https://budget-transparency-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/budget-transparency-ai",
+    "tags": [
+      "budget",
+      "transparency",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "local-law-ai",
+    "name": "Local Law AI",
+    "tagline": "Search and understand local ordinances and regulations",
+    "domain": "civic",
+    "url": "https://local-law-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/local-law-ai",
+    "tags": [
+      "law",
+      "local-government",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "disaster-prep-ai",
+    "name": "Disaster Prep AI",
+    "tagline": "Create emergency preparedness plans for households and communities",
+    "domain": "civic",
+    "url": "https://disaster-prep-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/disaster-prep-ai",
+    "tags": [
+      "emergency",
+      "safety",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "civic-education-ai",
+    "name": "Civic Education AI",
+    "tagline": "Interactive lessons on how government and democracy work",
+    "domain": "civic",
+    "url": "https://civic-education-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/civic-education-ai",
+    "tags": [
+      "education",
+      "democracy",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "protest-organizer-ai",
+    "name": "Event Organizer AI",
+    "tagline": "Plan and coordinate community events and public gatherings",
+    "domain": "civic",
+    "url": "https://event-organizer-civic-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/protest-organizer-ai",
+    "tags": [
+      "events",
+      "community",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "accessibility-advocate-ai",
+    "name": "Accessibility Advocate AI",
+    "tagline": "File ADA complaints and advocate for accessibility improvements",
+    "domain": "civic",
+    "url": "https://accessibility-advocate-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/accessibility-advocate-ai",
+    "tags": [
+      "accessibility",
+      "disability",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "immigration-guide-ai",
+    "name": "Immigration Guide AI",
+    "tagline": "Navigate immigration processes, forms, and timelines",
+    "domain": "civic",
+    "url": "https://immigration-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/immigration-guide-ai",
+    "tags": [
+      "immigration",
+      "legal",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "housing-rights-ai",
+    "name": "Housing Rights AI",
+    "tagline": "Know your tenant rights and housing assistance options",
+    "domain": "civic",
+    "url": "https://housing-rights-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/housing-rights-ai",
+    "tags": [
+      "housing",
+      "rights",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "small-claims-ai",
+    "name": "Small Claims AI",
+    "tagline": "Prepare your case and documents for small claims court",
+    "domain": "civic",
+    "url": "https://small-claims-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/small-claims-ai",
+    "tags": [
+      "legal",
+      "court",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "census-explainer-ai",
+    "name": "Census Explainer AI",
+    "tagline": "Understand census data and how it affects your community",
+    "domain": "civic",
+    "url": "https://census-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/census-explainer-ai",
+    "tags": [
+      "census",
+      "data",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "community-survey-ai",
+    "name": "Community Survey AI",
+    "tagline": "Design effective community surveys and analyze results",
+    "domain": "civic",
+    "url": "https://community-survey-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/community-survey-ai",
+    "tags": [
+      "survey",
+      "community",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "noise-complaint-ai",
+    "name": "Noise Complaint AI",
+    "tagline": "Draft formal noise and nuisance complaints to local authorities",
+    "domain": "civic",
+    "url": "https://noise-complaint-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/noise-complaint-ai",
+    "tags": [
+      "complaints",
+      "local-government",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "civic-fundraiser-ai",
+    "name": "Civic Fundraiser AI",
+    "tagline": "Create fundraising campaigns for community causes and nonprofits",
+    "domain": "civic",
+    "url": "https://civic-fundraiser-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/civic-fundraiser-ai",
+    "tags": [
+      "fundraising",
+      "nonprofit",
+      "civic"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "business-plan-ai",
+    "name": "Business Plan AI",
+    "tagline": "Generate comprehensive business plans for any startup idea",
+    "domain": "business",
+    "url": "https://business-plan-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/business-plan-ai",
+    "tags": [
+      "startup",
+      "planning",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "competitive-analysis-ai",
+    "name": "Competitive Analysis AI",
+    "tagline": "Analyze competitors and identify market gaps and opportunities",
+    "domain": "business",
+    "url": "https://competitive-analysis-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/competitive-analysis-ai",
+    "tags": [
+      "competition",
+      "analysis",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "swot-ai",
+    "name": "SWOT Analysis AI",
+    "tagline": "Generate detailed SWOT analyses for businesses and projects",
+    "domain": "business",
+    "url": "https://swot-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/swot-ai",
+    "tags": [
+      "strategy",
+      "analysis",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "pricing-strategy-ai",
+    "name": "Pricing Strategy AI",
+    "tagline": "Model and optimize product and service pricing strategies",
+    "domain": "business",
+    "url": "https://pricing-strategy-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/pricing-strategy-ai",
+    "tags": [
+      "pricing",
+      "strategy",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "okr-generator-ai",
+    "name": "OKR Generator AI",
+    "tagline": "Set meaningful OKRs aligned with business goals and strategy",
+    "domain": "business",
+    "url": "https://okr-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/okr-generator-ai",
+    "tags": [
+      "okr",
+      "goals",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "vendor-contract-ai",
+    "name": "Vendor Contract AI",
+    "tagline": "Review and draft vendor contracts with key term analysis",
+    "domain": "business",
+    "url": "https://vendor-contract-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/vendor-contract-ai",
+    "tags": [
+      "contracts",
+      "legal",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "board-deck-ai",
+    "name": "Board Deck AI",
+    "tagline": "Structure compelling board presentations with AI guidance",
+    "domain": "business",
+    "url": "https://board-deck-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/board-deck-ai",
+    "tags": [
+      "presentations",
+      "board",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "kpi-dashboard-ai",
+    "name": "KPI Dashboard AI",
+    "tagline": "Define and track the right KPIs for your business unit",
+    "domain": "business",
+    "url": "https://kpi-dashboard-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/kpi-dashboard-ai",
+    "tags": [
+      "kpi",
+      "analytics",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "sop-writer-ai",
+    "name": "SOP Writer AI",
+    "tagline": "Create clear standard operating procedures for any process",
+    "domain": "business",
+    "url": "https://sop-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/sop-writer-ai",
+    "tags": [
+      "sop",
+      "operations",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "franchise-analyzer-ai",
+    "name": "Franchise Analyzer AI",
+    "tagline": "Evaluate franchise opportunities with financial and market data",
+    "domain": "business",
+    "url": "https://franchise-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/franchise-analyzer-ai",
+    "tags": [
+      "franchise",
+      "investment",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "acquisition-ai",
+    "name": "Acquisition AI",
+    "tagline": "Due diligence checklist and valuation framework for acquisitions",
+    "domain": "business",
+    "url": "https://acquisition-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/acquisition-ai",
+    "tags": [
+      "acquisition",
+      "due-diligence",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "supply-chain-ai",
+    "name": "Supply Chain AI",
+    "tagline": "Identify supply chain risks and optimization opportunities",
+    "domain": "business",
+    "url": "https://supply-chain-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/supply-chain-ai",
+    "tags": [
+      "supply-chain",
+      "operations",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "customer-persona-ai",
+    "name": "Customer Persona AI",
+    "tagline": "Build detailed buyer personas from demographic and behavioral data",
+    "domain": "business",
+    "url": "https://customer-persona-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/customer-persona-ai",
+    "tags": [
+      "persona",
+      "marketing",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "exit-strategy-ai",
+    "name": "Exit Strategy AI",
+    "tagline": "Plan business exits with valuation, timing, and buyer analysis",
+    "domain": "business",
+    "url": "https://exit-strategy-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/exit-strategy-ai",
+    "tags": [
+      "exit",
+      "investment",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "partnership-agreement-ai",
+    "name": "Partnership Agreement AI",
+    "tagline": "Draft fair partnership agreements with key clause recommendations",
+    "domain": "business",
+    "url": "https://partnership-agreement-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/partnership-agreement-ai",
+    "tags": [
+      "partnership",
+      "legal",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "market-sizing-ai",
+    "name": "Market Sizing AI",
+    "tagline": "Estimate TAM, SAM, and SOM for any market or product",
+    "domain": "business",
+    "url": "https://market-sizing-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/market-sizing-ai",
+    "tags": [
+      "market",
+      "analysis",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "risk-register-ai",
+    "name": "Risk Register AI",
+    "tagline": "Identify and prioritize business risks with mitigation plans",
+    "domain": "business",
+    "url": "https://risk-register-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/risk-register-ai",
+    "tags": [
+      "risk",
+      "compliance",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "meeting-agenda-ai",
+    "name": "Meeting Agenda AI",
+    "tagline": "Generate structured meeting agendas with time allocations",
+    "domain": "business",
+    "url": "https://meeting-agenda-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/meeting-agenda-ai",
+    "tags": [
+      "meetings",
+      "productivity",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "investor-update-ai",
+    "name": "Investor Update AI",
+    "tagline": "Write clear, compelling monthly investor update emails",
+    "domain": "business",
+    "url": "https://investor-update-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/investor-update-ai",
+    "tags": [
+      "investor",
+      "communication",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "change-management-ai",
+    "name": "Change Management AI",
+    "tagline": "Plan and communicate organizational changes effectively",
+    "domain": "business",
+    "url": "https://change-management-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/change-management-ai",
+    "tags": [
+      "change",
+      "leadership",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "product-roadmap-ai",
+    "name": "Product Roadmap AI",
+    "tagline": "Build prioritized product roadmaps aligned to business strategy",
+    "domain": "business",
+    "url": "https://product-roadmap-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/product-roadmap-ai",
+    "tags": [
+      "product",
+      "roadmap",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "go-to-market-ai",
+    "name": "Go-to-Market AI",
+    "tagline": "Create actionable go-to-market strategies for new products",
+    "domain": "business",
+    "url": "https://go-to-market-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/go-to-market-ai",
+    "tags": [
+      "gtm",
+      "strategy",
+      "business"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "ad-copy-ai",
+    "name": "Ad Copy AI",
+    "tagline": "Write high-converting ad copy for Google, Meta, and LinkedIn",
+    "domain": "marketing",
+    "url": "https://ad-copy-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/ad-copy-ai",
+    "tags": [
+      "advertising",
+      "copy",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "seo-content-ai",
+    "name": "SEO Content AI",
+    "tagline": "Create SEO-optimized blog posts and landing pages",
+    "domain": "marketing",
+    "url": "https://seo-content-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/seo-content-ai",
+    "tags": [
+      "seo",
+      "content",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "social-scheduler-ai",
+    "name": "Social Scheduler AI",
+    "tagline": "Plan a month of social media posts in minutes",
+    "domain": "marketing",
+    "url": "https://social-scheduler-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/social-scheduler-ai",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "email-campaign-ai",
+    "name": "Email Campaign AI",
+    "tagline": "Design full email drip campaigns with subject lines and copy",
+    "domain": "marketing",
+    "url": "https://email-campaign-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/email-campaign-ai",
+    "tags": [
+      "email",
+      "campaigns",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "influencer-brief-ai",
+    "name": "Influencer Brief AI",
+    "tagline": "Create influencer campaign briefs with goals and deliverables",
+    "domain": "marketing",
+    "url": "https://influencer-brief-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/influencer-brief-ai",
+    "tags": [
+      "influencer",
+      "social-media",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "a-b-test-ai",
+    "name": "A/B Test AI",
+    "tagline": "Design A/B test hypotheses and analyze results statistically",
+    "domain": "marketing",
+    "url": "https://a-b-test-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/a-b-test-ai",
+    "tags": [
+      "testing",
+      "analytics",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "press-release-ai",
+    "name": "Press Release AI",
+    "tagline": "Write professional press releases for product launches and news",
+    "domain": "marketing",
+    "url": "https://press-release-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/press-release-ai",
+    "tags": [
+      "pr",
+      "communication",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "hashtag-ai",
+    "name": "Hashtag AI",
+    "tagline": "Generate optimal hashtag sets for any social media post",
+    "domain": "marketing",
+    "url": "https://hashtag-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/hashtag-ai",
+    "tags": [
+      "hashtags",
+      "social-media",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "case-study-ai",
+    "name": "Case Study AI",
+    "tagline": "Write compelling customer success stories and case studies",
+    "domain": "marketing",
+    "url": "https://case-study-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/case-study-ai",
+    "tags": [
+      "case-study",
+      "content",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "landing-page-ai",
+    "name": "Landing Page AI",
+    "tagline": "Write conversion-optimized landing page copy in seconds",
+    "domain": "marketing",
+    "url": "https://landing-page-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/landing-page-ai",
+    "tags": [
+      "landing-page",
+      "conversion",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "product-description-ai",
+    "name": "Product Description AI",
+    "tagline": "Write compelling product descriptions for any e-commerce item",
+    "domain": "marketing",
+    "url": "https://product-description-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/product-description-ai",
+    "tags": [
+      "e-commerce",
+      "copy",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "campaign-budget-ai",
+    "name": "Campaign Budget AI",
+    "tagline": "Allocate marketing budgets across channels for maximum ROI",
+    "domain": "marketing",
+    "url": "https://campaign-budget-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/campaign-budget-ai",
+    "tags": [
+      "budget",
+      "analytics",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "webinar-script-ai",
+    "name": "Webinar Script AI",
+    "tagline": "Write engaging webinar scripts with Q&A and CTA sections",
+    "domain": "marketing",
+    "url": "https://webinar-script-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/webinar-script-ai",
+    "tags": [
+      "webinar",
+      "content",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "review-response-ai",
+    "name": "Review Response AI",
+    "tagline": "Craft professional responses to customer reviews at scale",
+    "domain": "marketing",
+    "url": "https://review-response-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/review-response-ai",
+    "tags": [
+      "reviews",
+      "customer-service",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "brand-guidelines-ai",
+    "name": "Brand Guidelines AI",
+    "tagline": "Generate comprehensive brand guidelines from your existing assets",
+    "domain": "marketing",
+    "url": "https://brand-guidelines-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/brand-guidelines-ai",
+    "tags": [
+      "branding",
+      "design",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "youtube-script-ai",
+    "name": "YouTube Script AI",
+    "tagline": "Write structured YouTube video scripts with hooks and CTAs",
+    "domain": "marketing",
+    "url": "https://youtube-script-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/youtube-script-ai",
+    "tags": [
+      "youtube",
+      "video",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "referral-program-ai",
+    "name": "Referral Program AI",
+    "tagline": "Design viral referral programs with reward structures",
+    "domain": "marketing",
+    "url": "https://referral-program-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/referral-program-ai",
+    "tags": [
+      "referral",
+      "growth",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "competitor-ad-analyzer",
+    "name": "Competitor Ad Analyzer AI",
+    "tagline": "Analyze competitor ad strategies and generate counter-messaging",
+    "domain": "marketing",
+    "url": "https://competitor-ad-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/competitor-ad-analyzer",
+    "tags": [
+      "competitive",
+      "advertising",
+      "marketing"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "nda-generator-ai",
+    "name": "NDA Generator AI",
+    "tagline": "Generate mutual or one-way NDAs tailored to your situation",
+    "domain": "legal",
+    "url": "https://nda-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/nda-generator-ai",
+    "tags": [
+      "nda",
+      "contracts",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "terms-of-service-ai",
+    "name": "Terms of Service AI",
+    "tagline": "Generate clear, compliant terms of service for any product",
+    "domain": "legal",
+    "url": "https://terms-of-service-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/terms-of-service-ai",
+    "tags": [
+      "tos",
+      "compliance",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "privacy-policy-ai",
+    "name": "Privacy Policy AI",
+    "tagline": "Create GDPR and CCPA compliant privacy policies automatically",
+    "domain": "legal",
+    "url": "https://privacy-policy-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/privacy-policy-ai",
+    "tags": [
+      "privacy",
+      "gdpr",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "freelance-contract-ai",
+    "name": "Freelance Contract AI",
+    "tagline": "Draft professional freelance agreements with payment and IP terms",
+    "domain": "legal",
+    "url": "https://freelance-contract-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/freelance-contract-ai",
+    "tags": [
+      "freelance",
+      "contracts",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "ip-checker-ai",
+    "name": "IP Checker AI",
+    "tagline": "Understand intellectual property rights for your content or invention",
+    "domain": "legal",
+    "url": "https://ip-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/ip-checker-ai",
+    "tags": [
+      "ip",
+      "copyright",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "trademark-guide-ai",
+    "name": "Trademark Guide AI",
+    "tagline": "Navigate trademark registration process and requirements",
+    "domain": "legal",
+    "url": "https://trademark-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/trademark-guide-ai",
+    "tags": [
+      "trademark",
+      "ip",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "employment-law-ai",
+    "name": "Employment Law AI",
+    "tagline": "Understand employment law rights for employers and employees",
+    "domain": "legal",
+    "url": "https://employment-law-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/employment-law-ai",
+    "tags": [
+      "employment",
+      "hr",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "demand-letter-ai",
+    "name": "Demand Letter AI",
+    "tagline": "Write formal demand letters for disputes and collections",
+    "domain": "legal",
+    "url": "https://demand-letter-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/demand-letter-ai",
+    "tags": [
+      "disputes",
+      "writing",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "gdpr-audit-ai",
+    "name": "GDPR Audit AI",
+    "tagline": "Assess GDPR compliance gaps and generate remediation plans",
+    "domain": "legal",
+    "url": "https://gdpr-audit-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/gdpr-audit-ai",
+    "tags": [
+      "gdpr",
+      "compliance",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "power-of-attorney-ai",
+    "name": "Power of Attorney AI",
+    "tagline": "Understand POA types and generate draft documents",
+    "domain": "legal",
+    "url": "https://power-of-attorney-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/power-of-attorney-ai",
+    "tags": [
+      "poa",
+      "documents",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "contractor-agreement-ai",
+    "name": "Contractor Agreement AI",
+    "tagline": "Draft contractor agreements covering scope, IP, and payments",
+    "domain": "legal",
+    "url": "https://contractor-agreement-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/contractor-agreement-ai",
+    "tags": [
+      "contracts",
+      "freelance",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "copyright-guide-ai",
+    "name": "Copyright Guide AI",
+    "tagline": "Understand copyright law for creators, developers, and businesses",
+    "domain": "legal",
+    "url": "https://copyright-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/copyright-guide-ai",
+    "tags": [
+      "copyright",
+      "ip",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "data-breach-response-ai",
+    "name": "Data Breach Response AI",
+    "tagline": "Generate data breach response plans and notification letters",
+    "domain": "legal",
+    "url": "https://data-breach-response-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/data-breach-response-ai",
+    "tags": [
+      "breach",
+      "compliance",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "arbitration-prep-ai",
+    "name": "Arbitration Prep AI",
+    "tagline": "Prepare for arbitration with statement of claim and evidence tips",
+    "domain": "legal",
+    "url": "https://arbitration-prep-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/arbitration-prep-ai",
+    "tags": [
+      "arbitration",
+      "disputes",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "startup-legal-ai",
+    "name": "Startup Legal AI",
+    "tagline": "Navigate legal requirements for incorporating and launching a startup",
+    "domain": "legal",
+    "url": "https://startup-legal-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/startup-legal-ai",
+    "tags": [
+      "startup",
+      "incorporation",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "liability-waiver-ai",
+    "name": "Liability Waiver AI",
+    "tagline": "Generate liability waivers for events, services, and activities",
+    "domain": "legal",
+    "url": "https://liability-waiver-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/liability-waiver-ai",
+    "tags": [
+      "liability",
+      "documents",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "shareholder-agreement-ai",
+    "name": "Shareholder Agreement AI",
+    "tagline": "Draft shareholder agreements covering equity, voting, and exits",
+    "domain": "legal",
+    "url": "https://shareholder-agreement-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/shareholder-agreement-ai",
+    "tags": [
+      "equity",
+      "startup",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "gdpr-consent-ai",
+    "name": "GDPR Consent AI",
+    "tagline": "Design lawful consent mechanisms and cookie banners for compliance",
+    "domain": "legal",
+    "url": "https://gdpr-consent-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/gdpr-consent-ai",
+    "tags": [
+      "gdpr",
+      "consent",
+      "legal"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "code-review-ai",
+    "name": "Code Review AI",
+    "tagline": "Get instant AI code reviews with style and bug feedback",
+    "domain": "dev-tools",
+    "url": "https://code-review-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/code-review-ai",
+    "tags": [
+      "code-review",
+      "quality",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "regex-builder-ai",
+    "name": "Regex Builder AI",
+    "tagline": "Generate and explain regular expressions in plain English",
+    "domain": "dev-tools",
+    "url": "https://regex-builder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/regex-builder-ai",
+    "tags": [
+      "regex",
+      "productivity",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "api-docs-ai",
+    "name": "API Docs AI",
+    "tagline": "Generate OpenAPI documentation from code or endpoint descriptions",
+    "domain": "dev-tools",
+    "url": "https://api-docs-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/api-docs-ai",
+    "tags": [
+      "api",
+      "documentation",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "sql-generator-ai",
+    "name": "SQL Generator AI",
+    "tagline": "Convert natural language questions into optimized SQL queries",
+    "domain": "dev-tools",
+    "url": "https://sql-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/sql-generator-ai",
+    "tags": [
+      "sql",
+      "database",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "git-commit-ai",
+    "name": "Git Commit AI",
+    "tagline": "Generate meaningful, conventional commit messages from diffs",
+    "domain": "dev-tools",
+    "url": "https://git-commit-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/git-commit-ai",
+    "tags": [
+      "git",
+      "productivity",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "error-debugger-ai",
+    "name": "Error Debugger AI",
+    "tagline": "Paste error messages and get root cause analysis instantly",
+    "domain": "dev-tools",
+    "url": "https://error-debugger-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/error-debugger-ai",
+    "tags": [
+      "debugging",
+      "productivity",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "test-generator-ai",
+    "name": "Test Generator AI",
+    "tagline": "Generate unit and integration tests from function signatures",
+    "domain": "dev-tools",
+    "url": "https://test-generator-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/test-generator-ai",
+    "tags": [
+      "testing",
+      "tdd",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "dockerfile-ai",
+    "name": "Dockerfile AI",
+    "tagline": "Generate optimized Dockerfiles for any stack and use case",
+    "domain": "dev-tools",
+    "url": "https://dockerfile-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/dockerfile-ai",
+    "tags": [
+      "docker",
+      "devops",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "ci-pipeline-ai",
+    "name": "CI Pipeline AI",
+    "tagline": "Generate GitHub Actions and GitLab CI pipelines from project specs",
+    "domain": "dev-tools",
+    "url": "https://ci-pipeline-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/ci-pipeline-ai",
+    "tags": [
+      "ci-cd",
+      "devops",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "architecture-diagram-ai",
+    "name": "Architecture Diagram AI",
+    "tagline": "Describe systems in plain text and get architecture diagrams",
+    "domain": "dev-tools",
+    "url": "https://architecture-diagram-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/architecture-diagram-ai",
+    "tags": [
+      "architecture",
+      "diagrams",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "changelog-ai",
+    "name": "Changelog AI",
+    "tagline": "Generate user-friendly changelogs from git history and PRs",
+    "domain": "dev-tools",
+    "url": "https://changelog-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/changelog-ai",
+    "tags": [
+      "changelog",
+      "documentation",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "tech-debt-ai",
+    "name": "Tech Debt AI",
+    "tagline": "Identify and prioritize technical debt across your codebase",
+    "domain": "dev-tools",
+    "url": "https://tech-debt-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/tech-debt-ai",
+    "tags": [
+      "tech-debt",
+      "quality",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "schema-designer-ai",
+    "name": "Schema Designer AI",
+    "tagline": "Design database schemas from natural language requirements",
+    "domain": "dev-tools",
+    "url": "https://schema-designer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/schema-designer-ai",
+    "tags": [
+      "database",
+      "schema",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "load-test-ai",
+    "name": "Load Test AI",
+    "tagline": "Generate load testing scripts and interpret performance results",
+    "domain": "dev-tools",
+    "url": "https://load-test-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/load-test-ai",
+    "tags": [
+      "performance",
+      "testing",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "security-scanner-ai",
+    "name": "Security Scanner AI",
+    "tagline": "Identify common security vulnerabilities in code snippets",
+    "domain": "dev-tools",
+    "url": "https://security-scanner-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/security-scanner-ai",
+    "tags": [
+      "security",
+      "code-review",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "dependency-audit-ai",
+    "name": "Dependency Audit AI",
+    "tagline": "Audit npm and pip dependencies for vulnerabilities and updates",
+    "domain": "dev-tools",
+    "url": "https://dependency-audit-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/dependency-audit-ai",
+    "tags": [
+      "dependencies",
+      "security",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "refactor-ai",
+    "name": "Refactor AI",
+    "tagline": "Suggest and apply clean code refactoring patterns to your code",
+    "domain": "dev-tools",
+    "url": "https://refactor-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/refactor-ai",
+    "tags": [
+      "refactoring",
+      "quality",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "postman-collection-ai",
+    "name": "Postman Collection AI",
+    "tagline": "Generate Postman collections from API specs or descriptions",
+    "domain": "dev-tools",
+    "url": "https://postman-collection-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/postman-collection-ai",
+    "tags": [
+      "api",
+      "testing",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "env-config-ai",
+    "name": "Env Config AI",
+    "tagline": "Generate environment configs and .env files for any tech stack",
+    "domain": "dev-tools",
+    "url": "https://env-config-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/env-config-ai",
+    "tags": [
+      "config",
+      "devops",
+      "dev-tools"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "id": "eviction-notice-explainer",
+    "name": "Eviction Notice Explainer",
+    "tagline": "Understand eviction notices and your rights as a tenant",
+    "domain": "legal",
+    "url": "https://eviction-notice-explainer.netlify.app",
+    "github": "https://github.com/sateeshgana/eviction-notice-explainer",
+    "tags": ["legal", "tenant-rights", "housing"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "divorce-checklist-ai",
+    "name": "Divorce Checklist AI",
+    "tagline": "Step-by-step legal checklist for divorce proceedings",
+    "domain": "legal",
+    "url": "https://divorce-checklist-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/divorce-checklist-ai",
+    "tags": ["legal", "family-law", "divorce"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "trademark-checker",
+    "name": "Trademark Checker",
+    "tagline": "Check trademark eligibility and learn the registration process",
+    "domain": "legal",
+    "url": "https://trademark-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/trademark-checker",
+    "tags": ["legal", "trademark", "intellectual-property"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "legal-letter-writer",
+    "name": "Legal Letter Writer",
+    "tagline": "Generate professional legal letters for any situation",
+    "domain": "legal",
+    "url": "https://legal-letter-writer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/legal-letter-writer",
+    "tags": ["legal", "writing", "correspondence"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "landlord-tenant-rights",
+    "name": "Landlord Tenant Rights",
+    "tagline": "Know your rights and obligations as landlord or tenant",
+    "domain": "legal",
+    "url": "https://landlord-tenant-rights-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/landlord-tenant-rights",
+    "tags": ["legal", "housing", "tenant-rights"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "business-contract-drafts",
+    "name": "Business Contract Drafts",
+    "tagline": "Draft professional business contracts with AI assistance",
+    "domain": "legal",
+    "url": "https://business-contract-drafts.netlify.app",
+    "github": "https://github.com/sateeshgana/business-contract-drafts",
+    "tags": ["legal", "contracts", "business"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "consumer-rights-advisor",
+    "name": "Consumer Rights Advisor",
+    "tagline": "Understand your consumer rights and how to enforce them",
+    "domain": "legal",
+    "url": "https://consumer-rights-advisor-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/consumer-rights-advisor",
+    "tags": ["legal", "consumer-rights", "protection"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "lease-agreement-analyzer",
+    "name": "Lease Agreement Analyzer",
+    "tagline": "Analyze lease agreements and flag risky clauses",
+    "domain": "legal",
+    "url": "https://lease-agreement-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/lease-agreement-analyzer",
+    "tags": ["legal", "housing", "contracts"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "employment-contract-reviewer",
+    "name": "Employment Contract Reviewer",
+    "tagline": "Review employment contracts and identify unfavorable terms",
+    "domain": "legal",
+    "url": "https://employment-contract-reviewer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/employment-contract-reviewer",
+    "tags": ["legal", "employment", "contracts"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "privacy-policy-decoder",
+    "name": "Privacy Policy Decoder",
+    "tagline": "Decode complex privacy policies into plain English",
+    "domain": "legal",
+    "url": "https://privacy-policy-decoder-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/privacy-policy-decoder",
+    "tags": ["legal", "privacy", "gdpr"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "terms-of-service-simplifier",
+    "name": "Terms of Service Simplifier",
+    "tagline": "Simplify complex terms of service into key points",
+    "domain": "legal",
+    "url": "https://terms-of-service-simplifier-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/terms-of-service-simplifier",
+    "tags": ["legal", "privacy", "consumer"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "intellectual-property-guide",
+    "name": "Intellectual Property Guide",
+    "tagline": "Navigate patents, trademarks, and copyright for creators",
+    "domain": "legal",
+    "url": "https://intellectual-property-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/intellectual-property-guide",
+    "tags": ["legal", "intellectual-property", "patents"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "small-claims-advisor",
+    "name": "Small Claims Advisor",
+    "tagline": "Prepare your small claims court case with AI guidance",
+    "domain": "legal",
+    "url": "https://small-claims-advisor-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/small-claims-advisor",
+    "tags": ["legal", "court", "disputes"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "copyright-fair-use-checker",
+    "name": "Copyright Fair Use Checker",
+    "tagline": "Determine if your content use qualifies as fair use",
+    "domain": "legal",
+    "url": "https://copyright-fair-use-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/copyright-fair-use-checker",
+    "tags": ["legal", "copyright", "intellectual-property"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "workplace-discrimination-guide",
+    "name": "Workplace Discrimination Guide",
+    "tagline": "Understand workplace discrimination laws and your options",
+    "domain": "legal",
+    "url": "https://workplace-discrimination-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/workplace-discrimination-guide",
+    "tags": ["legal", "employment", "discrimination"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "power-of-attorney-guide",
+    "name": "Power of Attorney Guide",
+    "tagline": "Understand and create power of attorney documents",
+    "domain": "legal",
+    "url": "https://power-of-attorney-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/power-of-attorney-guide",
+    "tags": ["legal", "estate-planning", "documents"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "non-compete-analyzer",
+    "name": "Non-Compete Analyzer",
+    "tagline": "Analyze non-compete clauses and understand their enforceability",
+    "domain": "legal",
+    "url": "https://non-compete-analyzer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/non-compete-analyzer",
+    "tags": ["legal", "employment", "contracts"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "gdpr-compliance-checker",
+    "name": "GDPR Compliance Checker",
+    "tagline": "Identify GDPR compliance gaps for your business",
+    "domain": "legal",
+    "url": "https://gdpr-compliance-checker-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/gdpr-compliance-checker",
+    "tags": ["legal", "gdpr", "privacy", "compliance"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "whistleblower-guide",
+    "name": "Whistleblower Guide",
+    "tagline": "Understand whistleblower protections and reporting options",
+    "domain": "legal",
+    "url": "https://whistleblower-guide-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/whistleblower-guide",
+    "tags": ["legal", "employment", "whistleblower"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "immigration-status-explainer",
+    "name": "Immigration Status Explainer",
+    "tagline": "Understand your immigration status, rights and pathways",
+    "domain": "legal",
+    "url": "https://immigration-status-explainer-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/immigration-status-explainer",
+    "tags": ["legal", "immigration", "visa"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "criminal-record-expungement",
+    "name": "Criminal Record Expungement",
+    "tagline": "Check expungement eligibility and learn the steps",
+    "domain": "legal",
+    "url": "https://criminal-record-expungement-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/criminal-record-expungement",
+    "tags": ["legal", "criminal-law", "expungement"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "freelancer-legal-toolkit",
+    "name": "Freelancer Legal Toolkit",
+    "tagline": "Essential legal guidance for freelancers and contractors",
+    "domain": "legal",
+    "url": "https://freelancer-legal-toolkit-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/freelancer-legal-toolkit",
+    "tags": ["legal", "freelance", "contracts"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "startup-legal-checklist",
+    "name": "Startup Legal Checklist",
+    "tagline": "Essential legal tasks every startup needs to complete",
+    "domain": "legal",
+    "url": "https://startup-legal-checklist-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/startup-legal-checklist",
+    "tags": ["legal", "startup", "business"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "debt-collection-rights",
+    "name": "Debt Collection Rights",
+    "tagline": "Know your FDCPA rights when dealing with debt collectors",
+    "domain": "legal",
+    "url": "https://debt-collection-rights-ai.netlify.app",
+    "github": "https://github.com/sateeshgana/debt-collection-rights",
+    "tags": ["legal", "debt", "consumer-rights"],
+    "status": "coming-soon"
   }
 ]
