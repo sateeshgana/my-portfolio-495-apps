@@ -39,12 +39,19 @@ export async function createSite(token, repoOwner, repoName, siteName) {
 }
 
 /**
- * Set an environment variable on a Netlify site.
+ * Set multiple environment variables on a Netlify site using the new env vars API.
+ * envVars is an object: { KEY: 'value', KEY2: 'value2' }
+ * accountId comes from the site object returned by createSite (site.account_id or site.account_slug).
  */
-export async function setSiteEnvVar(token, siteId, key, value) {
-  return ntFetch(`/sites/${siteId}/env`, token, {
+export async function setSiteEnvVars(token, accountId, siteId, envVars) {
+  const body = Object.entries(envVars).map(([key, value]) => ({
+    key,
+    is_secret: false,
+    values: [{ value, context: 'all' }],
+  }))
+  return ntFetch(`/accounts/${accountId}/env?site_id=${siteId}`, token, {
     method: 'POST',
-    body: JSON.stringify([{ key, values: [{ value, context: 'all' }] }]),
+    body: JSON.stringify(body),
   })
 }
 

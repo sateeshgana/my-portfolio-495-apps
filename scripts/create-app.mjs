@@ -21,7 +21,7 @@ import { readFileSync, writeFileSync, appendFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 import { createRepoFromTemplate, upsertFile, isRepoNameAvailable } from './github.mjs'
-import { createSite, setSiteEnvVar, triggerDeploy, waitForDeploy } from './netlify-api.mjs'
+import { createSite, setSiteEnvVars, triggerDeploy, waitForDeploy } from './netlify-api.mjs'
 import { DOMAIN_INPUTS, deriveSystemPrompt } from './domain-inputs.mjs'
 
 const __dir = dirname(fileURLToPath(import.meta.url))
@@ -132,8 +132,11 @@ async function createApp(env, appDef) {
   const site = await createSite(NETLIFY_TOKEN, GITHUB_USERNAME, repoName, repoName)
 
   log(`→ Setting env vars`)
-  await setSiteEnvVar(NETLIFY_TOKEN, site.id, 'GROQ_API_KEY',   GROQ_API_KEY)
-  await setSiteEnvVar(NETLIFY_TOKEN, site.id, 'SYSTEM_PROMPT',  appDef.systemPrompt)
+  const accountId = site.account_id ?? site.account_slug
+  await setSiteEnvVars(NETLIFY_TOKEN, accountId, site.id, {
+    GROQ_API_KEY:  GROQ_API_KEY,
+    SYSTEM_PROMPT: appDef.systemPrompt,
+  })
 
   log(`→ Triggering deploy`)
   await triggerDeploy(NETLIFY_TOKEN, site.id)
