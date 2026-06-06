@@ -1,86 +1,93 @@
-import { ExternalLink, GitBranch } from 'lucide-react'
-import { clsx } from 'clsx'
+import { motion } from 'framer-motion'
 import type { AppEntry } from '../types'
-import hostedIds from '../hosted.json'
 
-const DOMAIN_COLORS: Record<string, string> = {
-  productivity:  'bg-blue-900/40 text-blue-300 border-blue-800',
-  education:     'bg-green-900/40 text-green-300 border-green-800',
-  health:        'bg-emerald-900/40 text-emerald-300 border-emerald-800',
-  finance:       'bg-yellow-900/40 text-yellow-300 border-yellow-800',
-  legal:         'bg-orange-900/40 text-orange-300 border-orange-800',
-  marketing:     'bg-purple-900/40 text-purple-300 border-purple-800',
-  'dev-tools':   'bg-cyan-900/40 text-cyan-300 border-cyan-800',
-  business:      'bg-indigo-900/40 text-indigo-300 border-indigo-800',
-  creative:      'bg-pink-900/40 text-pink-300 border-pink-800',
-  hr:            'bg-rose-900/40 text-rose-300 border-rose-800',
-  science:       'bg-teal-900/40 text-teal-300 border-teal-800',
-  'real-estate': 'bg-amber-900/40 text-amber-300 border-amber-800',
-  food:          'bg-lime-900/40 text-lime-300 border-lime-800',
-  travel:        'bg-sky-900/40 text-sky-300 border-sky-800',
-  civic:         'bg-violet-900/40 text-violet-300 border-violet-800',
+const DOMAIN_COLOUR: Record<string, string> = {
+  productivity:  'text-sky-400',
+  education:     'text-lime-400',
+  health:        'text-emerald-400',
+  finance:       'text-yellow-400',
+  legal:         'text-orange-400',
+  marketing:     'text-fuchsia-400',
+  'dev-tools':   'text-indigo-300',
+  business:      'text-blue-400',
+  creative:      'text-pink-400',
+  hr:            'text-rose-400',
+  science:       'text-teal-400',
+  'real-estate': 'text-amber-400',
+  food:          'text-green-400',
+  travel:        'text-cyan-400',
+  civic:         'text-violet-400',
 }
 
-interface Props {
-  app: AppEntry
-}
+interface Props { app: AppEntry }
 
 export function AppCard({ app }: Props) {
-  const domainColor = DOMAIN_COLORS[app.domain] ?? 'bg-gray-800 text-gray-300 border-gray-700'
-  const isHosted = Array.isArray(hostedIds) && (hostedIds as string[]).includes(app.id)
+  const isLive = app.status === 'live'
+  const domainColour = DOMAIN_COLOUR[app.domain] ?? 'text-indigo-400'
 
-  return (
-    <div className="flex flex-col rounded-xl border border-gray-800 bg-gray-900 p-5 hover:border-gray-600 transition-colors">
-      {/* Domain badge */}
-      <span className={clsx('self-start text-xs px-2 py-0.5 rounded-full border mb-3', domainColor)}>
-        {app.domain}
-      </span>
-
-      {/* Name + tagline */}
-      <h3 className="font-semibold text-gray-100 text-base leading-snug">{app.name}</h3>
-      <p className="mt-1 text-sm text-gray-400 flex-1">{app.tagline}</p>
-
-      {/* Tags */}
-      <div className="flex flex-wrap gap-1 mt-3">
-        {app.tags.slice(0, 4).map((tag) => (
-          <span key={tag} className="text-xs bg-gray-800 text-gray-500 px-2 py-0.5 rounded">
-            {tag}
+  if (isLive) {
+    return (
+      <motion.article
+        className="glow-pulse mb-3 break-inside-avoid border border-emerald-500/30 bg-[#0a0a12] p-4"
+        style={{ boxShadow: '0 0 16px rgba(52,211,153,0.08)' }}
+        whileHover={{ y: -3, boxShadow: '0 0 24px rgba(52,211,153,0.25)' }}
+        transition={{ duration: 0.2 }}
+      >
+        <div className="mb-3 flex items-start justify-between gap-2">
+          <span className={`text-[9px] font-bold uppercase tracking-[0.15em] ${domainColour}`}>
+            {app.domain}
           </span>
-        ))}
-      </div>
+          <span className="flex items-center gap-1.5">
+            <span className="size-1.5 animate-pulse rounded-full bg-emerald-400" style={{ boxShadow: '0 0 6px #34d399' }} />
+            <span className="text-[8px] font-bold tracking-widest text-emerald-400">LIVE</span>
+          </span>
+        </div>
 
-      {/* Links */}
-      <div className="flex gap-3 mt-4 pt-4 border-t border-gray-800">
-        {isHosted ? (
+        <h3 className="text-sm font-black leading-tight text-slate-100">{app.name}</h3>
+        <p className="mt-2 text-[11px] leading-relaxed text-slate-500">{app.tagline}</p>
+
+        {app.tags.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {app.tags.slice(0, 3).map((tag) => (
+              <span key={tag} className="border border-indigo-500/25 px-2 py-0.5 text-[8px] font-semibold text-indigo-400">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        <div className="mt-4 border-t border-indigo-500/10 pt-3">
           <a
             href={app.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
+            className="text-[9px] font-bold tracking-widest text-emerald-400 transition-colors hover:text-emerald-300"
           >
-            <ExternalLink size={12} /> Live app
+            OPEN APP →
           </a>
-        ) : (
-          <span
-            className="flex items-center gap-1.5 text-xs text-gray-600 opacity-70 cursor-not-allowed"
-            title="Not hosted yet"
-            aria-disabled="true"
-          >
-            <ExternalLink size={12} /> Live app
-          </span>
-        )}
-        <a
-          href={app.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-1.5 text-xs text-gray-500 hover:text-gray-300 transition-colors"
-        >
-          <GitBranch size={12} /> GitHub
-        </a>
-        {app.status === 'coming-soon' && (
-          <span className="ml-auto text-xs text-gray-600">Coming soon</span>
-        )}
+        </div>
+      </motion.article>
+    )
+  }
+
+  return (
+    <motion.article
+      className="shimmer-card mb-3 break-inside-avoid border border-indigo-500/10 bg-[#0a0a12] p-4"
+      whileHover={{ boxShadow: '0 0 12px rgba(99,102,241,0.1)' }}
+      transition={{ duration: 0.2 }}
+    >
+      <div className="mb-3 flex items-start justify-between gap-2">
+        <span className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-600">
+          {app.domain}
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="size-1.5 rounded-full border border-slate-600" />
+          <span className="text-[8px] font-bold tracking-widest text-slate-600">SOON</span>
+        </span>
       </div>
-    </div>
+
+      <h3 className="text-sm font-black leading-tight text-slate-500">{app.name}</h3>
+      <p className="mt-2 text-[11px] leading-relaxed text-slate-700">{app.tagline}</p>
+    </motion.article>
   )
 }
