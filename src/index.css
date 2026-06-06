@@ -37,3 +37,17 @@ body {
 .cursor-blink {
   animation: blink 1s step-end infinite;
 }
+
+
+.skill-bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  cursor: default;
+  user-select: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}

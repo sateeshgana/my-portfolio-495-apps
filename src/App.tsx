@@ -115,28 +115,6 @@ const projects = [
   },
 ]
 
-const skillGroups = [
-  {
-    label: 'Frontend',
-    colour: 'border-indigo-500/40 text-indigo-400',
-    skills: ['Angular 2–17', 'React', 'Vue.js', 'TypeScript', 'Tailwind CSS', 'Electron JS'],
-  },
-  {
-    label: 'AI / LLM',
-    colour: 'border-violet-500/40 text-violet-400',
-    skills: ['Claude API', 'Multi-agent pipelines', 'Prompt engineering', 'LangChain', 'Cursor AI', 'GitHub Copilot'],
-  },
-  {
-    label: 'Data Viz',
-    colour: 'border-sky-500/40 text-sky-400',
-    skills: ['D3.js', 'High Charts', 'Chart.js', 'AG Grid', 'Custom SVG rendering'],
-  },
-  {
-    label: 'Cloud / DevOps',
-    colour: 'border-emerald-500/40 text-emerald-400',
-    skills: ['Azure', 'AWS', 'GCP', 'Docker', 'Azure DevOps', 'MSAL / Azure AD'],
-  },
-]
 
 
 
@@ -320,6 +298,282 @@ function SiteNav({ page, setPage }: SiteNavProps) {
         </div>
       </div>
     </nav>
+  )
+}
+
+// ── Skill bubble data ──────────────────────────────────────────────────────
+const SKILL_BUBBLES: { label: string; size: number; color: string; border: string; glow: string; bg: string }[] = [
+  // Frontend — indigo
+  { label: 'Angular',      size: 110, color: '#818cf8', border: 'rgba(99,102,241,0.5)',   glow: 'rgba(99,102,241,0.35)',  bg: 'rgba(99,102,241,0.07)' },
+  { label: 'React',        size: 90,  color: '#818cf8', border: 'rgba(99,102,241,0.4)',   glow: 'rgba(99,102,241,0.25)',  bg: 'rgba(99,102,241,0.05)' },
+  { label: 'TypeScript',   size: 100, color: '#818cf8', border: 'rgba(99,102,241,0.45)',  glow: 'rgba(99,102,241,0.3)',   bg: 'rgba(99,102,241,0.06)' },
+  { label: 'Vue.js',       size: 78,  color: '#818cf8', border: 'rgba(99,102,241,0.35)',  glow: 'rgba(99,102,241,0.2)',   bg: 'rgba(99,102,241,0.04)' },
+  { label: 'Tailwind CSS', size: 88,  color: '#818cf8', border: 'rgba(99,102,241,0.4)',   glow: 'rgba(99,102,241,0.22)',  bg: 'rgba(99,102,241,0.05)' },
+  { label: 'Electron JS',  size: 72,  color: '#818cf8', border: 'rgba(99,102,241,0.3)',   glow: 'rgba(99,102,241,0.18)',  bg: 'rgba(99,102,241,0.04)' },
+  // AI / LLM — violet
+  { label: 'Claude API',   size: 115, color: '#c4b5fd', border: 'rgba(167,139,250,0.55)', glow: 'rgba(167,139,250,0.4)',  bg: 'rgba(167,139,250,0.08)' },
+  { label: 'Multi-agent',  size: 96,  color: '#c4b5fd', border: 'rgba(167,139,250,0.45)', glow: 'rgba(167,139,250,0.3)',  bg: 'rgba(167,139,250,0.06)' },
+  { label: 'Prompt Eng.',  size: 86,  color: '#c4b5fd', border: 'rgba(167,139,250,0.4)',  glow: 'rgba(167,139,250,0.25)', bg: 'rgba(167,139,250,0.05)' },
+  { label: 'LangChain',    size: 80,  color: '#c4b5fd', border: 'rgba(167,139,250,0.35)', glow: 'rgba(167,139,250,0.2)',  bg: 'rgba(167,139,250,0.04)' },
+  { label: 'Cursor AI',    size: 74,  color: '#c4b5fd', border: 'rgba(167,139,250,0.3)',  glow: 'rgba(167,139,250,0.18)', bg: 'rgba(167,139,250,0.04)' },
+  { label: 'Copilot',      size: 70,  color: '#c4b5fd', border: 'rgba(167,139,250,0.28)', glow: 'rgba(167,139,250,0.15)', bg: 'rgba(167,139,250,0.03)' },
+  // Data Viz — sky
+  { label: 'D3.js',        size: 100, color: '#38bdf8', border: 'rgba(56,189,248,0.5)',   glow: 'rgba(56,189,248,0.35)',  bg: 'rgba(56,189,248,0.07)' },
+  { label: 'HighCharts',   size: 84,  color: '#38bdf8', border: 'rgba(56,189,248,0.4)',   glow: 'rgba(56,189,248,0.25)',  bg: 'rgba(56,189,248,0.05)' },
+  { label: 'Chart.js',     size: 76,  color: '#38bdf8', border: 'rgba(56,189,248,0.35)',  glow: 'rgba(56,189,248,0.2)',   bg: 'rgba(56,189,248,0.04)' },
+  { label: 'AG Grid',      size: 80,  color: '#38bdf8', border: 'rgba(56,189,248,0.38)',  glow: 'rgba(56,189,248,0.22)',  bg: 'rgba(56,189,248,0.04)' },
+  { label: 'Custom SVG',   size: 68,  color: '#38bdf8', border: 'rgba(56,189,248,0.28)',  glow: 'rgba(56,189,248,0.15)',  bg: 'rgba(56,189,248,0.03)' },
+  // Cloud / DevOps — emerald
+  { label: 'Azure',        size: 105, color: '#34d399', border: 'rgba(52,211,153,0.5)',   glow: 'rgba(52,211,153,0.35)',  bg: 'rgba(52,211,153,0.07)' },
+  { label: 'AWS',          size: 88,  color: '#34d399', border: 'rgba(52,211,153,0.42)',  glow: 'rgba(52,211,153,0.28)',  bg: 'rgba(52,211,153,0.05)' },
+  { label: 'GCP',          size: 76,  color: '#34d399', border: 'rgba(52,211,153,0.36)',  glow: 'rgba(52,211,153,0.22)',  bg: 'rgba(52,211,153,0.04)' },
+  { label: 'Docker',       size: 82,  color: '#34d399', border: 'rgba(52,211,153,0.4)',   glow: 'rgba(52,211,153,0.25)',  bg: 'rgba(52,211,153,0.05)' },
+  { label: 'Azure DevOps', size: 94,  color: '#34d399', border: 'rgba(52,211,153,0.45)',  glow: 'rgba(52,211,153,0.3)',   bg: 'rgba(52,211,153,0.06)' },
+  { label: 'MSAL / AD',    size: 72,  color: '#34d399', border: 'rgba(52,211,153,0.3)',   glow: 'rgba(52,211,153,0.18)',  bg: 'rgba(52,211,153,0.04)' },
+]
+
+function SkillBubble({ b, i }: { b: typeof SKILL_BUBBLES[number]; i: number }) {
+  const yRange = 14 + (i % 3) * 4
+  const duration = 3.8 + (i % 5) * 0.5
+  const rotate = i % 2 === 0 ? [0, 1.5, -1, 0] : [0, -1.5, 1, 0]
+  const verticalOffset = [0, 20, -10, 30, 5, -20, 15, -5][i % 8]
+
+  return (
+    <motion.div
+      variants={{
+        hidden: { opacity: 0, scale: 0.3, y: 30 },
+        visible: { opacity: 1, scale: 1, y: 0, transition: { type: 'spring', stiffness: 180, damping: 16, delay: i * 0.04 } },
+      }}
+      animate={{ y: [0, -yRange, 0], rotate }}
+      transition={{ duration, repeat: Infinity, ease: 'easeInOut', repeatType: 'mirror' }}
+      style={{ alignSelf: 'center', marginTop: verticalOffset }}
+    >
+      <motion.div
+        whileHover={{
+          scale: 1.22,
+          boxShadow: `0 0 40px ${b.glow.replace('0.35', '0.7').replace('0.3', '0.65').replace('0.25', '0.6')}, 0 0 80px ${b.glow.replace('0.35', '0.3').replace('0.3', '0.25').replace('0.25', '0.2')}, inset 0 0 30px ${b.glow.replace('0.35', '0.15')}`,
+        }}
+        transition={{ duration: 0.25, ease: 'easeOut' }}
+        className="skill-bubble"
+        style={{
+          width: b.size,
+          height: b.size,
+          fontSize: b.size > 105 ? 12 : b.size > 88 ? 11 : b.size > 75 ? 10 : 9,
+          fontWeight: 700,
+          letterSpacing: '0.04em',
+          color: b.color,
+          background: `radial-gradient(circle at 35% 35%, ${b.glow.replace(/[\d.]+\)$/, '0.18)')}, ${b.bg})`,
+          border: `1px solid ${b.border}`,
+          boxShadow: `0 0 20px ${b.glow}, 0 0 50px ${b.glow.replace(/[\d.]+\)$/, '0.1)')}, inset 0 0 20px ${b.glow.replace(/[\d.]+\)$/, '0.08)')}`,
+          position: 'relative',
+          overflow: 'hidden',
+        }}
+      >
+        {/* glass shine arc */}
+        <span
+          style={{
+            position: 'absolute',
+            top: '12%',
+            left: '15%',
+            width: '45%',
+            height: '30%',
+            borderRadius: '50%',
+            background: `radial-gradient(ellipse, ${b.color}22 0%, transparent 70%)`,
+            filter: 'blur(4px)',
+            pointerEvents: 'none',
+          }}
+        />
+        <span style={{ position: 'relative', zIndex: 1 }}>{b.label}</span>
+      </motion.div>
+    </motion.div>
+  )
+}
+
+// ── Domain expertise data ─────────────────────────────────────────────────
+const DOMAINS = [
+  {
+    name: 'Life Sciences & HealthTech',
+    years: '11+',
+    accent: '#818cf8',
+    glow: 'rgba(99,102,241,0.35)',
+    border: 'rgba(99,102,241,0.3)',
+    bg: 'rgba(99,102,241,0.05)',
+    icon: '🧬',
+    highlights: [
+      'Clinical trial data platforms & outcome databases',
+      'Genetics tracking & visualization (GViz, GTrack)',
+      'Regulatory-grade reporting systems',
+      'AI-powered clinical data extraction (Claude API)',
+    ],
+    clients: 'Excelra · Global pharma & biotech clients',
+    tag: 'Primary Domain',
+    tagColor: '#818cf8',
+  },
+  {
+    name: 'E-Commerce & Retail',
+    years: '5+',
+    accent: '#34d399',
+    glow: 'rgba(52,211,153,0.3)',
+    border: 'rgba(52,211,153,0.25)',
+    bg: 'rgba(52,211,153,0.04)',
+    icon: '🛒',
+    highlights: [
+      'Product catalog & inventory management UIs',
+      'Order management & fulfillment dashboards',
+      'Customer analytics & conversion funnels',
+      'Headless commerce front-ends (React / Angular)',
+    ],
+    clients: 'Mid-market retail & D2C brands',
+    tag: 'Secondary Domain',
+    tagColor: '#34d399',
+  },
+  {
+    name: 'Tech & Engineering',
+    years: '13+',
+    accent: '#c4b5fd',
+    glow: 'rgba(167,139,250,0.3)',
+    border: 'rgba(167,139,250,0.25)',
+    bg: 'rgba(167,139,250,0.04)',
+    icon: '⚙️',
+    highlights: [
+      'Enterprise SaaS portals & internal tooling',
+      'Data visualisation platforms (D3.js, HighCharts)',
+      'Multi-agent AI pipelines & developer tooling',
+      '352+ micro-apps shipped with Claude Code',
+    ],
+    clients: 'CG Mines · Excelra · Independent projects',
+    tag: 'Core Expertise',
+    tagColor: '#c4b5fd',
+  },
+]
+
+function DomainExpertise() {
+  return (
+    <section className="relative overflow-hidden bg-[#080810] px-5 py-24 sm:px-8">
+      <div className="pointer-events-none absolute inset-0">
+        <div style={{ position: 'absolute', top: 0, left: '30%', width: 500, height: 300, background: 'radial-gradient(ellipse, rgba(99,102,241,0.06), transparent 70%)' }} />
+        <div style={{ position: 'absolute', bottom: 0, right: '10%', width: 400, height: 300, background: 'radial-gradient(ellipse, rgba(52,211,153,0.05), transparent 70%)' }} />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          className="mb-14"
+        >
+          <p className="text-[9px] font-bold uppercase tracking-widest text-indigo-400">Industry Focus</p>
+          <h2 className="mt-2 text-3xl font-black text-slate-100 sm:text-4xl">Domain Expertise</h2>
+          <p className="mt-3 max-w-xl text-sm text-slate-500">13 years building products across three industries — from regulated life-sciences platforms to high-velocity e-commerce and developer tooling.</p>
+        </motion.div>
+
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {DOMAINS.map((d, i) => (
+            <motion.div
+              key={d.name}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-60px' }}
+              transition={{ duration: 0.5, delay: i * 0.12, ease: 'easeOut' }}
+              whileHover={{ y: -6, transition: { duration: 0.25 } }}
+              className="group relative overflow-hidden"
+              style={{
+                background: d.bg,
+                border: `1px solid ${d.border}`,
+                boxShadow: `0 0 30px ${d.glow.replace('0.3', '0.08')}, 0 0 0 0 ${d.glow}`,
+                padding: '28px 24px 24px',
+              }}
+            >
+              {/* hover glow sweep */}
+              <motion.div
+                className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                style={{ background: `radial-gradient(circle at 50% 0%, ${d.glow.replace('0.3', '0.12')}, transparent 70%)` }}
+              />
+
+              {/* top-right glow orb */}
+              <div className="pointer-events-none absolute -right-8 -top-8 h-32 w-32 rounded-full opacity-20 blur-2xl" style={{ background: d.accent }} />
+
+              {/* tag */}
+              <span className="mb-4 inline-block text-[8px] font-black uppercase tracking-[3px]" style={{ color: d.tagColor }}>
+                {d.tag}
+              </span>
+
+              {/* icon + years */}
+              <div className="mb-3 flex items-start justify-between">
+                <span className="text-3xl leading-none">{d.icon}</span>
+                <div className="text-right">
+                  <div className="text-3xl font-black leading-none" style={{ color: d.accent, textShadow: `0 0 20px ${d.glow}` }}>
+                    {d.years}
+                  </div>
+                  <div className="text-[8px] uppercase tracking-widest text-slate-600">yrs</div>
+                </div>
+              </div>
+
+              {/* name */}
+              <h3 className="mb-5 text-base font-black leading-tight text-slate-100">{d.name}</h3>
+
+              {/* highlights */}
+              <ul className="mb-6 space-y-2">
+                {d.highlights.map((h) => (
+                  <li key={h} className="flex items-start gap-2 text-[10px] leading-relaxed text-slate-400">
+                    <span className="mt-0.5 shrink-0 text-[6px]" style={{ color: d.accent }}>◆</span>
+                    {h}
+                  </li>
+                ))}
+              </ul>
+
+              {/* clients */}
+              <div className="border-t pt-4" style={{ borderColor: d.border }}>
+                <p className="text-[9px] uppercase tracking-widest text-slate-600">{d.clients}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function SkillBubbles() {
+  return (
+    <section className="relative overflow-hidden bg-[#050508] px-5 py-24 sm:px-8">
+      {/* ambient background glows */}
+      <div className="pointer-events-none absolute inset-0">
+        <div style={{ position: 'absolute', top: '20%', left: '10%', width: 400, height: 400, background: 'radial-gradient(circle, rgba(99,102,241,0.06), transparent 70%)' }} />
+        <div style={{ position: 'absolute', bottom: '10%', right: '8%', width: 320, height: 320, background: 'radial-gradient(circle, rgba(52,211,153,0.05), transparent 70%)' }} />
+        <div style={{ position: 'absolute', top: '50%', left: '50%', width: 500, height: 300, background: 'radial-gradient(ellipse, rgba(167,139,250,0.04), transparent 70%)', transform: 'translate(-50%,-50%)' }} />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          className="mb-16"
+        >
+          <p className="text-[9px] font-bold uppercase tracking-widest text-indigo-400">Capabilities</p>
+          <h2 className="mt-2 text-3xl font-black text-slate-100 sm:text-4xl">Core Skills</h2>
+          <div className="mt-5 flex flex-wrap gap-4 text-[9px] font-bold uppercase tracking-widest">
+            <span className="flex items-center gap-1.5 text-indigo-400"><span className="inline-block h-1.5 w-1.5 rounded-full bg-indigo-400" />Frontend</span>
+            <span className="flex items-center gap-1.5 text-violet-400"><span className="inline-block h-1.5 w-1.5 rounded-full bg-violet-400" />AI / LLM</span>
+            <span className="flex items-center gap-1.5 text-sky-400"><span className="inline-block h-1.5 w-1.5 rounded-full bg-sky-400" />Data Viz</span>
+            <span className="flex items-center gap-1.5 text-emerald-400"><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />Cloud / DevOps</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="flex flex-wrap justify-center gap-5"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: '-60px' }}
+          variants={{ hidden: {}, visible: {} }}
+        >
+          {SKILL_BUBBLES.map((b, i) => (
+            <SkillBubble key={b.label} b={b} i={i} />
+          ))}
+        </motion.div>
+      </div>
+    </section>
   )
 }
 
@@ -516,39 +770,10 @@ function CareerPage({ setPage }: Pick<SiteNavProps, 'setPage'>) {
       </section>
 
       {/* Skills Grid */}
-      <section className="bg-[#050508] px-5 py-20 sm:px-8">
-        <div className="mx-auto max-w-7xl">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} className="mb-12">
-            <p className="text-[9px] font-bold uppercase tracking-widest text-indigo-400">Capabilities</p>
-            <h2 className="mt-2 text-3xl font-black text-slate-100 sm:text-4xl">Core Skills</h2>
-          </motion.div>
-          <div className="grid gap-8 sm:grid-cols-2">
-            {skillGroups.map((group) => (
-              <div key={group.label}>
-                <p className={`mb-4 text-[9px] font-bold uppercase tracking-widest ${group.colour.split(' ')[1]}`}>{group.label}</p>
-                <motion.div
-                  className="flex flex-wrap gap-2"
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.04 } } }}
-                >
-                  {group.skills.map((skill) => (
-                    <motion.span
-                      key={skill}
-                      variants={{ hidden: { opacity: 0, scale: 0.85 }, visible: { opacity: 1, scale: 1 } }}
-                      whileHover={{ scale: 1.05 }}
-                      className={`border px-3 py-1.5 text-[10px] font-semibold ${group.colour}`}
-                    >
-                      {skill}
-                    </motion.span>
-                  ))}
-                </motion.div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <SkillBubbles />
+
+      {/* Domain Expertise */}
+      <DomainExpertise />
 
       {/* AI Spotlight */}
       <section className="relative overflow-hidden bg-[#080810] px-5 py-20 sm:px-8">
