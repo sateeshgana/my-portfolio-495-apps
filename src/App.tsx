@@ -1,4 +1,4 @@
-import { useMemo, useState, useRef } from 'react'
+import { useMemo, useState, useRef, useEffect } from 'react'
 import {
   ArrowUpRight,
   BriefcaseBusiness,
@@ -12,6 +12,7 @@ import { clsx } from 'clsx'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useParticles } from './hooks/useParticles'
 import { useTypewriter } from './hooks/useTypewriter'
+import { useCountUp } from './hooks/useCountUp'
 import { AppCard } from './components/AppCard'
 import { SupportWidget } from './components/SupportWidget'
 import appsData from './apps.json'
@@ -32,22 +33,46 @@ const careerHighlights = [
 
 const employmentHistory = [
   {
-    role: 'Product and AI Engineering',
-    company: 'Current focus',
-    period: 'Now',
-    detail: 'Building a growing portfolio of AI-powered web apps, reusable templates, and production-ready experiments.',
+    role: 'Principal Architect',
+    company: 'Excelra Knowledge Solutions',
+    period: 'Apr 2025 – Present',
+    current: true,
+    detail: 'AI-augmented engineering: multi-agent clinical data extraction pipeline using Claude Sonnet orchestration, React review panel, Azure infrastructure.',
   },
   {
-    role: 'Professional Experience',
-    company: 'Resume details coming soon',
-    period: 'To update',
-    detail: 'Employment history, responsibilities, achievements, and domain experience will be filled from your resume and LinkedIn.',
+    role: 'Senior Architect',
+    company: 'Excelra Knowledge Solutions',
+    period: 'Aug 2024 – Mar 2025',
+    current: false,
+    detail: 'Architecture leadership for AI systems and Life Sciences data platforms.',
   },
   {
-    role: 'Career Direction',
-    company: 'Open to collaboration',
-    period: 'Ongoing',
-    detail: 'Interested in practical AI products, automation workflows, frontend engineering, and business-facing tools.',
+    role: 'UI Architect / Senior Technical Manager',
+    company: 'Excelra Knowledge Solutions',
+    period: 'Apr 2022 – Jul 2024',
+    current: false,
+    detail: 'Analytics dashboards and clinical data visualization using Angular, D3.js, and Azure cloud architecture.',
+  },
+  {
+    role: 'UI Architect / Technical Manager',
+    company: 'Excelra Knowledge Solutions',
+    period: 'Jun 2020 – Mar 2022',
+    current: false,
+    detail: 'Data visualization and analytics stream — GViz, GTrack platforms for genetics scientists.',
+  },
+  {
+    role: 'Technical Lead / Full-Stack Developer',
+    company: 'Excelra Knowledge Solutions',
+    period: 'Jun 2015 – May 2020',
+    current: false,
+    detail: 'Built CTOD, GMF, IRMS — clinical trial and metadata platforms using Angular, PHP, and .NET.',
+  },
+  {
+    role: 'Web Developer',
+    company: 'CG Mines',
+    period: 'Dec 2012 – May 2015',
+    current: false,
+    detail: 'Built Resumpooler job portal with PHP/CodeIgniter, Google Analytics integration, and on-page SEO.',
   },
 ]
 
@@ -98,6 +123,48 @@ function ParticleCanvas() {
       ref={canvasRef}
       className="pointer-events-none absolute inset-0 h-full w-full"
     />
+  )
+}
+
+function StatsBar() {
+  const ref = useRef<HTMLDivElement>(null)
+  const [triggered, setTriggered] = useState(false)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const io = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) { setTriggered(true); io.disconnect() }
+    }, { threshold: 0.3 })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [])
+
+  const yrs = useCountUp(13, 1200, triggered)
+  const excelra = useCountUp(11, 1200, triggered)
+  const apps = useCountUp(352, 1500, triggered)
+  const projects = useCountUp(6, 1000, triggered)
+
+  const stats = [
+    { value: yrs, suffix: '+', label: 'Years Experience' },
+    { value: excelra, suffix: ' yrs', label: 'At Excelra' },
+    { value: apps, suffix: '+', label: 'AI Apps Built' },
+    { value: projects, suffix: '+', label: 'Major Projects' },
+  ]
+
+  return (
+    <div ref={ref} className="border-y border-indigo-500/15 bg-[#080810]">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-indigo-500/10 lg:grid-cols-4">
+        {stats.map((s) => (
+          <div key={s.label} className="px-8 py-8 text-center">
+            <div className="text-4xl font-black" style={{ color: '#818cf8', textShadow: '0 0 20px rgba(129,140,248,0.5)' }}>
+              {s.value}<span className="text-xl text-indigo-500">{s.suffix}</span>
+            </div>
+            <div className="mt-2 text-[9px] font-bold uppercase tracking-widest text-slate-600">{s.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }
 
@@ -293,31 +360,69 @@ function CareerPage({ setPage }: Pick<SiteNavProps, 'setPage'>) {
         </div>
       </section>
 
-      <section className="bg-[#f4f1e8] px-5 py-12 text-stone-950 sm:px-8">
-        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-normal text-orange-700">Employment</p>
-            <h2 className="mt-2 text-3xl font-black">Career and employment</h2>
-            <p className="mt-4 max-w-xl text-sm leading-6 text-stone-600">
-              This section is ready for your LinkedIn and resume details. Once you share them,
-              I will replace these placeholders with your exact roles, companies, dates, and achievements.
-            </p>
-          </div>
-          <div className="space-y-4">
-            {employmentHistory.map((item) => (
-              <article key={`${item.role}-${item.company}`} className="rounded-lg border border-stone-300 bg-white p-5">
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                  <div>
-                    <h3 className="text-xl font-black text-stone-950">{item.role}</h3>
-                    <p className="mt-1 text-sm font-bold text-stone-500">{item.company}</p>
+      <StatsBar />
+
+      <section className="bg-[#050508] px-5 py-20 sm:px-8">
+        <div className="mx-auto max-w-7xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            className="mb-12"
+          >
+            <p className="text-[9px] font-bold uppercase tracking-widest text-indigo-400">Employment History</p>
+            <h2 className="mt-2 text-3xl font-black text-slate-100 sm:text-4xl">Career Timeline</h2>
+          </motion.div>
+
+          <div className="flex gap-8">
+            {/* Spine */}
+            <div className="flex flex-col items-center pt-1">
+              {employmentHistory.map((item, i) => (
+                <>
+                  <div
+                    key={`dot-${item.period}`}
+                    className="size-3 flex-shrink-0 rounded-full"
+                    style={{
+                      background: item.current ? '#6366f1' : i < 2 ? '#4f46e5' : '#1e1b4b',
+                      boxShadow: item.current ? '0 0 14px rgba(99,102,241,0.8)' : 'none',
+                    }}
+                  />
+                  {i < employmentHistory.length - 1 && (
+                    <div key={`line-${item.period}`} className="w-px flex-1 my-1" style={{ background: 'linear-gradient(to bottom, rgba(99,102,241,0.4), rgba(99,102,241,0.05))', minHeight: '60px' }} />
+                  )}
+                </>
+              ))}
+            </div>
+
+            {/* Cards */}
+            <div className="flex-1 space-y-4">
+              {employmentHistory.map((item, i) => (
+                <motion.article
+                  key={item.period}
+                  initial={{ opacity: 0, x: 40 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true, margin: '-60px' }}
+                  transition={{ delay: i * 0.08 }}
+                  className="border bg-[#0a0a12] p-5"
+                  style={{
+                    borderColor: item.current ? 'rgba(99,102,241,0.35)' : 'rgba(99,102,241,0.1)',
+                    borderLeftWidth: item.current ? '2px' : '1px',
+                    borderLeftColor: item.current ? '#6366f1' : undefined,
+                  }}
+                >
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <h3 className="text-base font-black text-slate-100">{item.role}</h3>
+                      <p className="mt-1 text-xs text-indigo-400">{item.company}</p>
+                    </div>
+                    <span className="self-start border border-indigo-500/20 px-2 py-1 text-[9px] font-bold tracking-wider text-indigo-400">
+                      {item.period}
+                    </span>
                   </div>
-                  <span className="self-start rounded-lg bg-stone-950 px-2 py-1 text-xs font-bold text-lime-200">
-                    {item.period}
-                  </span>
-                </div>
-                <p className="mt-4 text-sm leading-6 text-stone-600">{item.detail}</p>
-              </article>
-            ))}
+                  <p className="mt-3 text-xs leading-relaxed text-slate-500">{item.detail}</p>
+                </motion.article>
+              ))}
+            </div>
           </div>
         </div>
       </section>
