@@ -3,7 +3,6 @@ import {
   ArrowUpRight,
   BriefcaseBusiness,
   GitBranch,
-  GraduationCap,
   Search,
   Sparkles,
   UserRound,
@@ -76,17 +75,72 @@ const employmentHistory = [
   },
 ]
 
-const skills = [
-  'React',
-  'TypeScript',
-  'Vite',
-  'Tailwind CSS',
-  'AI apps',
-  'LLM integrations',
-  'Netlify Functions',
-  'Product thinking',
-  'Automation',
-  'GitHub workflows',
+const projects = [
+  {
+    name: 'Clinical Trial Data Extraction Pipeline',
+    stack: 'Claude API · Python · React · Azure',
+    stackColour: 'text-violet-400',
+    description: 'Production-grade multi-agent AI system. Claude Sonnet orchestrator, 80% confidence threshold triggers human review. Processes 50–500 PDFs per batch.',
+    client: 'Excelra · 2024–Present',
+  },
+  {
+    name: 'GViz — Genetic Data Visualizer',
+    stack: 'Angular · D3.js · Azure AD · MSAL',
+    stackColour: 'text-sky-400',
+    description: '5 custom D3.js plot types (scatter, manhattan, boxplot, heatmap, network). Collaborative SVG annotations, RBAC via Azure AD.',
+    client: 'Excelra · 2020–Present',
+  },
+  {
+    name: 'GTrack — Genetics Tracking Platform',
+    stack: 'Angular 10 · AG Grid · MSAL · PostgreSQL',
+    stackColour: 'text-indigo-400',
+    description: 'Genomic record search with custom table views, batch analysis operations, Azure AD SSO, CICD pipelines.',
+    client: 'Excelra · 2020–Present',
+  },
+  {
+    name: 'IRMS — Integrated Request Management',
+    stack: 'Angular 7 · PrimeNG · .NET Core · Azure',
+    stackColour: 'text-emerald-400',
+    description: 'Configurable request management for CROs. Drag-and-drop form builder, RBAC, dashboard reports.',
+    client: 'Excelra · 2019',
+  },
+  {
+    name: 'CTOD — Clinical Trial Outcome Database',
+    stack: 'Angular · D3.js · High Charts · .NET Core',
+    stackColour: 'text-amber-400',
+    description: 'Analytics platform for clinical trial analysis. Network graphs, sunburst charts, drilldown navigation.',
+    client: 'Excelra · 2016–2019',
+  },
+  {
+    name: 'GMF — GUI Meta-data Framework',
+    stack: 'HTML5 · PHP · Yii2 · MySQL',
+    stackColour: 'text-rose-400',
+    description: 'GUI platform for AXI server computation workflows. Metadata CSV import, execution monitoring, reports.',
+    client: 'Excelra · 2015–2016',
+  },
+]
+
+const skillGroups = [
+  {
+    label: 'Frontend',
+    colour: 'border-indigo-500/40 text-indigo-400',
+    skills: ['Angular 2–17', 'React', 'Vue.js', 'TypeScript', 'Tailwind CSS', 'Electron JS'],
+  },
+  {
+    label: 'AI / LLM',
+    colour: 'border-violet-500/40 text-violet-400',
+    skills: ['Claude API', 'Multi-agent pipelines', 'Prompt engineering', 'LangChain', 'Cursor AI', 'GitHub Copilot'],
+  },
+  {
+    label: 'Data Viz',
+    colour: 'border-sky-500/40 text-sky-400',
+    skills: ['D3.js', 'High Charts', 'Chart.js', 'AG Grid', 'Custom SVG rendering'],
+  },
+  {
+    label: 'Cloud / DevOps',
+    colour: 'border-emerald-500/40 text-emerald-400',
+    skills: ['Azure', 'AWS', 'GCP', 'Docker', 'Azure DevOps', 'MSAL / Azure AD'],
+  },
 ]
 
 const domainLabels: Record<Domain, string> = {
@@ -427,22 +481,106 @@ function CareerPage({ setPage }: Pick<SiteNavProps, 'setPage'>) {
         </div>
       </section>
 
-      <section className="border-y border-stone-800 bg-stone-950 px-5 py-12 sm:px-8">
+      {/* Key Projects */}
+      <section className="bg-[#080810] px-5 py-20 sm:px-8">
         <div className="mx-auto max-w-7xl">
-          <div className="mb-6 flex items-end justify-between gap-4">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-normal text-lime-200">Capabilities</p>
-              <h2 className="mt-2 text-3xl font-black text-stone-100">Core skills</h2>
-            </div>
-            <GraduationCap className="hidden text-orange-200 sm:block" size={34} />
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {skills.map((skill) => (
-              <span key={skill} className="rounded-lg border border-stone-700 bg-[#121210] px-3 py-2 text-sm font-bold text-stone-200">
-                {skill}
-              </span>
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} className="mb-12">
+            <p className="text-[9px] font-bold uppercase tracking-widest text-indigo-400">Project Portfolio</p>
+            <h2 className="mt-2 text-3xl font-black text-slate-100 sm:text-4xl">Key Projects</h2>
+          </motion.div>
+          <motion.div
+            className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-80px' }}
+            variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.07 } } }}
+          >
+            {projects.map((p) => (
+              <motion.article
+                key={p.name}
+                variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}
+                whileHover={{ y: -3, boxShadow: '0 0 20px rgba(99,102,241,0.2)' }}
+                className="relative overflow-hidden border border-indigo-500/20 bg-[#0a0a12] p-5"
+              >
+                <div className="pointer-events-none absolute right-0 top-0 h-16 w-16" style={{ background: 'radial-gradient(circle at top right, rgba(99,102,241,0.15), transparent 70%)' }} />
+                <p className={`text-[9px] font-bold uppercase tracking-widest ${p.stackColour}`}>{p.stack}</p>
+                <h3 className="mt-2 text-sm font-black leading-tight text-slate-100">{p.name}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-500">{p.description}</p>
+                <p className="mt-4 text-[9px] tracking-wider text-slate-700">{p.client}</p>
+              </motion.article>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Skills Grid */}
+      <section className="bg-[#050508] px-5 py-20 sm:px-8">
+        <div className="mx-auto max-w-7xl">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} className="mb-12">
+            <p className="text-[9px] font-bold uppercase tracking-widest text-indigo-400">Capabilities</p>
+            <h2 className="mt-2 text-3xl font-black text-slate-100 sm:text-4xl">Core Skills</h2>
+          </motion.div>
+          <div className="grid gap-8 sm:grid-cols-2">
+            {skillGroups.map((group) => (
+              <div key={group.label}>
+                <p className={`mb-4 text-[9px] font-bold uppercase tracking-widest ${group.colour.split(' ')[1]}`}>{group.label}</p>
+                <motion.div
+                  className="flex flex-wrap gap-2"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.04 } } }}
+                >
+                  {group.skills.map((skill) => (
+                    <motion.span
+                      key={skill}
+                      variants={{ hidden: { opacity: 0, scale: 0.85 }, visible: { opacity: 1, scale: 1 } }}
+                      whileHover={{ scale: 1.05 }}
+                      className={`border px-3 py-1.5 text-[10px] font-semibold ${group.colour}`}
+                    >
+                      {skill}
+                    </motion.span>
+                  ))}
+                </motion.div>
+              </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* AI Spotlight */}
+      <section className="relative overflow-hidden bg-[#080810] px-5 py-20 sm:px-8">
+        <div className="pointer-events-none absolute right-0 top-0 h-64 w-64" style={{ background: 'radial-gradient(circle, rgba(167,139,250,0.12), transparent 70%)' }} />
+        <div className="mx-auto max-w-7xl">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} className="mb-12">
+            <p className="text-[9px] font-bold uppercase tracking-widest text-violet-400">AI Research & Vibe Coding</p>
+            <h2 className="mt-2 text-3xl font-black text-slate-100 sm:text-4xl">Where I Push the Edge</h2>
+          </motion.div>
+          <motion.div
+            className="grid gap-4 sm:grid-cols-3"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
+          >
+            {[
+              { icon: '🤖', title: 'Multi-Agent Pipeline', body: 'Clinical data extraction at Excelra. Claude Sonnet as orchestrator. 80% confidence threshold for human review escalation. FastAPI + Azure Blob + Service Bus.' },
+              { icon: '⚡', title: 'Vibe Coding', body: 'Claude + Cursor AI + v0.dev. Zero-to-demo in hours. 352+ AI-powered web apps built via LLM pair programming. Active Claude Code CLI user.' },
+              { icon: '🎓', title: 'Certifications', body: 'Claude Code 101 · Hands-On AI: Build a Generative LLM from Scratch · Learning Python. Anthropic Team subscription at Excelra. Global Employee Recognition Award.' },
+            ].map((card) => (
+              <motion.div
+                key={card.title}
+                variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}
+                whileHover={{ y: -3, boxShadow: '0 0 24px rgba(167,139,250,0.2)' }}
+                className="border border-violet-500/20 bg-[#0a0a12] p-6"
+                style={{ background: 'rgba(167,139,250,0.03)' }}
+              >
+                <div className="mb-4 text-2xl">{card.icon}</div>
+                <h3 className="text-sm font-black text-slate-100">{card.title}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-500">{card.body}</p>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
     </main>
