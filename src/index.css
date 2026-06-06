@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  background: #050508;
+}
+
 @keyframes glowPulse {
   0%, 100% { box-shadow: 0 0 8px rgba(52, 211, 153, 0.1); }
   50%       { box-shadow: 0 0 24px rgba(52, 211, 153, 0.4); }

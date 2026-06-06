@@ -238,7 +238,7 @@ export default function App() {
   const [page, setPage] = useState<Page>('career')
 
   return (
-    <div className="min-h-screen bg-[#0b0b0a] text-stone-100">
+    <div className="min-h-screen bg-[#050508] text-stone-100">
       <SiteNav page={page} setPage={setPage} />
       {page === 'career' ? <CareerPage setPage={setPage} /> : <PortfolioPage />}
       <SiteFooter />
