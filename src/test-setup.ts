@@ -7,3 +7,12 @@ if (!global.requestAnimationFrame) {
 if (!global.cancelAnimationFrame) {
   global.cancelAnimationFrame = (id) => clearTimeout(id)
 }
+
+// jsdom does not implement IntersectionObserver
+if (!global.IntersectionObserver) {
+  global.IntersectionObserver = class IntersectionObserver {
+    observe() {}
+    unobserve() {}
+    disconnect() {}
+  } as unknown as typeof IntersectionObserver
+}

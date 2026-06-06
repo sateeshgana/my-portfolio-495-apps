@@ -4,10 +4,8 @@ import {
   BriefcaseBusiness,
   GitBranch,
   Search,
-  Sparkles,
   UserRound,
 } from 'lucide-react'
-import { clsx } from 'clsx'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useParticles } from './hooks/useParticles'
 import { useTypewriter } from './hooks/useTypewriter'
@@ -15,14 +13,11 @@ import { useCountUp } from './hooks/useCountUp'
 import { AppCard } from './components/AppCard'
 import { SupportWidget } from './components/SupportWidget'
 import appsData from './apps.json'
-import heroImage from './assets/hero.png'
-import { DOMAINS } from './types'
-import type { AppEntry, Domain } from './types'
+import type { AppEntry } from './types'
 
 type Page = 'career' | 'portfolio'
 
 const apps = appsData as AppEntry[]
-const featuredAppIds = ['promptlab', 'quizforge', 'privatedoc-ai']
 
 const careerHighlights = [
   'AI product builder focused on practical tools and automation',
@@ -143,24 +138,7 @@ const skillGroups = [
   },
 ]
 
-const domainLabels: Record<Domain, string> = {
-  all: 'All',
-  productivity: 'Productivity',
-  education: 'Education',
-  health: 'Health',
-  finance: 'Finance',
-  legal: 'Legal',
-  marketing: 'Marketing',
-  'dev-tools': 'Dev tools',
-  business: 'Business',
-  creative: 'Creative',
-  hr: 'HR',
-  science: 'Science',
-  'real-estate': 'Real estate',
-  food: 'Food',
-  travel: 'Travel',
-  civic: 'Civic',
-}
+
 
 const TYPEWRITER_ROLES = [
   'Principal UI / Full-Stack Architect',
@@ -588,198 +566,199 @@ function CareerPage({ setPage }: Pick<SiteNavProps, 'setPage'>) {
 }
 
 function PortfolioPage() {
-  const [query, setQuery] = useState('')
-  const [domain, setDomain] = useState<Domain>('all')
-
-  const filtered = useMemo(() => {
-    const normalizedQuery = query.toLowerCase()
-
-    return apps.filter((app) => {
-      const matchesDomain = domain === 'all' || app.domain === domain
-      const matchesQuery = !normalizedQuery ||
-        app.name.toLowerCase().includes(normalizedQuery) ||
-        app.tagline.toLowerCase().includes(normalizedQuery) ||
-        app.tags.some((tag) => tag.toLowerCase().includes(normalizedQuery))
-
-      return matchesDomain && matchesQuery
-    })
-  }, [query, domain])
+  const [selectedDomain, setSelectedDomain] = useState('All')
+  const [search, setSearch] = useState('')
+  const [liveOnly, setLiveOnly] = useState(false)
 
   const liveCount = apps.filter((app) => app.status === 'live').length
-  const plannedCount = apps.length - liveCount
-  const featuredApps = featuredAppIds
-    .map((id) => apps.find((app) => app.id === id))
-    .filter((app): app is AppEntry => Boolean(app))
+  const soonCount = apps.filter((app) => app.status !== 'live').length
+
+  const domains = useMemo(() => {
+    const unique = Array.from(new Set(apps.map((a) => a.domain))).sort()
+    return unique
+  }, [])
+
+  const domainCounts = useMemo(() => {
+    const counts: Record<string, number> = { All: apps.length }
+    for (const d of domains) {
+      counts[d] = apps.filter((a) => a.domain === d).length
+    }
+    return counts
+  }, [domains])
+
+  const filtered = useMemo(() => {
+    return apps.filter((app) => {
+      const matchDomain = selectedDomain === 'All' || app.domain === selectedDomain
+      const matchSearch = !search ||
+        app.name.toLowerCase().includes(search.toLowerCase()) ||
+        (app.tagline || '').toLowerCase().includes(search.toLowerCase())
+      const matchLive = !liveOnly || app.status === 'live'
+      return matchDomain && matchSearch && matchLive
+    })
+  }, [selectedDomain, search, liveOnly])
 
   return (
     <main>
-      <header className="relative overflow-hidden border-b border-stone-800/80 bg-[linear-gradient(135deg,#0b0b0a_0%,#17130f_48%,#101715_100%)]">
-        <section
-          id="portfolio-top"
-          className="mx-auto grid min-h-[calc(100vh-73px)] max-w-7xl items-center gap-10 px-5 pb-16 pt-10 sm:px-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(360px,0.95fr)]"
-        >
-          <div className="max-w-4xl">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-lg border border-lime-300/25 bg-lime-300/10 px-3 py-2 text-xs font-semibold uppercase tracking-normal text-lime-100">
-              <Sparkles size={14} />
-              Builder of small, useful AI products
-            </div>
-            <h1 className="max-w-4xl text-5xl font-black leading-[0.95] tracking-normal text-stone-50 sm:text-7xl lg:text-8xl">
-              AI App Portfolio
-            </h1>
-            <p className="mt-6 max-w-2xl text-xl leading-8 text-stone-300 sm:text-2xl">
-              A living portfolio of AI products, experiments, and practical tools built across work,
-              learning, legal, finance, health, and developer workflows.
-            </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a
-                href="#apps"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-lime-300 px-5 py-3 text-sm font-bold text-stone-950 transition-colors hover:bg-lime-200"
+      {/* Hero */}
+      <section className="relative min-h-[60vh] overflow-hidden bg-[#050508]">
+        <ParticleCanvas />
+        <div className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full" style={{ background: 'radial-gradient(circle, rgba(99,102,241,0.15), transparent 70%)' }} />
+        <div className="pointer-events-none absolute -bottom-24 -right-24 h-72 w-72 rounded-full" style={{ background: 'radial-gradient(circle, rgba(99,102,241,0.1), transparent 70%)' }} />
+
+        <div className="relative z-10 mx-auto flex min-h-[60vh] max-w-7xl flex-col items-start justify-center px-5 py-20 sm:px-8">
+          <motion.div
+            initial="hidden"
+            animate="show"
+            variants={{ hidden: {}, show: { transition: { staggerChildren: 0.1 } } }}
+          >
+            {/* Badge */}
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
+              className="mb-6 inline-flex items-center gap-2"
+            >
+              <span className="h-px w-8 bg-indigo-500/60" />
+              <span className="text-[9px] font-black uppercase tracking-[0.2em] text-indigo-400">
+                Builder of small, useful AI products
+              </span>
+              <span className="h-px w-8 bg-indigo-500/60" />
+            </motion.div>
+
+            {/* Heading */}
+            <motion.h1
+              variants={{ hidden: { opacity: 0, y: 30 }, show: { opacity: 1, y: 0 } }}
+              className="text-6xl font-black leading-none tracking-tight text-white sm:text-7xl lg:text-8xl"
+            >
+              AI App{' '}
+              <span style={{ color: '#818cf8', textShadow: '0 0 30px rgba(129,140,248,0.6)' }}>
+                Portfolio
+              </span>
+            </motion.h1>
+
+            {/* Stat line */}
+            <motion.p
+              variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
+              className="mt-4 flex flex-wrap items-center gap-3 text-sm font-semibold"
+            >
+              <span className="flex items-center gap-1.5">
+                <span className="text-emerald-400">●</span>
+                <span className="text-emerald-400">{liveCount} live</span>
+              </span>
+              <span className="text-slate-700">·</span>
+              <span className="flex items-center gap-1.5">
+                <span className="text-indigo-400">◌</span>
+                <span className="text-indigo-400">{soonCount} soon</span>
+              </span>
+              <span className="text-slate-700">·</span>
+              <span className="text-indigo-300">{domains.length} domains</span>
+            </motion.p>
+
+            {/* CTAs */}
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
+              className="mt-8 flex flex-wrap gap-3"
+            >
+              <motion.a
+                href="#app-grid"
+                className="inline-flex items-center gap-2 bg-indigo-600 px-5 py-3 text-sm font-bold text-white"
+                style={{ boxShadow: '0 0 20px rgba(99,102,241,0.5)' }}
+                whileHover={{ boxShadow: '0 0 32px rgba(99,102,241,0.8)' }}
+                whileTap={{ scale: 0.97 }}
               >
-                View live apps
-                <ArrowUpRight size={16} />
-              </a>
-              <a
+                View Live Apps ↓
+              </motion.a>
+              <motion.a
                 href="https://github.com/sateeshgana"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-700 px-5 py-3 text-sm font-bold text-stone-200 transition-colors hover:border-stone-500 hover:bg-stone-900"
+                className="inline-flex items-center gap-2 border border-indigo-500/50 px-5 py-3 text-sm font-bold text-indigo-300 transition-colors hover:border-indigo-400 hover:text-indigo-200"
+                whileTap={{ scale: 0.97 }}
               >
-                Browse source
-                <GitBranch size={16} />
-              </a>
-            </div>
-          </div>
-
-          <div className="relative">
-            <div className="absolute inset-x-8 top-6 h-24 border border-lime-300/20 bg-lime-300/5" />
-            <div className="relative border border-stone-700 bg-stone-950/70 p-5 shadow-2xl shadow-black/40 backdrop-blur">
-              <img
-                src={heroImage}
-                alt="Layered AI product stack"
-                className="mx-auto aspect-square w-full max-w-[360px] object-contain"
-              />
-              <div className="grid grid-cols-3 gap-2 border-t border-stone-800 pt-4">
-                <div>
-                  <p className="text-3xl font-black text-lime-200">{liveCount}</p>
-                  <p className="text-xs text-stone-500">Live apps</p>
-                </div>
-                <div>
-                  <p className="text-3xl font-black text-sky-200">{DOMAINS.length - 1}</p>
-                  <p className="text-xs text-stone-500">Domains</p>
-                </div>
-                <div>
-                  <p className="text-3xl font-black text-orange-200">{plannedCount}</p>
-                  <p className="text-xs text-stone-500">In pipeline</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </header>
-
-      <section className="border-b border-stone-800 bg-stone-950 px-5 py-8 sm:px-8">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-5 flex items-end justify-between gap-4">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-normal text-orange-200">Featured</p>
-              <h2 className="mt-2 text-2xl font-black text-stone-100">Live products with teeth</h2>
-            </div>
-            <a href="#apps" className="hidden text-sm font-semibold text-lime-200 hover:text-lime-100 sm:inline-flex">
-              Explore all
-            </a>
-          </div>
-          <div className="grid gap-4 md:grid-cols-3">
-            {featuredApps.map((app) => (
-              <a
-                key={app.id}
-                href={app.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-stone-800 bg-[#121210] p-5 transition-colors hover:border-lime-300/70"
-              >
-                <div className="mb-5 flex items-center justify-between gap-4">
-                  <span className="rounded-lg border border-stone-700 px-2 py-1 text-xs font-semibold text-stone-400">
-                    {domainLabels[app.domain as Domain] ?? app.domain}
-                  </span>
-                  <ArrowUpRight size={17} className="text-stone-500 transition-colors group-hover:text-lime-200" />
-                </div>
-                <h3 className="text-xl font-black text-stone-100">{app.name}</h3>
-                <p className="mt-2 text-sm leading-6 text-stone-400">{app.tagline}</p>
-              </a>
-            ))}
-          </div>
+                GitHub →
+              </motion.a>
+            </motion.div>
+          </motion.div>
         </div>
       </section>
 
-      <section id="apps" aria-labelledby="apps-heading" className="bg-[#f4f1e8] px-5 py-8 text-stone-950 sm:px-8">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-6 grid gap-6 lg:grid-cols-[0.7fr_1.3fr] lg:items-end">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-normal text-orange-700">Directory</p>
-              <h2 id="apps-heading" className="mt-2 text-3xl font-black">Find the tool that fits the job.</h2>
-            </div>
-            <div className="grid gap-3 sm:grid-cols-[minmax(220px,1fr)_auto]">
-              <label className="relative block">
-                <span className="sr-only">Search apps</span>
-                <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-500" />
-                <input
-                  type="search"
-                  aria-label="Search apps"
-                  placeholder="Search apps, domains, or tags"
-                  value={query}
-                  onChange={(event) => setQuery(event.target.value)}
-                  className="h-12 w-full rounded-lg border border-stone-300 bg-white pl-10 pr-4 text-sm text-stone-950 placeholder-stone-500 outline-none transition focus:border-stone-950 focus:ring-2 focus:ring-lime-300"
-                />
-              </label>
-              <select
-                aria-label="Filter by domain"
-                value={domain}
-                onChange={(event) => setDomain(event.target.value as Domain)}
-                className="h-12 rounded-lg border border-stone-300 bg-white px-4 text-sm font-semibold text-stone-900 outline-none transition focus:border-stone-950 focus:ring-2 focus:ring-lime-300"
-              >
-                {DOMAINS.map((domainName) => (
-                  <option key={domainName} value={domainName}>{domainLabels[domainName]}</option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          <div className="mb-5 flex flex-wrap gap-2">
-            {DOMAINS.slice(0, 8).map((domainName) => (
+      {/* Domain Tab Bar */}
+      <div className="sticky top-[73px] z-20 border-y border-indigo-500/15 bg-[#080810]">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8">
+          <div className="relative flex items-center gap-1 overflow-x-auto py-2 no-scrollbar">
+            {['All', ...domains].map((d) => (
               <button
-                key={domainName}
-                onClick={() => setDomain(domainName)}
-                className={clsx(
-                  'rounded-lg border px-3 py-2 text-xs font-bold transition-colors',
-                  domain === domainName
-                    ? 'border-stone-950 bg-stone-950 text-lime-200'
-                    : 'border-stone-300 bg-white text-stone-600 hover:border-stone-950 hover:text-stone-950',
-                )}
+                key={d}
+                type="button"
+                onClick={() => setSelectedDomain(d)}
+                className={`relative px-3 py-1.5 text-[9px] font-black tracking-widest uppercase whitespace-nowrap transition-colors ${
+                  selectedDomain === d ? 'text-white' : 'border border-indigo-500/25 text-indigo-400 hover:text-indigo-200'
+                }`}
               >
-                {domainLabels[domainName]}
+                {selectedDomain === d && (
+                  <motion.span
+                    layoutId="domainTab"
+                    className="absolute inset-0 bg-indigo-600"
+                    style={{ boxShadow: '0 0 12px rgba(99,102,241,0.5)' }}
+                    transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+                  />
+                )}
+                <span className="relative z-10">{d} <span className="opacity-60">({domainCounts[d] ?? 0})</span></span>
               </button>
             ))}
           </div>
 
-          {filtered.length === 0 ? (
-            <div className="rounded-lg border border-stone-300 bg-white px-6 py-16 text-center text-stone-600">
-              No apps match your search.{' '}
-              <button onClick={() => { setQuery(''); setDomain('all') }} className="font-bold text-stone-950 underline">
-                Clear filters
-              </button>
+          {/* Search + Live Only */}
+          <div className="flex items-center gap-3 pb-3">
+            <div className="relative flex-1">
+              <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-600" />
+              <input
+                type="search"
+                aria-label="Search apps"
+                placeholder="Search apps…"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="h-9 w-full bg-[#0a0a12] border border-indigo-500/25 pl-9 pr-4 text-sm text-slate-300 placeholder-slate-600 outline-none focus:border-indigo-500/60"
+              />
             </div>
-          ) : (
-            <>
-              <p className="mb-4 text-sm font-semibold text-stone-500">
-                Showing {filtered.length} app{filtered.length !== 1 ? 's' : ''}
-              </p>
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
-                {filtered.map((app) => (
-                  <AppCard key={app.id} app={app} />
-                ))}
-              </div>
-            </>
-          )}
+            <button
+              type="button"
+              onClick={() => setLiveOnly((v) => !v)}
+              aria-pressed={liveOnly}
+              className={`h-9 whitespace-nowrap px-4 text-[9px] font-black tracking-widest uppercase transition-colors ${
+                liveOnly ? 'bg-indigo-600 text-white' : 'border border-indigo-500/20 text-indigo-400 hover:text-indigo-200'
+              }`}
+            >
+              Live Only
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* App Grid */}
+      <section id="app-grid" className="bg-[#050508] px-5 py-8 sm:px-8">
+        <div className="mx-auto max-w-7xl">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={selectedDomain + String(liveOnly) + search}
+              variants={{ hidden: {}, show: { transition: { staggerChildren: 0.04 } } }}
+              initial="hidden"
+              animate="show"
+              className="columns-1 sm:columns-2 lg:columns-3 gap-x-3"
+            >
+              {filtered.map((app) => (
+                <motion.div
+                  key={app.id}
+                  variants={{ hidden: { opacity: 0, y: 16 }, show: { opacity: 1, y: 0 } }}
+                  className="break-inside-avoid mb-3"
+                >
+                  <AppCard app={app} />
+                </motion.div>
+              ))}
+            </motion.div>
+          </AnimatePresence>
+
+          <p className="mt-6 text-[9px] font-bold uppercase tracking-widest text-slate-700">
+            Showing {filtered.length} of {apps.length} apps
+          </p>
         </div>
       </section>
     </main>
