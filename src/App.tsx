@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useRef } from 'react'
 import {
   ArrowUpRight,
   BriefcaseBusiness,
@@ -10,6 +10,8 @@ import {
 } from 'lucide-react'
 import { clsx } from 'clsx'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useParticles } from './hooks/useParticles'
+import { useTypewriter } from './hooks/useTypewriter'
 import { AppCard } from './components/AppCard'
 import { SupportWidget } from './components/SupportWidget'
 import appsData from './apps.json'
@@ -79,6 +81,34 @@ const domainLabels: Record<Domain, string> = {
   food: 'Food',
   travel: 'Travel',
   civic: 'Civic',
+}
+
+const TYPEWRITER_ROLES = [
+  'Principal UI / Full-Stack Architect',
+  'AI-Augmented Engineer',
+  'Life Sciences & HealthTech Expert',
+  'Claude Code Power User',
+]
+
+function ParticleCanvas() {
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+  useParticles(canvasRef, 60)
+  return (
+    <canvas
+      ref={canvasRef}
+      className="pointer-events-none absolute inset-0 h-full w-full"
+    />
+  )
+}
+
+function TypewriterText() {
+  const text = useTypewriter(TYPEWRITER_ROLES, 55)
+  return (
+    <span>
+      {text}
+      <span className="cursor-blink ml-0.5 text-indigo-400">▍</span>
+    </span>
+  )
 }
 
 export default function App() {
@@ -173,51 +203,93 @@ function SiteNav({ page, setPage }: SiteNavProps) {
 function CareerPage({ setPage }: Pick<SiteNavProps, 'setPage'>) {
   return (
     <main>
-      <section className="relative overflow-hidden bg-[linear-gradient(135deg,#0b0b0a_0%,#17130f_48%,#101715_100%)]">
-        <div className="mx-auto grid min-h-[calc(100vh-73px)] max-w-7xl items-center gap-10 px-5 py-14 sm:px-8 lg:grid-cols-[minmax(0,1.08fr)_minmax(340px,0.92fr)]">
-          <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-lg border border-orange-300/25 bg-orange-300/10 px-3 py-2 text-xs font-semibold uppercase tracking-normal text-orange-100">
-              <BriefcaseBusiness size={14} />
-              Profession, career story, employment history, and skills
-            </div>
-            <h1 className="max-w-4xl text-5xl font-black leading-[0.95] tracking-normal text-stone-50 sm:text-7xl lg:text-8xl">
-              Sateesh Gana
-            </h1>
-            <p className="mt-6 max-w-2xl text-xl leading-8 text-stone-300 sm:text-2xl">
-              AI product builder and full-stack developer creating practical tools, automation workflows,
-              and portfolio-grade web apps.
-            </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <button
+      <section className="relative min-h-screen overflow-hidden bg-[#050508]">
+        <ParticleCanvas />
+        {/* Glow orbs */}
+        <div className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full" style={{ background: 'radial-gradient(circle, rgba(99,102,241,0.15), transparent 70%)' }} />
+        <div className="pointer-events-none absolute -bottom-24 -right-24 h-72 w-72 rounded-full" style={{ background: 'radial-gradient(circle, rgba(139,92,246,0.12), transparent 70%)' }} />
+
+        <div className="relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-10 px-5 py-20 sm:px-8 lg:grid-cols-2">
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
+          >
+            {/* Badge */}
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
+              className="mb-6 inline-flex items-center gap-2 border border-indigo-500/30 bg-indigo-500/10 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-indigo-300"
+            >
+              <BriefcaseBusiness size={12} />
+              Principal UI / Full-Stack Architect · Life Sciences & HealthTech · AI Engineering
+            </motion.div>
+
+            {/* Name */}
+            <motion.h1
+              variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}
+              className="text-7xl font-black leading-none tracking-tight text-white sm:text-8xl lg:text-9xl"
+            >
+              Sateesh
+            </motion.h1>
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}
+              className="text-7xl font-black leading-none tracking-tight sm:text-8xl lg:text-9xl"
+              style={{ color: '#818cf8', textShadow: '0 0 40px rgba(129,140,248,0.7)' }}
+            >
+              &lt;g/&gt;
+            </motion.div>
+
+            {/* Typewriter */}
+            <motion.p
+              variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
+              className="mt-6 text-base text-indigo-300 sm:text-lg"
+            >
+              <TypewriterText />
+            </motion.p>
+
+            {/* CTAs */}
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
+              className="mt-8 flex flex-wrap gap-3"
+            >
+              <motion.button
                 type="button"
                 onClick={() => setPage('portfolio')}
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-lime-300 px-5 py-3 text-sm font-bold text-stone-950 transition-colors hover:bg-lime-200"
+                className="inline-flex items-center gap-2 bg-indigo-600 px-5 py-3 text-sm font-bold text-white"
+                style={{ boxShadow: '0 0 20px rgba(99,102,241,0.5)' }}
+                whileHover={{ boxShadow: '0 0 32px rgba(99,102,241,0.8)' }}
+                whileTap={{ scale: 0.97 }}
               >
-                View AI portfolio
-                <ArrowUpRight size={16} />
-              </button>
+                View AI Portfolio <ArrowUpRight size={15} />
+              </motion.button>
               <a
                 href="https://www.linkedin.com/in/sateesh-ganaparapu-19875257/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-700 px-5 py-3 text-sm font-bold text-stone-200 transition-colors hover:border-sky-300 hover:text-sky-200"
+                className="inline-flex items-center gap-2 border border-slate-700 px-5 py-3 text-sm font-bold text-slate-300 transition-colors hover:border-sky-500 hover:text-sky-300"
               >
-                LinkedIn profile
-                <UserRound size={16} />
+                LinkedIn Profile <UserRound size={15} />
               </a>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
 
-          <div className="border border-stone-700 bg-stone-950/70 p-5 shadow-2xl shadow-black/40 backdrop-blur">
-            <p className="mb-5 text-xs font-semibold uppercase tracking-normal text-lime-200">Career snapshot</p>
-            <div className="space-y-4">
-              {careerHighlights.map((highlight) => (
-                <div key={highlight} className="rounded-lg border border-stone-800 bg-[#121210] p-4">
-                  <p className="text-sm leading-6 text-stone-300">{highlight}</p>
+          {/* Right: career snapshot card */}
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.4, duration: 0.6 }}
+            className="border border-indigo-500/20 bg-[#0a0a12] p-6"
+            style={{ boxShadow: '0 0 40px rgba(99,102,241,0.06)' }}
+          >
+            <p className="mb-4 text-[9px] font-bold uppercase tracking-widest text-indigo-400">Career snapshot</p>
+            <div className="space-y-3">
+              {careerHighlights.map((h) => (
+                <div key={h} className="border border-indigo-500/10 bg-[#050508] p-4">
+                  <p className="text-sm leading-relaxed text-slate-400">{h}</p>
                 </div>
               ))}
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
 
