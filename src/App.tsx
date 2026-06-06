@@ -140,6 +140,30 @@ const skillGroups = [
 
 
 
+const liveCount = apps.filter((a) => a.status === 'live').length
+const soonCount = apps.length - liveCount
+
+const heroContainerVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.1 } },
+}
+const heroItemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0 },
+}
+const heroHeadingVariants = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0 },
+}
+const gridContainerVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.04 } },
+}
+const gridItemVariants = {
+  hidden: { opacity: 0, y: 16 },
+  show: { opacity: 1, y: 0 },
+}
+
 const TYPEWRITER_ROLES = [
   'Principal UI / Full-Stack Architect',
   'AI-Augmented Engineer',
@@ -570,9 +594,6 @@ function PortfolioPage() {
   const [search, setSearch] = useState('')
   const [liveOnly, setLiveOnly] = useState(false)
 
-  const liveCount = apps.filter((app) => app.status === 'live').length
-  const soonCount = apps.filter((app) => app.status !== 'live').length
-
   const domains = useMemo(() => {
     const unique = Array.from(new Set(apps.map((a) => a.domain))).sort()
     return unique
@@ -587,11 +608,12 @@ function PortfolioPage() {
   }, [domains])
 
   const filtered = useMemo(() => {
+    const q = search.toLowerCase()
     return apps.filter((app) => {
       const matchDomain = selectedDomain === 'All' || app.domain === selectedDomain
       const matchSearch = !search ||
-        app.name.toLowerCase().includes(search.toLowerCase()) ||
-        (app.tagline || '').toLowerCase().includes(search.toLowerCase())
+        app.name.toLowerCase().includes(q) ||
+        (app.tagline || '').toLowerCase().includes(q)
       const matchLive = !liveOnly || app.status === 'live'
       return matchDomain && matchSearch && matchLive
     })
@@ -609,11 +631,11 @@ function PortfolioPage() {
           <motion.div
             initial="hidden"
             animate="show"
-            variants={{ hidden: {}, show: { transition: { staggerChildren: 0.1 } } }}
+            variants={heroContainerVariants}
           >
             {/* Badge */}
             <motion.div
-              variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
+              variants={heroItemVariants}
               className="mb-6 inline-flex items-center gap-2"
             >
               <span className="h-px w-8 bg-indigo-500/60" />
@@ -625,7 +647,7 @@ function PortfolioPage() {
 
             {/* Heading */}
             <motion.h1
-              variants={{ hidden: { opacity: 0, y: 30 }, show: { opacity: 1, y: 0 } }}
+              variants={heroHeadingVariants}
               className="text-6xl font-black leading-none tracking-tight text-white sm:text-7xl lg:text-8xl"
             >
               AI App{' '}
@@ -636,7 +658,7 @@ function PortfolioPage() {
 
             {/* Stat line */}
             <motion.p
-              variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
+              variants={heroItemVariants}
               className="mt-4 flex flex-wrap items-center gap-3 text-sm font-semibold"
             >
               <span className="flex items-center gap-1.5">
@@ -654,7 +676,7 @@ function PortfolioPage() {
 
             {/* CTAs */}
             <motion.div
-              variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
+              variants={heroItemVariants}
               className="mt-8 flex flex-wrap gap-3"
             >
               <motion.a
@@ -689,6 +711,7 @@ function PortfolioPage() {
                 key={d}
                 type="button"
                 onClick={() => setSelectedDomain(d)}
+                aria-pressed={selectedDomain === d}
                 className={`relative px-3 py-1.5 text-[9px] font-black tracking-widest uppercase whitespace-nowrap transition-colors ${
                   selectedDomain === d ? 'text-white' : 'border border-indigo-500/25 text-indigo-400 hover:text-indigo-200'
                 }`}
@@ -739,7 +762,7 @@ function PortfolioPage() {
           <AnimatePresence mode="wait">
             <motion.div
               key={selectedDomain + String(liveOnly) + search}
-              variants={{ hidden: {}, show: { transition: { staggerChildren: 0.04 } } }}
+              variants={gridContainerVariants}
               initial="hidden"
               animate="show"
               className="columns-1 sm:columns-2 lg:columns-3 gap-x-3"
@@ -747,7 +770,7 @@ function PortfolioPage() {
               {filtered.map((app) => (
                 <motion.div
                   key={app.id}
-                  variants={{ hidden: { opacity: 0, y: 16 }, show: { opacity: 1, y: 0 } }}
+                  variants={gridItemVariants}
                   className="break-inside-avoid mb-3"
                 >
                   <AppCard app={app} />
